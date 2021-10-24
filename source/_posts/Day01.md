@@ -3,7 +3,7 @@ title: 使用 Hexo - Day01 建置
 categories:
   - Web技術
   - Hexo
-tags: 範本
+tags: Hexo
 blogexcerpt: 前幾周 GitBook 改版，擔心會變成FaceBook 、Instagram 一樣當機不能使用，我再次挑戰GitHub Blog 製作。這次不會是....
 
 ---

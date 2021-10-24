@@ -1,0 +1,27 @@
+/*!
+ * 网站字体及icon
+ * $CDN = hexo-config("CDN") || '//7xs305.com1.z0.glb.clouddn.com/'
+ */
+$CDN = hexo-config("CDN") || './fonts/'
+
+@font-face
+  font-family "HomizioNova"
+  src url($CDN + 'homizio-nova/light.ttf'),url($CDN + 'homizio-nova/light.otf')
+  font-weight normal
+  font-style normal
+@font-face
+  font-family "HomizioNova"
+  src url($CDN + 'homizio-nova/light_italic.ttf'),url($CDN + 'homizio-nova/light_italic.otf')
+  font-weight normal
+  font-style italic
+@font-face
+  font-family "HomizioNova"
+  src url($CDN + 'homizio-nova/regular.ttf'),url($CDN + 'homizio-nova/regular.otf')
+  font-weight bold
+  font-style normal
+@font-face
+  font-family "HomizioNova"
+  src url($CDN + 'homizio-nova/italic.ttf'),url($CDN + 'homizio-nova/italic.otf')
+  font-weight bold
+  font-style italic
+@import "../fonts/iconfont/iconfont.css"

@@ -1,0 +1,11 @@
+<% if (theme.baidu_analytics.enable) { %>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src="<%- theme.baidu_analytics.analytics_url %>"
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<% } %>

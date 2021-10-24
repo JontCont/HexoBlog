@@ -1,0 +1,13 @@
+<% if (post.link) { %>
+    <h3 class="<%= class_name || 'post-title' %>">
+    	<a href="<%= url_for(post.link) %>">
+    		<%= post.title || post.link %>
+    	</a>
+    </h3>
+<% } else if (post.title) { %>
+    <h3 class="<%= class_name || 'post-title' %>">
+    	<a href="<%= url_for(post.permalink) %>">
+    		<%= post.title %>
+    	</a>
+    </h3>
+<% } %>

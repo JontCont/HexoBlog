@@ -1,0 +1,124 @@
+/*!
+ * 正文内容
+ */
+.content
+  float left
+  width 100%
+  min-height 689px
+.content-main
+  margin-right 350px
+  padding 20px
+/*!
+ * Post
+ */
+.post
+  padding 25px 0
+  border-bottom 1px solid c-eee
+  overflow hidden
+  header
+    margin 0 0 10px 0
+    > a
+      position relative
+      display inline-block
+      margin-right 6px
+      padding 4px 7px
+      top -3px
+      color c-fff
+      background-color #ff5e52
+      font-size 12px
+      vertical-align baseline
+      opacity .85
+      &:after
+        position absolute
+        display block
+        top 9px
+        right -4px
+        width 0
+        height 0
+        content " "
+        border-left 4px solid #ff5e52
+        border-top 4px solid transparent
+        border-bottom 4px solid transparent
+    .post-title
+      display inline
+      font-size 20px
+      font-weight normal
+      a:hover
+        border-bottom 1px dotted #ff5e52
+  .post-meta
+    color #888
+    font-size 12px
+    .post-views,
+    .post-cat,
+    .post-comments
+      margin-right 15px
+  .eof
+    font-size 14px
+    text-align center
+  .post-content
+    position relative
+    color c-666
+    img
+      max-width 100%
+      cursor pointer
+    .post-excerpt
+      position relative
+      min-height 140px
+      margin-right 210px
+      overflow hidden
+    .post-thumbnail
+      position absolute
+      top 0
+      right 0
+      width 200px
+      height 140px
+      overflow hidden
+      .thumbnail
+        width 200px
+        height 140px
+        border 0
+        transition .5s
+      a:after
+        content ""
+        position absolute
+        left -70px
+        top 0
+        width 140px
+        height 140px
+        background-image -moz-linear-gradient(0deg,rgba(255,255,255,0),rgba(255,255,255,.5),rgba(255,255,255,0))
+        background-image -webkit-linear-gradient(0deg,rgba(255,255,255,0),rgba(255,255,255,.5),rgba(255,255,255,0))
+        transform skewx(-25deg)
+        -o-transform skewx(-25deg)
+        -moz-transform skewx(-25deg)
+        -webkit-transform skewx(-25deg)
+      &:hover a:after
+        left 130px
+        -webkit-transition all .3s ease-in-out
+        -moz-transition all .3s ease-in-out
+        -o-transition all .3s ease-in-out
+        transition all .3s ease-in-out
+    @extend $base-style
+    a
+      border-bottom 1px dotted #ff5e52
+    .more a
+      position absolute
+      display inline-block
+      right 0
+      bottom 0
+      padding 3px 7px
+      border none
+      color c-fff
+      background-color #51cc87
+      opacity .8
+      &:hover
+        opacity .75
+    blockquote
+      margin 1em 0
+      padding 5px 10px
+      color c-666
+      border-left 4px solid c-eee
+      p
+        margin 0
+    ul li,
+    ol li
+      list-style-position: inside;

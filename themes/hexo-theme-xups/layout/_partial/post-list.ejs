@@ -1,0 +1,27 @@
+<% if (index == true) { %>
+    <h3 class="widget-hd">
+        <strong>
+            <% if (pagination == 2) { %>
+                最新動態
+            <% } else if (pagination == 3) { %>
+                `<%- page.year ? page.year + '年' : '' %><%- page.month ? page.month + '月' : '' %>`文章目錄
+            <% } else if (pagination == 4) { %>
+                `<%- page.category %>`分類下的文章
+            <% } else if (pagination == 5) { %>
+                `<%- page.tag %>`標籤下的文章
+            <% } %>
+        </strong>
+    </h3>
+    <% page.posts.each(function(post) { %>
+        <%- partial('post/post-item', { post: post }) %>
+    <% }) %>
+
+    <% if (page.total >= 1){ %>
+    <nav class="page-navigator">
+        <%- paginator({
+            prev_text: '上頁',
+            next_text: '下頁'
+        }) %>
+    </nav>
+    <% } %>
+<% } %>

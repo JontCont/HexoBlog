@@ -1,0 +1,14 @@
+<% if (theme.comment.enable) { %>
+  <%- js('js/comment.js?v=' + (+new Date())) %>
+  <div id="comments" class="comment"></div>
+  <script>
+  JELON.Comment({
+    container: 'comments',
+    label: '<%- post.slug %>' || '<%- post.path %>',
+    owner: '<%- theme.comment.owner %>',
+    repo: '<%- theme.comment.repo %>',
+    clientId: '<%- theme.comment.client_id %>',
+    clientSecret: '<%- theme.comment.client_secret %>'
+  });
+  </script>
+<% } %>

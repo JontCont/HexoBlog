@@ -1,0 +1,6 @@
+<!-- 文章目錄 -->
+<% if (page.year || page.month) { %>
+  <%- partial('_partial/post-list', { pagination: 3, index: true }) %>
+<% } else { %>
+  <%- partial('_partial/archive-list', {}) %>
+<% } %>

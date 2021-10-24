@@ -1,0 +1,105 @@
+{
+  "main": {
+    "id": "fff2478ca4aaa6ee",
+    "type": "split",
+    "children": [
+      {
+        "id": "4105f29121c9bbd7",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Day01.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "720b5bcf785af4e2",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Day01.md",
+            "mode": "preview"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1ff3a9baba976842",
+    "type": "split",
+    "children": [
+      {
+        "id": "80ee6d3cdf280d94",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0c4118ebfee70f7e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "2debd2eb7eb4c3ac",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "a89155492cb5e8ab",
+    "type": "split",
+    "children": [
+      {
+        "id": "be25d5bf553310e2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8940a2c6327c5f16",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Day01.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "4105f29121c9bbd7",
+  "lastOpenFiles": [
+    "Day01.md"
+  ]
+}

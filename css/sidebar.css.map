@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA;;GAEG",
+    "sources": [
+        "../themes/hexo-theme-xups/source/css/_partial/sidebar.sass"
+    ],
+    "names": [],
+    "file": "sidebar.css"
+}

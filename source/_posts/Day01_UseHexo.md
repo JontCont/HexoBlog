@@ -1,11 +1,12 @@
 ---
 title: 使用 Hexo - Day01 建置  
-categories:
-  - Web技術
-  - Hexo
-tags: Hexo
-blogexcerpt: 前幾周 GitBook 改版，擔心會變成FaceBook 、Instagram 一樣當機不能使用，我再次挑戰GitHub Blog 製作。這次不會是....
-
+categories: Web 技術 
+tags: 
+  - Web 技術 
+  - HEXO
+description: 前幾周 GitBook 改版，擔心會變成FaceBook 、Instagram 一樣當機不能使用，我再次挑戰GitHub Blog 製作。這次不會是....
+keyword: 'HEXO,Web'
+cover: /img/Cover.png
 ---
 
 ## 前言
@@ -62,7 +63,7 @@ hexo init 是初化 Hexo (建立Hexo)
 
 ### 二、package.json
 
-記錄所有載入的應用程式資料，也就是專案中需要的所有模組。
+- 記錄所有載入的應用程式資料，也就是專案中需要的所有模組。
 
 ### 三、scaffolds 模板
 

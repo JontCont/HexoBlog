@@ -1,10 +1,11 @@
 ---
-title: Hexo 範本- Hello World
-categories:
-  - Web技術
-tags: 範本
-blogexcerpt: Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub....
-
+title: 使用 Hexo - Day00 官方範例
+categories: Hexo 範本
+tags: 
+  - HEXO
+description: Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub....
+keyword: 'HEXO,範例'
+cover: /img/Cover.png
 ---
 Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
 

@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Cons Blog
-subtitle: JohnCons
+title: Hexo
+subtitle: JohnCont
 description: John-Cont Blog
 keywords: JohnCont,JontCont
-author: John Cons
+author: John Doe
 language: zh-TW
 timezone: ''
 
@@ -105,13 +105,3 @@ deploy:
   type: git
   repo: https://github.com/JontCont/JontCont.github.io/
   branch: main
-
-# search
-## [第三方服务集成 - NexT 使用文档](http://theme-next.iissnan.com/third-party-services.html#local-search)
-search:
-  path: search.xml
-  field: post
-  #content: true
-  #template: ./search.xml
-  #format: html
-  #limit: 10000

@@ -6,7 +6,7 @@ tags:
   - HEXO
 description: 前幾周 GitBook 改版，擔心會變成FaceBook 、Instagram 一樣當機不能使用，我再次挑戰GitHub Blog 製作。這次不會是....
 keyword: 'HEXO,Web'
-cover: /img/Cover.png
+cover: /img/day_01_UseHexo/hexo.png
 ---
 
 ## 前言
@@ -103,6 +103,7 @@ GitHub創建條件必須要是**帳號加上(.github.io)**，範例 : [username]
 ---
 # Deloy 到 GitHub 
 回到 Hexo 資料夾，打開 ```_config.yml```後，移至最下方輸入以下內容:
+repo-url 必須要貼上完整路徑。
 
 ``` js
 deploy:

@@ -13,9 +13,11 @@ menu:
       標籤 Tags: /tags/ || fas fa-tags
       歸檔 archives: /archives/ || fas fa-mail-bulk
       分類 Categories: /categories/ || fas fa-folder-open
-    娛樂 Amusement||fas fa-list:
-      音樂: /music/ || fas fa-music
+    休閒 Casual||fas fa-list:
+      音樂: /music/  || fas fa-music
       影片: /movies/ || fas fa-video
+      書籍: /books/  || fas fa-book-open
+      遊戲: /games/  || fas fa-gamepad
   #  友鏈 Link: /link/ || fas fa-link
   #  關於 About: /about/ || fas fa-heart
 
@@ -534,8 +536,8 @@ canvas_ribbon:
 
 # Fluttering Ribbon (動態彩帶)
 canvas_fluttering_ribbon:
-  enable: false
-  mobile: false
+  enable: true
+  mobile: true
 
 # canvas_nest
 # https://github.com/hustcc/canvas-nest.js
@@ -787,7 +789,7 @@ pjax:
 
 # Inject the css and script (aplayer/meting)
 aplayerInject:
-  enable: false
+  enable: true
   per_page: true
 
 # Snackbar (Toast Notification 彈窗)
@@ -843,6 +845,8 @@ inject:
   head:
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
+    #003fA5G40k6hKc
+    #- <div class="aplayer no-destroy" data-id="003fA5G40k6hKc" data-server="tencent" data-type="artist" data-fixed="true" data-mini="true" data-listFolded="false" data-order="random" data-preload="none" data-autoplay="true" muted></div>
     # - <script src="xxxx"></script>
 
 # CDN

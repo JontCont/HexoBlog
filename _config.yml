@@ -115,3 +115,39 @@ search:
   #template: ./search.xml
   #format: html
   #limit: 10000
+
+aplayer:
+  meting: true
+  asset_inject: false
+
+douban:
+  user: 249158711
+  builtin: true
+  book:
+    title: '書籍'
+    quote: '已觀看書籍'
+    meta: true
+    comments: true
+    top_img: 
+    aside: true
+    path: books
+    limit:
+  movie:
+    title: '電影'
+    quote: '已觀看電影'
+    meta: true
+    comments: true
+    top_img: 
+    aside: true
+    path: movies
+    limit:
+  game:
+    title: '遊戲'
+    quote: '已遊玩遊戲'
+    meta: true
+    comments: true
+    top_img: 
+    aside: true
+    path: games
+    limit:
+  timeout: 10000   

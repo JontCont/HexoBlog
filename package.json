@@ -14,6 +14,8 @@
   },
   "dependencies": {
     "hexo": "^5.0.0",
+    "hexo-butterfly-artitalk": "^1.0.4",
+    "hexo-butterfly-douban": "^1.2.4",
     "hexo-deployer-git": "^3.0.0",
     "hexo-generator-archive": "^1.0.0",
     "hexo-generator-category": "^1.0.0",
@@ -25,6 +27,7 @@
     "hexo-renderer-pug": "^2.0.0",
     "hexo-renderer-stylus": "^2.0.1",
     "hexo-server": "^2.0.0",
+    "hexo-tag-aplayer": "^3.0.4",
     "hexo-theme-butterfly": "^3.8.4",
     "hexo-theme-landscape": "^0.0.3",
     "stylus": "^0.55.0"

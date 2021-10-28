@@ -40,8 +40,10 @@ $ cd <資料夾名稱>
 $ npm install
 $ hexo server
 ```
+{% note info flat %}
+  hexo init 是初化 Hexo (建立Hexo)。
+{% endnote %}
 
-hexo init 是初化 Hexo (建立Hexo)
 安裝完成後，進入資料夾會看到下方這些檔案和資料夾：
 ``` bash
 .
@@ -55,7 +57,7 @@ hexo init 是初化 Hexo (建立Hexo)
 
 ```
 
-## Hexo 檔案
+## Hexo 檔案介紹
 ### 一、 _config.yml
 
 -   有關網站配置的檔案，可修改各種配置設定。例如：網站標題、網站的網址、使用主題名稱等等
@@ -93,10 +95,10 @@ hexo init 是初化 Hexo (建立Hexo)
 
 ## 建立 GitHub 專案
 建立GitHub 專案，請先註冊 [GitHub](https://github.com/) 帳號並登入到左邊會有 New 的 Button 並按下。
-![[Pasted image 20211024145318.png]]
+![](/img/day_01_UseHexo/img-01.png)
 
 GitHub創建條件必須要是**帳號加上(.github.io)**，範例 : [username].github.io，以上步驟就完成了。
-![[Pasted image 20211024145511.png]]
+![](/img/day_01_UseHexo/img-02.png)
 
 ---
 # Deloy 到 GitHub 

@@ -129,7 +129,7 @@ cover:
   archives_enable: true
   # the position of cover in home page (封面顯示的位置)
   # left/right/both
-  position: left #both
+  position: both #both
   # When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)
   default_cover:
     # - https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg
@@ -251,13 +251,13 @@ addThis:
 # https://github.com/overtrue/share.js
 sharejs:
   enable: true
-  sites: facebook,twitter
+  sites: facebook,twitter,wechat,weibo,qq
   #sites: facebook,twitter,wechat,weibo,qq
 # AddToAny
 # https://www.addtoany.com/
 addtoany:
   enable: false
-  item: facebook,twitter,facebook_messenger,email,copy_link
+  item: facebook,twitter,email,copy_link,wechat
   #item: facebook,twitter,wechat,sina_weibo,facebook_messenger,email,copy_link
 # Comments System
 # --------------------------------------
@@ -376,10 +376,10 @@ twikoo:
 
 # Chat Button [recommend]
 # It will create a button in the bottom right corner of website, and hide the origin button
-chat_btn: false
+chat_btn: true
 
 # The origin chat button is displayed when scrolling up, and the button is hidden when scrolling down
-chat_hide_show: false
+chat_hide_show: true
 
 # chatra
 # https://chatra.io/
@@ -402,8 +402,8 @@ daovoice:
 # gitter
 # https://gitter.im/
 gitter:
-  enable: false
-  room:
+  enable: true
+  room: HexoBlogChart/ChartBox
 
 # crisp
 # https://crisp.chat/en/

@@ -37,7 +37,6 @@ Hexo 是基於 Node.js 開發架框，有利於快速建立Blog，如以下特�
 $ npm install hexo-cli -g
 $ hexo init <資料夾名稱>
 $ cd <資料夾名稱>
-$ npm install
 $ hexo server
 ```
 {% note info flat %}

@@ -1,9 +1,9 @@
 ---
 title: 使用 Hexo - Day03 Use Package  
-categories: Web 技術 
+categories: HEXO 範例
 tags: 
-  - Web 技術 
   - HEXO
+  - Web 技術 
 description:
 keyword: 'HEXO,Web,Hexo butterfly,Hexo 套件,Hexo套件'
 cover: /img/day_03_UseHexo/hexo.png

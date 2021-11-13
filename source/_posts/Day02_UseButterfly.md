@@ -1,9 +1,9 @@
 ---
 title: 使用 Hexo - Day02 Theme Butterfly  
-categories: Web 技術 
+categories: HEXO 範例
 tags: 
-  - Web 技術 
   - HEXO
+  - Web 技術 
 description: 'HEXO官方網站中，有主題(theme)項目可以自行選擇需要哪種主題。
   HEXO THEME 我選擇Butterfly，原因有幾個僅供參考。...'
 keyword: 'HEXO,Web'

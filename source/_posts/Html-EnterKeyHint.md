@@ -5,7 +5,7 @@ tags:
   - Web 技術 
   - HTML 
 description:
-keyword: 'HEXO,Web,Hexo butterfly,Hexo 套件,Hexo套件'
+keyword: 'HTML'
 cover: /img/html-enterkeyHint/enterkeyHint.jpg
 ---
 
@@ -26,6 +26,7 @@ cover: /img/html-enterkeyHint/enterkeyHint.jpg
 
 # 創建Html
 我們創建簡單易點的html，不需要殘虐自己一定要把版面排很齊。參考以下範例：
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -76,7 +77,9 @@ cover: /img/html-enterkeyHint/enterkeyHint.jpg
 </body>
 </html>
 ```
+
 這幾些都是要focus在輸入框裡面就可以看得見，如下圖，這樣就會提升UI操作順暢。
+依據自己評估，決定在使用。
 
 {% gallery %}
 ![](/img/html-enterkeyHint/01.png)
@@ -95,6 +98,6 @@ Stefan Judis 曾經在2020年有提到 Enterkeyhint ，有支援 Safari 瀏覽�
 
 ## 文件參考
 
-### [MDN](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/enterKeyHint)
+### MDN - [ EnterKeyHint](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/enterKeyHint)
 
-### [CSS-TRICKS](https://css-tricks.com/enterkeyhint/)
+### CSS-TRICKS - [enterkeyhint](https://css-tricks.com/enterkeyhint/)

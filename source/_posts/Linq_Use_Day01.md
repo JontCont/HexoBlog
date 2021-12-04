@@ -1,11 +1,11 @@
 ---
-title: Linq CS 常見使用方式
-categories: CS
+title: Linq C# 常見使用方式
+categories: C#
 tags: 
-  - CS
+  - C#
   - Net FrameWork
 description:
-keyword: 'Net FrameWork, CS , linq '
+keyword: 'Net FrameWork, C# , linq '
 cover: /img/Linq-Use-Day01/bg.jpg
 ---
 

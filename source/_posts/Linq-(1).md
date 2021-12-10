@@ -1,5 +1,5 @@
 ---
-title: LinQ　介紹
+title: 使用 LinQ (一) - 介紹 LinQ
 categories: C#
 tags: 
   - C#

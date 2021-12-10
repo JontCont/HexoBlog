@@ -1,10 +1,11 @@
 ---
-title: 第二天 - Go 資料型態、運算式
+title: [學習] Golang 基本使用(二) - 資料型態、運算式
 categories: Go
 tags: 
   - Go
+  - Golang
 description:
-keyword: 'Go'
+keyword: 'Go,Golang'
 cover: /img/Day02-Go_basic_lang/Golang.jpg
 ---
 ## 前言

@@ -1,5 +1,5 @@
 ---
-title: Linq C# 常見使用方式
+title: 使用 LinQ (二) - C# 常見使用方式
 categories: C#
 tags: 
   - C#

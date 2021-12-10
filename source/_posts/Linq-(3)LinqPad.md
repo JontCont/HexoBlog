@@ -1,5 +1,5 @@
 ---
-title: LinqPad 工具
+title: 使用 LinQ (三) - LinqPad 工具
 categories: C#
 tags: 
   - C#

@@ -1,5 +1,5 @@
 ---
-title: 使用 Hexo - Day02 Theme Butterfly  
+title: 使用 Hexo (二) - Theme Butterfly  
 categories: HEXO 範例
 tags: 
   - HEXO

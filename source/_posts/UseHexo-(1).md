@@ -1,5 +1,5 @@
 ---
-title: 使用 Hexo - Day01 建置  
+title: 使用 Hexo (一) - 創建 Hexo  
 categories: HEXO 範例
 tags: 
   - HEXO

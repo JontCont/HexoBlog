@@ -1,5 +1,5 @@
 ---
-title: 使用 Hexo - Day03 Use Package  
+title: 使用 Hexo (三) -  使用 HEXO 套件
 categories: HEXO 範例
 tags: 
   - HEXO

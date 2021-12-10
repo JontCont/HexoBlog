@@ -1,10 +1,11 @@
 ---
-title: 第一天 - Go 建立環境
+title: [學習] Golang 基本使用(一) - 建立 Golang 環境
 categories: Go
 tags: 
   - Go
+  - Golang
 description:
-keyword: 'Go'
+keyword: 'Go, Golang'
 cover: /img/Day01_Go_lang/go.png
 ---
 ## 前言

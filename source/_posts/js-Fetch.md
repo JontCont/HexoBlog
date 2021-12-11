@@ -1,5 +1,5 @@
 ---
-title: ES6 Fetch
+title: JavaScript - Fetch
 categories: ES6 Web 技術 
 tags: 
   - javascript

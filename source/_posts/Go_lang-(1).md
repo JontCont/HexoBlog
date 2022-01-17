@@ -1,5 +1,5 @@
 ---
-title: [學習] Golang 基本使用(一) - 建立 Golang 環境
+title: '[學習] Golang 基本使用(一) - 建立 Golang 環境'
 categories: Go
 tags: 
   - Go

@@ -1,7 +1,8 @@
 ---
 title: 使用 LinQ (四) - Join 使用方式 
-categories: C#
+categories: LinQ
 tags: 
+  - LinQ
   - C#
   - Net FrameWork
 description:

@@ -1,6 +1,8 @@
 ---
 title: HTML - Enter Key Hint
-categories: Web 技術 
+categories:
+  - 前端技術
+  - html
 tags: 
   - Web 技術 
   - HTML 

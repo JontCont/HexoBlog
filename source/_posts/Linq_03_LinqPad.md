@@ -1,9 +1,10 @@
 ---
 title: 使用 LinQ (三) - LinqPad 工具
-categories: C#
+categories: LinQ
 tags: 
   - C#
   - Net FrameWork
+  - LinQ
 description:
 keyword: 'Net FrameWork, C# , linq '
 cover: /img/linq_use_day02/bg.png

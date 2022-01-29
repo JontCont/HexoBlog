@@ -1,6 +1,9 @@
 ---
 title: JavaScript - serialize() 方法
-categories: ES6 Web 技術 
+categories: 
+  - 前端技術
+  - javascript
+  - ES6
 tags: 
   - javascript
 description:

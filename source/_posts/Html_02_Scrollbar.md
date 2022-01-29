@@ -1,6 +1,8 @@
 ---
 title: HTML - 滾動條 Scrollbar
-categories: Web 技術 
+categories: 
+  - 前端技術
+  - html
 tags: 
   - Web 技術 
   - HTML 

@@ -1,9 +1,8 @@
 ---
 title: 使用 Hexo (三) -  使用 HEXO 套件
-categories: HEXO 範例
+categories: HEXO
 tags: 
   - HEXO
-  - Web 技術 
 description:
 keyword: 'HEXO,Web,Hexo butterfly,Hexo 套件,Hexo套件'
 cover: /img/day_03_UseHexo/hexo.png

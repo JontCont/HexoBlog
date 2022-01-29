@@ -1,6 +1,9 @@
 ---
 title: JavaScript - Fetch
-categories: ES6 Web 技術 
+categories: 
+  - 前端技術
+  - javascript
+  - ES6
 tags: 
   - javascript
   - ES6 Web 技術 

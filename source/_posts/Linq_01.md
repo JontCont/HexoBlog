@@ -1,10 +1,10 @@
 ---
 title: 使用 LinQ (一) - 介紹 LinQ
-categories: C#
+categories: LinQ
 tags: 
   - C#
   - Net FrameWork
-  - Linq
+  - LinQ
 description:
 keyword: 'Net FrameWork, C# , linq '
 cover: /img/Linq-introduce/bg.jpg

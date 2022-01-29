@@ -1,9 +1,10 @@
 ---
 title: 使用 LinQ (二) - C# 常見使用方式
-categories: C#
+categories: LinQ
 tags: 
   - C#
   - Net FrameWork
+  - LinQ
 description:
 keyword: 'Net FrameWork, C# , linq '
 cover: /img/Linq-Use-Day01/bg.jpg

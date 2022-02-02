@@ -47,8 +47,9 @@ copy:
 #   icon: link || the description
 social:
    fab fa-github: https://github.com/JontCont || Github
-   fab fa-instagram: https://www.instagram.com/jo_cont/ || instagram
-   fas fa-envelope: mailto:information9527@gmail.com || Email
+   fab fa-instagram: https://www.instagram.com/johncons_Rd/ || instagram
+   fab fa-discord : https://discord.com/invite/zdjrBUQQuT || Discord
+   fab fa-twitter : https://twitter.com/b899599 || twitter
 # search (搜索)
 # --------------------------------------
 
@@ -306,7 +307,7 @@ gitalk:
   client_id: bee42a61f4b73b0f0ba4
   client_secret: c8ea7ed809850f89f9b399a071ab2c294916a17f
   repo: hexo_comment
-  owner: JontCont
+  owner: JohnCons
   admin: 
   language: en # en, zh-CN, zh-TW, es-ES, fr, ru
   perPage: 10 # Pagination size, with maximum 100.
@@ -652,10 +653,11 @@ aside:
       enable: true
       icon: fab fa-github
       text: Click Follow
-      link: https://github.com/JontCont
+      link: https://github.com/JohnCons
   card_announcement:
     enable: true
-    content: 歡迎來到我的Blog ，盡量在下方留言
+    content: 偶是全端菜菜ㄉ工程師， 歡迎到我的Blog。
+
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all

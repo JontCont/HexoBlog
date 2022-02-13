@@ -1,0 +1,25 @@
+---
+title: C# ResXManager 套件 - 多國語言
+categories: 
+  - MVC Core
+  - C# Package
+  - NPOI
+tags: 
+  - MVC
+  - Core
+  - C#
+description:
+keyword: '多國語言  ,ResXManager , C#'
+cover: /img/cs_package_npoi/bg.png
+---
+## 前言
+之前開會遇到系統沒有所謂的語言切換功能，一直被追打功能是否要開放出來(っ °Д °;)っ，挖掘出這個套件幫我解決過渡期。
+
+# ResXManager
+ResXManager 為多國語言套件，概念是ResXManager會用Resource(資源檔)對應相對應的語言內容。
+
+## 安裝工具
+下載網址
+https://marketplace.visualstudio.com/items?itemName=TomEnglert.ResXManager
+
+## 使用方式

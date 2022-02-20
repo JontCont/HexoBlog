@@ -6,3 +6,4 @@ type: music
 
 <div class="aplayer" data-id="003fA5G40k6hKc" data-server="tencent" data-type="artist" data-mutex="true" data-preload="auto" data-theme="#3F51B5"></div>
 
+<!-- <div  class="aplayer" data-id="60198" data-server="netease" data-type="artist" data-mutex="true" data-preload="auto" data-theme="#3F51B5"></div> -->

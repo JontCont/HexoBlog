@@ -30,6 +30,6 @@
     "hexo-tag-aplayer": "^3.0.4",
     "hexo-theme-butterfly": "^3.8.4",
     "hexo-theme-landscape": "^0.0.3",
-    "stylus": "^0.55.0"
+    "stylus": "^0.56.0"
   }
 }

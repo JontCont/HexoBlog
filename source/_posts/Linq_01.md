@@ -8,6 +8,7 @@ tags:
 description:
 keyword: 'Net FrameWork, C# , linq '
 cover: /img/Linq-introduce/bg.jpg
+# sticky: 1
 ---
 
 # 語言整合查詢 - Linq 簡介

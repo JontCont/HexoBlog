@@ -4,12 +4,10 @@ categories: Github Action
 tags: 
   - Github Action
 keyword: 'Github Action,Github'
-cover: /img/GitHub/bg/bg_02.jpg
+cover: /img/GitHub/bg/bg_02.png
 ---
-
-繼上篇文章，快速進行MVC CI/CD 這部分相對的有很多使用者還在使用這種架框，本篇使用```Framework 4.7.2``` ，當中有得知一些github actions小技巧。
-
-本篇只有到Publish，剩下請參考上篇使用方式。
+# 前言
+繼上篇文章，快速進行MVC CI/CD 這部分相對的有很多使用者還在使用這種架框，本篇使用```Framework 4.7.2``` ，當中有得知一些github actions小技巧。本篇只有到Publish，剩下請參考上篇使用方式。
 
 # Github Action
 ## 一、創建Workflow

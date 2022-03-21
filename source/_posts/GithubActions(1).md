@@ -4,9 +4,9 @@ categories: Github Action
 tags: 
   - Github Action
 keyword: 'Github Action,Github'
-cover: /img/GitHub/bg/bg_02.jpg
+cover: /img/GitHub/bg/bg_02.png
 ---
-
+# 前言
 CI/CD 之前很多人提倡的架構，近期努力學習之前新技術。企業、工作上面都可以發現DevOps工程師，DevOps 也是會用到CI/CD功能。這篇用簡單方式使用 Github Actions，若是剛學習的人可以參考使用方式。
 
 # Github Actions 

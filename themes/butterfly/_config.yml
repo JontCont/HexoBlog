@@ -10,10 +10,11 @@ menu:
       歸檔 archives: /archives/ || fas fa-mail-bulk
       分類 Categories: /categories/ || fas fa-folder-open
     休閒 Casual||fas fa-list:
-      音樂: /music/  || fas fa-music
-      影片: /movies/ || fas fa-video
-      書籍: /books/  || fas fa-book-open
+      圖庫: /gallery/  || fa-fw fas fa-images
       遊戲: /games/  || fas fa-gamepad
+      影片: /movies/ || fas fa-video
+      音樂: /music/  || fas fa-music
+      書籍: /books/  || fas fa-book-open
   #  友鏈 Link: /link/ || fas fa-link
   #  關於 About: /about/ || fas fa-heart
 

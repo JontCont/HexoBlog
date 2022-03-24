@@ -23,7 +23,7 @@ cover: /img/cs_package_npoi/bg.png
 https://www.nuget.org/packages/NPOI/
 
 ## 創建Word
-[下載點](/template/word_npoi_temp.docx)
+[下載點](/upload/template/word_npoi_temp.docx)
 
 這邊範例使用table以及一般輸入行數。
  

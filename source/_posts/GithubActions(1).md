@@ -14,7 +14,7 @@ Github提供的CI工具是2019年上架，之前Github通常與Jenkins、Gitlab 
 
 ## 1. 創建Github Action 檔案
 進入Github 選擇 repository，按下[Action] 創建Workflows。
-![](/img/githubActions/01.png)
+![](/img/GitHub/action/01.png)
 自訂自己的 Workflow ，可以點選圖片中的選項。 
 ![](/img/GitHub/action/02.png)
 

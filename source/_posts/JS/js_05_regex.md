@@ -1,5 +1,5 @@
 ---
-title: JavaScript - 正規表示式(一) Regular Expression
+title: JavaScript - 正規表示法(一) Regular Expression
 
 categories: 
   - 前端技術
@@ -15,7 +15,7 @@ cover: /img/js/reg_bg.png
 
 
 # 正規表示式
-正規表示式（英語：Regular Expression，常簡寫為regex、regexp或RE），又稱正規表達式、正規表示法、規則運算式、常規表示法，是電腦科學的一個概念。正規表示式使用單個字串來描述、符合一系列符合某個句法規則的字串。在很多文字編輯器裡，正則表達式通常被用來檢索、替換那些符合某個模式的文字。
+正規表示法（英語：Regular Expression，常簡寫為regex、regexp或RE），又稱正規表達式、正規表示式、規則運算式、常規表示法，是電腦科學的一個概念。正規表示式使用單個字串來描述、符合一系列符合某個句法規則的字串。在很多文字編輯器裡，正則表達式通常被用來檢索、替換那些符合某個模式的文字。
 
 正規表達式是被用來匹配字串中字元組合的模式。在 JavaScript 中，正規表達式也是物件，這些模式在 RegExp 的 exec (en-US) 和 test (en-US) 方法中，以及 String 的 match、replace、search (en-US)、split (en-US) 等方法中被運用。
 

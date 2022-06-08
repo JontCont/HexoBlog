@@ -1,5 +1,5 @@
 ---
-title: (筆記) C# Asp.Net - Global.asax 事件方法清單
+title: C# Asp.Net - 使用 Global.asax 清除 cache 以及 controller 管控
 categories: 
   - dotnet
   - C#
@@ -13,12 +13,12 @@ cover: /img/dotnet/bg/cs_bg_004.jpg
 ---
 
 # 前言 
-在沒有.net core 環境，asp.net 其實有個 Global.asax 檔案。這檔案具有繼承 ```HttpApplication```類，如果遇到controller 要統計、或是清除catch 從這邊排除是其中的選擇。
+配合上一張function 清單，可以得知很多 Global 能用的事件方法，這篇排除cache 問題以及好用的方法。
 
 # Global.asax
-Global.asax 位於應用程式根目錄下。ASP.NET 頁面框架能夠自動識別出對Global.asax 檔案所做的任何更改。在 Global.asax 被更改後ASP.NET 頁面框架會重新啟動應用程式，包括關閉所有的瀏覽器會話，去除所有狀態資訊，並重新啟動應用程式域。
-
 ## 提供事件
+筆者留事件function給各位讀者們參閱，請配合這個表格。
+
 | 事件方法                                  | 事件說明                                                                    |
 |---------------------------------------|-------------------------------------------------------------------------|
 | Application_Init                      | 在應用程式被例項化或第一次被呼叫時，該事件被觸發。對於所有的HttpApplication 物件例項，它都會被呼叫。              |
@@ -40,6 +40,100 @@ Global.asax 位於應用程式根目錄下。ASP.NET 頁面框架能夠自動識
 | Application_AuthorizeRequest          | 當安全模組確認一個使用者可以訪問資源之後，該事件被觸發。                                            |
 | Session_Start                         | 在一個新使用者訪問應用程式 Web 站點時，該事件被觸發。                                           |
 | Session_End                           | 在一個使+A1:B20用者的會話超時、結束或他們離開應用程式 Web 站點時，該事件被觸發。                          |
+
+
+
+## 清除 cache
+要清除每一個 Action 最快方式從 Application_AcquireRequestState 加入設定檔案，發生 cache 最可怕是登入後上一頁可以看到原有的模樣，排除cache可以參考下方寫法:
+```cs
+
+protected void Application_AcquireRequestState(object sender, EventArgs e)
+{
+    //取消Cache
+    httpContext.Response.Cache.SetCacheability(HttpCacheability.NoCache);
+    httpContext.Response.Cache.AppendCacheExtension("no-store, must-revalidate");
+}
+``` 
+
+## controller 管控
+從上方案例可以得知，每一個action 都會有成功清除cache ，如果再延伸應用就會像是 controller管控。
+
+控管方式相對簡單，每一隻帳號都會有特定功能權限，選擇能前往的pages 當如果有人強行載入pages 就會需要把他導回~正途(誤)~。
+導回方式
+- 錯誤訊息
+- 固定首頁
+- 提示視窗
+
+下方提供參考寫法，請各位自行參閱:
+```cs
+
+protected void Application_AcquireRequestState(object sender, EventArgs e){
+    var httpContext = ((MvcApplication)sender).Context;
+
+    //取得Route資訊
+    var currentRouteData = RouteTable.Routes.GetRouteData(new HttpContextWrapper(httpContext));//目的: httpContext 轉換到 HttpContextBase 
+
+    //檢查身分
+    string currentController = Get_ControllerOrActionName(currentRouteData, "Controller"); //存放 controller 內容
+    string currentAction = Get_ControllerOrActionName(currentRouteData, "Action"); ; //存放 action 內容
+    
+    /*----- 處理判斷向下 ------*/
+    /*----- 處理判斷向上 ------*/
+
+    if (currentController == "Home" && currentAction=="Index" )
+    {
+        var routeData = new RouteData();
+        routeData.Values["exception"] = null;
+        routeData.Values["controller"] = "Error";
+        routeData.Values["action"] = "LoginNotFound";
+
+        httpContext.ClearError();
+        httpContext.Response.Clear();
+
+        //取得errorController
+        IController errormanagerController = new ErrorController();
+        HttpContextWrapper wrapper = new HttpContextWrapper(httpContext);
+        var rc = new RequestContext(wrapper, routeData);
+        errormanagerController.Execute(rc);
+        return;
+    }
+}
+
+
+private string Get_ControllerOrActionName(RouteData routeData, string getName)
+{
+    string resultName = "";
+    //暫存
+    if (routeData != null)
+    {
+
+        switch (getName)
+        {
+            case "Action":
+
+                resultName = (routeData.Values["action"] != null && !String.IsNullOrEmpty(routeData.Values["action"].ToString()))
+                        ? routeData.Values["action"].ToString()
+                        : "";
+                break;
+
+            case "Controller":
+
+                resultName = (routeData.Values["controller"] != null && !String.IsNullOrEmpty(routeData.Values["controller"].ToString()))
+                        ? routeData.Values["controller"].ToString()
+                        : "";
+                break;
+
+        }
+    }
+    return resultName;
+}//Get_ControllerOrActionName
+```
+## controller 管控注意事項
+這並非萬能的功能，這function會連ajax 抓取都會抓上來，如果太頻繁呼叫也會對這段不太友善，解決方式有兩種 
+1. 使用 attribute
+2. 排除指定controller ajax
+
+題外話: 很多時候ajax 自訂出 controller 需要自己歸納、編輯，但是這個功能會發現很多自定義的controller 無法掌控直接造成功能執行效果，
 
 
 ## 參考文件

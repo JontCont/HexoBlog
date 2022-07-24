@@ -6,6 +6,7 @@ categories:
 tags: 
   - C#
   - VSC
+  - resXManager
 description:
 keyword: 'C#,SignalR'
 cover: /img/dotnet/bg/cs_bg_resXManager.png

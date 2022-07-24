@@ -41,7 +41,7 @@ SignalR 會使用 中樞 在用戶端和伺服器之間進行通訊。中樞會�
 
 # 使用方式
 ## 使用工具
-- Visual Studio Code
+- Visual Studio Code : [請點選](https://code.visualstudio.com/)
 
 ## 創建專案
 創建專案可以使用下方語法，目前創建出來會是 net6.0若不太習慣可以使用 ```-framework  "net5.0" ```。

@@ -1,5 +1,5 @@
 ---
-title: C# ASP.NET Core - SignalR 使用方式
+title: C# .Net Core SignalR (1)- SignalR 使用方式
 categories: 
   - dotnet
   - C#

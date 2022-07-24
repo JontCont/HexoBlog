@@ -1,5 +1,5 @@
 ---
-title: (筆記) C# Asp.Net - Global.asax 事件方法清單
+title: C# Asp.Net Global (1) -(筆記) Global.asax 事件方法清單
 categories: 
   - dotnet
   - C#

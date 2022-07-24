@@ -1,5 +1,5 @@
 ---
-title: C# ASP.NET Core - SignalR 留言板
+title: C# .Net Core SignalR (2) - 留言板
 categories: 
   - dotnet
   - C#

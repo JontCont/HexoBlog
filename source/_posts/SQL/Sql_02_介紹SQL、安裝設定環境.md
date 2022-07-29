@@ -1,12 +1,10 @@
 ---
 title: Sql Server (二) - 介紹SQL、安裝設定環境
 categories:
-  - SQL Server
+  - SQL
 tags: 
-  - Sql
-  - Sql server
-description:
-keyword: 'Sql'
+  - SQL
+keyword: 'SQL'
 cover: /img/sql_server/bg.png
 ---
 

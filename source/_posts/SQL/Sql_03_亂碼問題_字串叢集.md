@@ -1,10 +1,10 @@
 ---
 title: SQL Server 亂碼問題 - 字串叢集
-categories: 
-  - SQL Server
+categories:
+  - SQL
 tags: 
-  - Github
-keyword: 'Github, Deploy keys, ssh'
+  - SQL
+keyword: 'SQL'
 cover: /img/SQL/bg/bg_01.png
 ---
 

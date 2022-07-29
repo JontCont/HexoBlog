@@ -1,12 +1,11 @@
 ---
-title: Sql Server (一) - 合併欄位( FOR XML PATH )
+title: Sql Server - 合併欄位( FOR XML PATH )
 categories:
-  - SQL Server
+  - SQL
 tags: 
-  - Sql
-  - Sql server
+  - SQL
 description:
-keyword: 'Sql'
+keyword: 'SQL'
 cover: /img/sql_server/bg.png
 ---
 

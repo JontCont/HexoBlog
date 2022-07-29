@@ -637,7 +637,8 @@ aside:
       link: https://github.com/JontCont
   card_announcement:
     enable: true
-    content: 偶是全端菜菜ㄉ工程師， 歡迎到我的Blog。
+    content:
+      - 嗨，大家好。我是Conte 目前在公司擔任全端工程師職位。目前努力成長中....。
 
   card_recent_post:
     enable: true

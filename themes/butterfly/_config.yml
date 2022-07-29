@@ -634,7 +634,7 @@ aside:
       enable: true
       icon: fab fa-github
       text: Follow Me
-      link: https://github.com/xxxxxx
+      link: https://github.com/JontCont
   card_announcement:
     enable: true
     content: 偶是全端菜菜ㄉ工程師， 歡迎到我的Blog。

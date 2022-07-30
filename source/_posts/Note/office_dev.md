@@ -27,24 +27,24 @@ cover: https://i0.wp.com/kkplay3c.net/wp-content/uploads/2020/02/microsoft-offic
 如果已經有註冊帳號可以直接按下 [Azure 入口](https://portal.azure.com/#home)
 
 ### 1. 請點選 [Azure Active Directory] > [應用程式註冊]
-![](/img/office/office_e5/02.png)
-![](/img/office/office_e5/03.png)
+![](/img/Note/office/office_e5/02.png)
+![](/img/Note/office/office_e5/03.png)
 
 ### 2. 設定註冊內容
 - 名稱 : 設定自己想要的名稱
 - 支援類型 : 任何組織目錄中的帳戶
 - 重新導向 URI : web - http://localhost:53682/
-![](/img/office/office_e5/04.png)
+![](/img/Note/office/office_e5/04.png)
 
 ### 3. 紀錄ID
 務必要將 [應用程式 (用戶端) 識別碼] 存放記事本上面，等下會用到。
-![](/img/office/office_e5/05.png)
+![](/img/Note/office/office_e5/05.png)
 
 ### 4. 點選[憑證與秘密] > [用戶端密碼] > [新增用戶端密碼]
 新增完畢後即可複製[值]，這是你第二個ID 一樣請你複製到記事本上面。
-![](/img/office/office_e5/06.png)
-![](/img/office/office_e5/07.png)
-![](/img/office/office_e5/08.png)
+![](/img/Note/office/office_e5/06.png)
+![](/img/Note/office/office_e5/07.png)
+![](/img/Note/office/office_e5/08.png)
 
 
 ### 5. 點選 [API權限] > [新增權限] > 完畢後按下[代表xxx授予管理員同意]按鈕
@@ -57,8 +57,8 @@ MailboxSettings.ReadWrite
 User.Read
 User.ReadWrite.All
 ```
-![](/img/office/office_e5/09.png)
-![](/img/office/office_e5/10.png)
+![](/img/Note/office/office_e5/09.png)
+![](/img/Note/office/office_e5/10.png)
 
 
 到這邊就完成了~! 之後可以準備使用 github 
@@ -66,11 +66,11 @@ User.ReadWrite.All
 
 ## [AutoApiSecret](https://github.com/huijiyun/AutoApiSecret)
 請各位自行按下 **Fork** 再進行下一步。
-![](/img/office/office_e5/01.png)
+![](/img/Note/office/office_e5/01.png)
 
 ### 1. 創建 Personal access tokens
 如果不知道如何創建可以參考 [使用 Github Token](https://jontcont.github.io/2022/03/21/Github_UseToken/)
-![](/img/office/office_e5/11.png)
+![](/img/Note/office/office_e5/11.png)
 
 設定方式也很簡單，只要按照圖片設定即可。完成後記得要複製自己的token。
 
@@ -94,13 +94,13 @@ User.ReadWrite.All
 ### 3. 修改 AutoApiSecret > 1.txt檔案
 這邊是存放 [ refresh_token ] 把剛才複製貼上 1.txt上面。
 
-![](/img/office/office_e5/12.png)
-![](/img/office/office_e5/13.png)
+![](/img/Note/office/office_e5/12.png)
+![](/img/Note/office/office_e5/13.png)
 
 ### 4. 點選 Action 並按下 [Star]
 按完 [Star] 記得要重新整理或是重新點選即可。Pin記得點選,主要原因是不知道何時AutoApiSeret會不會消失，建議還是開著鱉。
-![](/img/office/office_e5/14.png)
-![](/img/office/office_e5/15.png)
+![](/img/Note/office/office_e5/14.png)
+![](/img/Note/office/office_e5/15.png)
 
 
 這邊需要留意，office E5 快到期時後才會通知，所以有空時候可以看一下Mail確保有沒有快失效。

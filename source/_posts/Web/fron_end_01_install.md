@@ -10,7 +10,7 @@ tags:
   - Vue
 description:
 keyword: 'ES6, ReactJs  ,網頁'
-cover: /img/react/bg.png
+cover: /img/Web/react/bg.png
 ---
 ## 前言
 

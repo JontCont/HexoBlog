@@ -8,7 +8,7 @@ tags:
   - javascript
 description:
 keyword: 'ES6, 參數 ,Param'
-cover: /img/js-serialize/bg.png
+cover: /img/Web/js/js-serialize/bg.png
 ---
 
 # 參數（Param）

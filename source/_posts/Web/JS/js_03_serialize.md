@@ -8,7 +8,7 @@ tags:
   - javascript
 description:
 keyword: 'ES6, serialize  ,網頁'
-cover: /img/js-serialize/bg.png
+cover: /img/Web/js/js-serialize/bg.png
 ---
 ## 前言
 近期整理公司的 JavaScript 發現很多人使用著直接抓取 val()，繼上一篇提到 typeof 後，我又馬上做出 ```serialize()``` 章節，希望大家只要是全讀範圍的 input 請使用 ```serialize()``` 減少 ```undefined```問題。 

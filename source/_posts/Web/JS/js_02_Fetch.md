@@ -9,7 +9,7 @@ tags:
   - ES6 Web 技術 
 description:
 keyword: 'ES6, Fetch , 狀態 ,網頁'
-cover: /img/js-fetch/bg.jpg
+cover: /img/Web/js/js-fetch/bg.jpg
 ---
 
 ## 前言
@@ -41,7 +41,7 @@ req.send(null);
 這裡Fetch提供簡單的範例來取得遠端的資料，fetch 會使用 ES6 的 Promise 作回應，then 作為下一步，catch 作為錯誤回應 (404, 500…)。
 回傳的為 ReadableStream 物件，需要使用不同資料類型使用對應方法，才能正確取得資料物件。
 
-![](/img/js-fetch/xhr.PNG)
+![](/img/Web/js/js-fetch/xhr.PNG)
 
 ```js
 let url =

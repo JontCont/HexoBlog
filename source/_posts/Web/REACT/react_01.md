@@ -10,7 +10,7 @@ tags:
   - Vue
 description:
 keyword: 'ES6, ReactJs  ,網頁'
-cover: /img/react/react_bg.png
+cover: /img/Web/react/react_bg.png
 ---
 # React 介紹
 React 可稱 ReactJs ，主要由Facebook、Instagram 和一個由個人開發者和企業組成的社群維護。

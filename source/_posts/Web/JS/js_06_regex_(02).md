@@ -9,7 +9,7 @@ tags:
   - javascript
 description:
 keyword: 'ES6, 正規表示式,Regular,regex'
-cover: /img/js/reg_bg.png
+cover: /img/Web/js/reg_bg.png
 ---
 
 # 前言

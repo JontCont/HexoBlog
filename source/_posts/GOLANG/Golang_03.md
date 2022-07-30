@@ -5,7 +5,7 @@ tags:
   - Go
 description:
 keyword: 'Go'
-cover: /img/Day02-Go_basic_lang/Golang.jpg
+cover: /img/Go/Day02-Go_basic_lang/Golang.jpg
 ---
 
 # 判斷式

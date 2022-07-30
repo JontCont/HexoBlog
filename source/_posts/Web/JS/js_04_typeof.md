@@ -8,7 +8,7 @@ tags:
   - javascript
 description:
 keyword: 'ES6, typeof  ,網頁'
-cover: /img/js-typeof/bg.jpg
+cover: /img/Web/js/js-typeof/bg.jpg
 ---
 
 ## 前言
@@ -23,7 +23,7 @@ typeof operand
 
 ## 二、文件說明
 以下為 MDN Web typeof operator result 說明。
-![](/img/js-typeof/typeof_desc.jpg)
+![](/img/Web/js/js-typeof/typeof_desc.jpg)
 
 # 使用 typeof  
 看範例可以發現使用難易度不大。這邊範例我使用 var 變數，有用過JavaScript都知道，var是非常難控管常常會有過不是自己想要的結果。

@@ -6,7 +6,7 @@ tags:
   - Golang
 description:
 keyword: 'Go, Golang'
-cover: /img/Day01_Go_lang/go.png
+cover: /img/Go/Day01_Go_lang/go.png
 ---
 ## 前言
 這邊主要說明Go創建、使用，如果已經有環境，請直接到下一章節。

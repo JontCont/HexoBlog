@@ -8,7 +8,7 @@ tags:
   - javascript
 description:
 keyword: 'ES6, timer,setTimeout,定時器,setInterval'
-cover: /img/js-serialize/bg.png
+cover: /img/Web/js/js-serialize/bg.png
 ---
 
 # 定時器（timer）

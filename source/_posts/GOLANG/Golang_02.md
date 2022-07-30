@@ -6,7 +6,7 @@ tags:
   - Golang
 description:
 keyword: 'Go,Golang'
-cover: /img/Day02-Go_basic_lang/Golang.jpg
+cover: /img/Go/Day02-Go_basic_lang/Golang.jpg
 ---
 ## 前言
 接續 Go 安裝後，介紹 資料型態、運算式 功能、內容吧!!

@@ -6,7 +6,7 @@ tags:
 description: 'HEXO官方網站中，有主題(theme)項目可以自行選擇需要哪種主題。
   HEXO THEME 我選擇Butterfly，原因有幾個僅供參考。...'
 keyword: 'HEXO,Web'
-cover: /img/day_02_UseHexo/hexo.png
+cover: /img/Hexo/day_02_UseHexo/hexo.png
 ---
 
 ## 前言
@@ -26,9 +26,9 @@ cover: /img/day_02_UseHexo/hexo.png
 {% endnote %}
 ## [Butterfly](https://github.com/jerryc127/hexo-theme-butterfly)
 將下載好的theme把檔案放在themes資料夾底下。
-![](/img/day_02_UseHexo/img-01.png)
+![](/img/Hexo/day_02_UseHexo/img-01.png)
 當然可以增加不同的主題放在一起，如下圖。
-![](/img/day_02_UseHexo/img-02.png)
+![](/img/Hexo/day_02_UseHexo/img-02.png)
 
 下方提供 作者Blog以及Github載點: 
 - Jerry Blog: (https://butterfly.js.org/posts/21cfbf15/)
@@ -37,7 +37,7 @@ cover: /img/day_02_UseHexo/hexo.png
 ## _config.yml 
 config 通稱設定檔，在任何地方都不會太陌生。
 設定位置會在外面的 _config.yml ，不會是在主題中的 _config.yml。
-![](/img/day_02_UseHexo/img-02.png)
+![](/img/Hexo/day_02_UseHexo/img-02.png)
 
 修改內容會是在最下方，也就是在 deploy 上一章提到。依據作者要求修改名稱key進theme即可。Example : ```theme: butterfly``` 
 

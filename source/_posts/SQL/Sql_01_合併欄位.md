@@ -6,7 +6,7 @@ tags:
   - SQL
 description:
 keyword: 'SQL'
-cover: /img/sql_server/bg.png
+cover: /img/SQL/sql_server/bg.png
 ---
 
 # SQL Server 合併欄位

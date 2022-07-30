@@ -5,7 +5,7 @@ categories:
 tags: 
   - SQL
 keyword: 'SQL'
-cover: /img/sql_server/bg.png
+cover: /img/SQL/sql_server/bg.png
 ---
 
 # SQL (Structured Query Language)

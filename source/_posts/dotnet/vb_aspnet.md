@@ -7,7 +7,7 @@ tags:
   - VB
 description:
 keyword: 'Ajax, VB , Asp.Net '
-cover: /img/Ajax/ajax-logo.jpg
+cover: /img/Web/js/Ajax/ajax-logo.jpg
 ---
 
 

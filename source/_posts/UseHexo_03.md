@@ -5,7 +5,7 @@ tags:
   - HEXO
 description:
 keyword: 'HEXO,Web,Hexo butterfly,Hexo 套件,Hexo套件'
-cover: /img/day_03_UseHexo/hexo.png
+cover: /img/Hexo/day_03_UseHexo/hexo.png
 ---
 
 ## 前言
@@ -23,15 +23,15 @@ Disqus是以使用社群網路形式，向網路社群提供網站留言服務�
 
 ### 使用方式
 1. 按下 GET STARTED
-![](/img/day_03_UseHexo/img-02.png)
+![](/img/Hexo/day_03_UseHexo/img-02.png)
 2. 按下 [I want to install Disqus on my site]
-![](/img/day_03_UseHexo/img-03.png)
+![](/img/Hexo/day_03_UseHexo/img-03.png)
 3. 輸入網站名稱，這邊會直接對應 short name ，若有重複會提示出來。
-![](/img/day_03_UseHexo/img-04.png)
+![](/img/Hexo/day_03_UseHexo/img-04.png)
 4. 主要注意 3.Configure Disqus、4.Setup Moderation步驟。
-![](/img/day_03_UseHexo/img-05.png)
+![](/img/Hexo/day_03_UseHexo/img-05.png)
 Website URL -> Blog的Url [ https://username.githun.io/ ]
-![](/img/day_03_UseHexo/img-06.png)
+![](/img/Hexo/day_03_UseHexo/img-06.png)
 這邊是評論的審核機制，你可以選擇不受限的 `Balanced`，或是評論是需要經過系統審核或有限的 `Strict`，差異解說如下：
 -   圖片、影片或連結`允許/不允許`在留言裡
 -   訪客留言是`允許/不允許`的
@@ -39,7 +39,7 @@ Website URL -> Blog的Url [ https://username.githun.io/ ]
 -   留言內有限制或敏感字的部份都會被自動刪除
 -   [有害的評論](https://help.disqus.com/en/articles/1717255-toxic-mod-filter) `需要你的審核才能顯示/自動刪除`
 -   `Strict` 的部份，話題(Threads)會在 30 天後自動關閉
-![](/img/day_03_UseHexo/img-07.png)
+![](/img/Hexo/day_03_UseHexo/img-07.png)
 ### config.yml 設定
 shortname 通常創建是與Website Name一樣，若想確認可以到設定區域按下 Edit Settings 。
 下方是設定 Disqus方式，shortname確認好後，就將名稱貼在 [short-name]。
@@ -59,8 +59,8 @@ disqus:
  apikey: # For newest comments widget
 ```
 ### 查看shortname
-![](/img/day_03_UseHexo/img-08.png)
-![](/img/day_03_UseHexo/img-09.png)
+![](/img/Hexo/day_03_UseHexo/img-08.png)
+![](/img/Hexo/day_03_UseHexo/img-09.png)
 
 ---
 ## 音樂

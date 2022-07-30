@@ -10,7 +10,7 @@ tags:
   - C#
 description:
 keyword: 'NPOI  ,MVC , C#'
-cover: /img/cs_package_npoi/bg.png
+cover: /img/dotnet/cs_package_npoi/bg.png
 ---
 
 # 使用NPOI

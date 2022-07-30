@@ -5,7 +5,7 @@ tags:
   - HEXO
 description: 前幾周 GitBook 改版，擔心會變成FaceBook 、Instagram 一樣當機不能使用，我再次挑戰GitHub Blog 製作。這次不會是....
 keyword: 'HEXO,Web'
-cover: /img/day_01_UseHexo/hexo.png
+cover: /img/Hexo/day_01_UseHexo/hexo.png
 ---
 
 ## 前言
@@ -93,10 +93,10 @@ $ hexo server
 
 ## 建立 GitHub 專案
 建立GitHub 專案，請先註冊 [GitHub](https://github.com/) 帳號並登入到左邊會有 New 的 Button 並按下。
-![](/img/day_01_UseHexo/img-01.png)
+![](/img/Hexo/day_01_UseHexo/img-01.png)
 
 GitHub創建條件必須要是**帳號加上(.github.io)**，範例 : [username].github.io，以上步驟就完成了。
-![](/img/day_01_UseHexo/img-02.png)
+![](/img/Hexo/day_01_UseHexo/img-02.png)
 
 ---
 # Deloy 到 GitHub 

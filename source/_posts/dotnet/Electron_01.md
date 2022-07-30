@@ -10,7 +10,7 @@ tags:
   - C#
 description:
 keyword: 'Electron  ,MVC'
-cover: /img/Electron/bg.png
+cover: /img/dotnet/Electron/bg.png
 ---
 ## 前言
 Electron 是近年來有比較多人使用的架框，最大原因是在 Winform 跨平台上無法使用，因此誕生 Electron架框。
@@ -33,16 +33,16 @@ Electron（原名為Atom Shell）是GitHub開發的一個開源框架。它通�
 Electron 原本沒有想過說用 MVC架框使用，因為需要遷入DLL檔案逼不得已需要用到c#撰寫。
 如何安裝環境，請打開各位的 VS2019 或是 VS2022 都可以進行，切記按下[ ASP.NET  Core Web ]。
 
-![](/img/Electron/01.jpg)
+![](/img/dotnet/Electron/01.jpg)
 
 驗證類型自行考量後續發展進行勾選。
-![](/img/Electron/02.jpg)
+![](/img/dotnet/Electron/02.jpg)
 
 ## 二、新增套件 ( NuGet )
 對此專案按下右鍵並選擇管理 NuGet 套件選項。記得搜尋Electron。
 找到ElectronNet.Api 並下載他。
-![](/img/Electron/03.jpg)
-![](/img/Electron/04.jpg)
+![](/img/dotnet/Electron/03.jpg)
+![](/img/dotnet/Electron/04.jpg)
 
 
 ## 三、設定環境
@@ -70,25 +70,25 @@ public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
   Task.Run(async () => await Electron.WindowManager.CreateWindowAsync());
 }
 ```
-![](/img/Electron/05.jpg)
-![](/img/Electron/06.jpg)
+![](/img/dotnet/Electron/05.jpg)
+![](/img/dotnet/Electron/06.jpg)
 
 ## 四、初始化 Electronize 
 請到 powershell 視窗輸入 ``` dotnet tool install ElectronNET.CLI -g ``` ，就會進行安裝 electronize 指令。 
-![](/img/Electron/07.jpg)
+![](/img/dotnet/Electron/07.jpg)
 這是 electronize 指令內容，請各位參閱。
-![](/img/Electron/08.jpg)
+![](/img/dotnet/Electron/08.jpg)
 
 如果直接輸入``` electronize init ```突然報錯誤怎麼辦。
-![](/img/Electron/09.jpg)
+![](/img/dotnet/Electron/09.jpg)
 
 最大原因是路徑問題，```dir``` 查看專案目前在哪個路徑。因為它不再真正的source路徑，所以引發路徑錯誤問題。~只要將cd 進入下一層即可~。
-![](/img/Electron/10.jpg)
-![](/img/Electron/11.jpg)
+![](/img/dotnet/Electron/10.jpg)
+![](/img/dotnet/Electron/11.jpg)
 
 ## 五、執行
 安裝完畢之後， 輸入最後指令 ``` electronize start``` 就完成 mvc + electronize環境。
-![](/img/Electron/12.jpg)
+![](/img/dotnet/Electron/12.jpg)
 
 
 ---

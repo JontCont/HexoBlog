@@ -37,7 +37,7 @@ cover: /img/dotnet/bg/cs_bg_006_WSDL.png
 2. 需使用 POST　取得資料 (筆者遇到的案子為例)
 
 下方範例是主要讓 Request 內容可以呈現狀態、訊息。完成後，簡易的版本就完成了。
-```c#
+```cs
     public static class RequestExtension
     {
         //set config
@@ -91,7 +91,7 @@ cover: /img/dotnet/bg/cs_bg_006_WSDL.png
 ```
 
 ## 加入結果  
-```c#
+```cs
 class Program
 {
     static async Task Main(string[] args)
@@ -107,7 +107,7 @@ class Program
 這邊使用方式僅供參考並非最佳解。使用目的是處理資料時候，需要輸入xml 指定名稱過度麻煩，這邊加入方式class 定義出來，解析內容轉出要得傳輸資料。
 
 處理方式也很簡單，可以透由 replace 字串取代即可產出自動輸入值。如果要產出 class 名稱也是用下方類似做法。
-```c#
+```cs
     public static string Convert<T>(T obj){
         Type t = typeof(T);
         PropertyDescriptorCollection properties = TypeDescriptor.GetProperties(t);

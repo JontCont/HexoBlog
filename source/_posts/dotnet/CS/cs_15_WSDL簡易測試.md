@@ -8,19 +8,28 @@ tags:
   - VSC
 description:
 keyword: 'C#, WSDL'
-cover: /img/dotnet/bg/cs_bg_004.jpg
+cover: /img/dotnet/bg/cs_bg_006_WSDL.png
 ---
 # 前言
 
-使用 API 開發時，多數會遇到WSDL這類東西，網路上很多使用不同方式連接 XML、SOAP 之類，如果有遇到是 c# 需要連結WSDL可以參考以下作法。本文不深入探討WSDL 使用方式。 
+近期執行專案時候，常常遇到對方使用的是 WSDL。當時剛入行軟體工程師非常震驚這是甚麼東西，WSDL 如何傳遞、如何使用，直到後期有發現不錯用的工具SoapUI 主要給 WSDL這個使用。接下來會直接讓各位參考如何執行簡易版的WSDL。
 
-## 前置作業
-進行此項作業時，需要確認對方、自己的 wdsl是否可以成功連線成功才能往下一步。
-### 工具、指令
-- VS-Code
-- 使用 Command ```dotnet console -f net5.0```
+最近有製作簡易版本的response 工具，可以提供參考。
+
+## 使用工具、指令
+- VSC : [點擊我](https://code.visualstudio.com/)
+- 使用 Command : ```dotnet new console -f net5.0```
+- Github 參考 : [點擊我](https://github.com/JontCont/dotnetCore_WSDL)
+  
+## Web服務描述語言，Web Services Description Language
+基於 XML 用於 描述 、通訊(訪問) Web Services 的語言。常見相關名稱
+- Web Services
+- SOAP (Simple Object Access Protocol)
+- UDDI (Universal Description, Discovery, and Integration)
+
 
 # 使用方式
+這邊只會使用 請求、回覆。若要看WSDL製作本篇不展示。
 
 ## 連線方式
 筆者案例是使用xml部分，需要使用 text/xml 才能啟動功能，如果是postman 必須要把 request 更改 ```row``` -> ``` text ``` 才能使用功能。下方要注意幾點。
@@ -38,8 +47,8 @@ cover: /img/dotnet/bg/cs_bg_004.jpg
 
 
         // request result
-        public static RequestResult result { get; set; } =new RequestResult();
-        public class RequestResult
+        public static ResponseResult result { get; set; } =new ResponseResult();
+        public class ResponseResult
         {
             public bool status { get; set; } = false;
             public string message { get; set; } = "";
@@ -47,7 +56,7 @@ cover: /img/dotnet/bg/cs_bg_004.jpg
 
 
         // request WSDL
-        public static async Task<RequestResult> RequestWSDL()
+        public static async Task<ResponseResult> RequestWSDL()
         {
             //取得當前 html 字串
             HttpClient client = new();
@@ -67,13 +76,13 @@ cover: /img/dotnet/bg/cs_bg_004.jpg
                 response.EnsureSuccessStatusCode();
                 string responseBody = await response.Content.ReadAsStringAsync();
 
-                return new RequestResult{
+                return new ResponseResult{
                     status = true,
                     message = responseBody,
                 };
 
             }catch(Exception ex){
-                return new RequestResult{
+                return new ResponseResult{
                     status = false,
                     message = ex.Message,
                 };
@@ -87,8 +96,8 @@ class Program
 {
     static async Task Main(string[] args)
     {
-        var requestResult = await RequestExtension.RequestWSDL();
-        Console.WriteLine($"status : {requestResult.status} , message : {requestResult.message}");
+        var responseResult = await RequestExtension.RequestWSDL();
+        Console.WriteLine($"status : {responseResult.status} , message : {responseResult.message}");
     }
 
 }
@@ -113,8 +122,6 @@ class Program
         return strBuilder.ToString();
     }
 ```
-
-
 
 
 ## 結論

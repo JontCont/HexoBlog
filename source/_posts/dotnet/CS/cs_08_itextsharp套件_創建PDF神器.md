@@ -19,6 +19,8 @@ PDF 不論甚麼場合都需要使用，包含公司都會需要有PDF轉出轉�
 # iTextSharp
 本函式庫原名是iText，主要是支援Java程式語言。之後針對Microsoft .NET C # 做了一個版本。
 
+- Github 範例 : [點擊我](https://github.com/JontCont/dotnetCore_iTextSharp) 
+
 ## 一、 初始設定
 製作方式需要新增 ```Document ```內部內容都會以Document 才新增、寫入。
 以下就是初始化設定。

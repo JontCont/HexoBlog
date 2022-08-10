@@ -9,7 +9,7 @@ tags:
   - Scaffold
 description:
 keyword: 'core  , C# , Scaffold'
-cover: /img/dotnet/bg/cs_bg_005.jpg
+cover: https://dictionary.cambridge.org/zht/images/thumb/scaffo_noun_002_32226.jpg?version=5.0.248
 ---
 
 # Scaffold 

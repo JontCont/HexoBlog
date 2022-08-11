@@ -23,7 +23,15 @@ AJAX 是「Asynchronous JavaScript and XML」（非同步的 JavaScript 與 XML 
 
 - 非同步請求 (Asynchronous request)：客戶端 (client) 對伺服器端 (server) 送出 request 之後，不需要等待結果，仍可以持續處理其他事情，甚至繼續送出其他 request。Responese 傳回之後，就被融合進當下頁面或應用中。
 
-## get 與 post 的差異
+## 常見問題 : get 與 post 的差異
 - get：從瀏覽器發出請求，伺服器會回傳資料（在 responseText 裡面回傳一個物件）。
 - post：從瀏覽器發出請求，傳送資料時註明格式，若選擇用表單格式，則傳送資料的內容要仿照表單傳送後的網址*。
 *也就是欄位1 name = 使用者輸入的值1 & 欄位2 name = 使用者輸入的值2 etc.
+
+## Ajax Method
+Api 設計過程中，很常需要配合幾個medth 互換使用。API設計模式可以參考 [```RESTful ```](https://hackmd.io/@mopcon/2020/%2F%40mopcon%2FB17d5KSww)
+
+- POST : 新增
+- GET : 讀取
+- PUT/PATCH : 更新
+- DELECT :刪除

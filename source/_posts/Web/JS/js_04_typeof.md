@@ -11,7 +11,6 @@ keyword: 'ES6, typeof  ,網頁'
 cover: /img/Web/js/js-typeof/bg.jpg
 ---
 
-## 前言
 近期看到 JavaScript 中，有很多人使用 typeof 讓我想要玩玩看 typeof 是什麼特性。typeof 使用範圍常常是在 if 當中使用，讓我們直接實作typeof吧!
 
 # typeof 簡介

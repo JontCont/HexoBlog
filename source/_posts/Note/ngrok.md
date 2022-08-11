@@ -13,7 +13,7 @@ cover: https://miro.medium.com/max/554/1*sQhD5gYF74FvBF8aoWf8cw.png
 如果是使用 windows 以外系統，建議配合其他資料參考。
 
 # [ngrok](https://ngrok.com/)
-mgrok 是一個可以將內網伺服器與對外伺服器溝通的服務。即使使用 dotnet run 、debug 產出來也是可以使用。
+ngrok 是一個可以將內網伺服器與對外伺服器溝通的服務。ngrok 可以把外界的請求轉發到你指定的 Port，使用的背景原理是連接到 ngrok 雲端伺服器，將你本機指定的地址公開，再將由 ngrok 一串公開的網址來存取內容。
 
 ## 安裝
 註冊部分請各位自行去註冊。
@@ -21,7 +21,7 @@ mgrok 是一個可以將內網伺服器與對外伺服器溝通的服務。即�
 進入ngrok網站後，會需要進行安裝的動作，點擊[ngrok.exe](https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-windows-amd64.zip)即可。
 
 存放位置沒有特別限制，這邊我存放路徑為 ```C:\Windows\System32``` 給各位參考。
-![](/img/ngrok/IIS/Snipaste_2022-08-11_21-01-27.png)
+![](/img/Note/ngrok/Snipaste_2022-08-11_21-01-27.png)
 
 接下來要加入 authtoken 這邊需要複製網站上提供的指令並貼在command 裡面。
 ```cmd
@@ -41,7 +41,7 @@ ngrok其實有三種種做法。
 依據專案開放測試，可能遇到串接問題需要兩個https 同時存在就會需要開啟多個port來解決現況。
 
 ## 多個開啟 (.yml)
-加入憑證時候，其實可以看到已經有加入yml檔案，也就是設定檔案。設定部分需要透過```C:\Users\user\AppData\Local\ngrok```當中```ngrok.yml``設定。
+加入憑證時候，其實可以看到已經有加入yml檔案，也就是設定檔案。設定部分需要透過```C:\Users\user\AppData\Local\ngrok```當中```ngrok.yml```設定。
 
 預設通常會看到憑證、版本，接下來再輸入我們要哪些Port以及名稱。下方範例加入兩個port 以及 名稱，這樣設定部分就已經完成了。
 ```yml

@@ -10,7 +10,10 @@ keywords: JohnConte,JohnConte's ,John Cont ,John Cons
 author: John Conte
 language: zh-TW
 timezone: ''
-
+sitemap:
+  path: sitemap.xml
+  
+  
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://jontcont.github.io/

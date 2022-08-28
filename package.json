@@ -10,7 +10,7 @@
     "all": "hexo cl && hexo g -d "
   },
   "hexo": {
-    "version": "5.4.0"
+    "version": "5.4.2"
   },
   "dependencies": {
     "hexo": "^5.0.0",
@@ -22,8 +22,8 @@
     "hexo-generator-index": "^2.0.0",
     "hexo-generator-search": "^2.4.3",
     "hexo-generator-tag": "^1.0.0",
-    "hexo-renderer-ejs": "^1.0.0",
-    "hexo-renderer-marked": "^4.0.0",
+    "hexo-renderer-ejs": "^2.0.0",
+    "hexo-renderer-marked": "^5.0.0",
     "hexo-renderer-pug": "^2.0.0",
     "hexo-renderer-stylus": "^2.0.1",
     "hexo-server": "^2.0.0",

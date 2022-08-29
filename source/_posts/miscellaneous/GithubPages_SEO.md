@@ -47,3 +47,8 @@ site:<url>
 // example
 site:https://jontcont.github.io/
 ```
+
+## 參考文件
+- [什麼是SEO？ - GitHub Pages x Jekyll x Blog](https://ktinglee.github.io/what-is-seo/)
+- [為了SEO！我離開了Medium，改在GitHub 上自架個人網站](https://kucw.github.io/blog/2021/1/from-medium-to-github/)
+- [如何讓 Google 搜尋到自己的部落格](https://annkuoq.github.io/blog/2020-03-15-how-to-find-my-blog-on-google-search/)

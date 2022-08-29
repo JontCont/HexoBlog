@@ -1,5 +1,5 @@
 ---
-title: (筆記) Callback Function - 回呼函式
+title: (筆記) Javascript - Callback Function 回呼函式
 categories: 
   - other
 tags: 

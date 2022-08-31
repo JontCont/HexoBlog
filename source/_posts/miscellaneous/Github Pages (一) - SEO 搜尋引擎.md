@@ -1,5 +1,5 @@
 ---
-title: 'Github Pages - SEO 搜尋引擎'
+title: 'Github Pages (一) - SEO 搜尋引擎'
 categories: 生活雜記
 tags: 
   - 心得

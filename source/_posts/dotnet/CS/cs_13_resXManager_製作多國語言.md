@@ -1,5 +1,5 @@
 ---
-title: C# ASP.NET resXManager (1) - 製作多國語言 
+title: C# resXManager (一) - 製作多國語言 
 categories: 
   - dotnet
   - C#

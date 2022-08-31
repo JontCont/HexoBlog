@@ -1,5 +1,5 @@
 ---
-title: C# ASP.NET resXManager (2) - 操作方式
+title: C# resXManager (二) - 操作方式
 categories: 
   - dotnet
   - C#

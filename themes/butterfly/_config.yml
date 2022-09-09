@@ -4,17 +4,18 @@
 
 menu:
     首頁 Home: / || fas fa-home #Home
-  # 時間軸 Archives: /archives/ || fas fa-archive
     目錄 Menu||far fa-compass:
       標籤 Tags: /tags/ || fas fa-tags
-      歸檔 archives: /archives/ || fas fa-mail-bulk
-      分類 Categories: /categories/ || fas fa-folder-open
-    休閒 Casual||fas fa-list:
+      書籍: /books/  || fas fa-book-open
       圖庫: /gallery/  || fa-fw fas fa-images
+    #  歸檔 archives: /archives/ || fas fa-mail-bulk
+    分類 Categories||fas fa-folder-open: 
+      項目分類 Categories: /categories/ || fas fa-folder-open
+      時間軸 Archives: /archives/ || fas fa-archive
+    休閒 Casual||fas fa-list:
       遊戲: /games/  || fas fa-gamepad
       影片: /movies/ || fas fa-video
       音樂: /music/  || fas fa-music
-      書籍: /books/  || fas fa-book-open
   #  友鏈 Link: /link/ || fas fa-link
   #  關於 About: /about/ || fas fa-heart
 
@@ -57,7 +58,7 @@ algolia_search:
 
 # Local search
 local_search:
-  enable: false
+  enable: true
   preload: false
   CDN:
 

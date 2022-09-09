@@ -1,5 +1,5 @@
 ---
-title: SQL Server 排除單一使用者
+title: Sql Server - 排除單一使用者
 categories:
   - SQL
 tags: 

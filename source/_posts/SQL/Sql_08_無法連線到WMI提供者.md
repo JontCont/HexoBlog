@@ -1,5 +1,5 @@
 ---
-title: SQL Server - 無法連線到 WMI 提供者
+title: Sql Server - 無法連線到 WMI 提供者
 categories:
   - SQL
 tags: 

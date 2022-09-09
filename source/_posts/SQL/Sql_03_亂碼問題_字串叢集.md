@@ -1,5 +1,5 @@
 ---
-title: SQL Server 亂碼問題 - 字串叢集
+title: Sql Server -  亂碼問題 - 字串叢集
 categories:
   - SQL
 tags: 

@@ -1,5 +1,5 @@
 ---
-title: Sql Server (二) - 介紹SQL、安裝設定環境
+title: Sql Server - 介紹SQL、安裝設定環境
 categories:
   - SQL
 tags: 

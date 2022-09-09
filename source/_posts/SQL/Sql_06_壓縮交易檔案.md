@@ -1,5 +1,5 @@
 ---
-title: SQL Server 壓縮交易檔案
+title: Sql Server - 壓縮交易檔案
 categories:
   - SQL
 tags: 

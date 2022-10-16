@@ -1,12 +1,9 @@
 ---
 title: (筆記) Docker Desktop - 解決 "Hardware assisted virtualization and data execution protection must be enabled in the BIOS" 
 categories: 
-  - dotnet
-  - C#
+  - docker
 tags: 
-  - core
-  - C#
-  - API
+  - docker
 description:
 keyword: 'core  , C# ,API'
 cover: https://www.docker.com/wp-content/uploads/2022/05/Docker_Temporary_Image_Google_Blue_1080x1080_v1.png

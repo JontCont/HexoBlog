@@ -1,8 +1,10 @@
 ---
 title: 'Github Pages (一) - SEO 搜尋引擎'
-categories: 生活雜記
+categories: 
+  - Git
+  - Github
 tags: 
-  - 心得
+  - Github
 keyword: 'Github Pages, SEO, 搜尋引擎'
 cover: https://blog.moli.rocks/content/images/2018/07/-----2018-07-11---2.12.56.png
 ---

@@ -1,8 +1,10 @@
 ---
 title: 'Github Pages (二) - Google Search Console'
-categories: 生活雜記
+categories: 
+  - Git
+  - Github
 tags: 
-  - 心得
+  - Github
 keyword: 'Github Pages, SEO, 搜尋引擎'
 cover: https://miro.medium.com/max/500/1*GCVYwFnJKmbmcgnTkGdPuA.jpeg
 ---

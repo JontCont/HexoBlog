@@ -1,12 +1,12 @@
 ---
-title: C# Unit Test (一) - 使用方式
+title: C# Unit Test (一) - 使用Unit Test
 categories: 
   - dotnet
   - C#
 tags: 
-  - UnitTest
-  - 單元測試
   - C#
+  - core
+  - UnitTest
 description:
 keyword: 'UnitTest  , C#'
 cover: /img/UnitTest/unit.png

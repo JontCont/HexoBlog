@@ -1,15 +1,13 @@
 ---
-title: C# NPOI (一) - 如何使用在Excel 
+title: C# NPOI (一) - 如何使用NPOI Excel 
 categories: 
   - dotnet
   - C#
   - package
 tags: 
-  - MVC
-  - Core
   - C#
+  - core
 description:
-keyword: 'NPOI  ,MVC , C#'
 cover: /img/dotnet/cs_package_npoi/bg.png
 ---
 

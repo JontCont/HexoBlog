@@ -1,15 +1,13 @@
 ---
-title: C# NPOI (二) - 如何word套版
+title: C# NPOI (二) - 使用NPOI 處理 word 套版
 categories: 
-  - dotnet    
+  - dotnet
   - C#
   - package
 tags: 
-  - MVC
-  - Core
   - C#
+  - core
 description:
-keyword: 'NPOI  ,MVC , C#'
 cover: /img/dotnet/cs_package_npoi/bg.png
 ---
 

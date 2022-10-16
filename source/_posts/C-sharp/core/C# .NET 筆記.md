@@ -1,12 +1,11 @@
 ---
-title: (筆記) C# .NET 紀錄
+title: C# .NET 筆記
 categories: 
   - dotnet
   - C#
 tags: 
   - core
   - C#
-  - API
 description:
 keyword: 'core  , C# ,API'
 cover: https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Microsoft_.NET_logo.svg/150px-Microsoft_.NET_logo.svg.png

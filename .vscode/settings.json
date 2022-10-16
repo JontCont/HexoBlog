@@ -1,7 +1,7 @@
 {
     "pasteImage.defaultName": "YYYYMMDD_HH-mm-ss",
-    "pasteImage.path": "${currentFileDir}../../../img/Note/other/",
+    "pasteImage.path": "${currentFileDir}../../../../img/dotnet/cs/winform",
     "pasteImage.prefix": "/",
-    "pasteImage.insertPattern": "${imageSyntaxPrefix}/img/Note/other/${imageFileName}${imageSyntaxSuffix}",
+    "pasteImage.insertPattern": "${imageSyntaxPrefix}/img/dotnet/cs/winform/${imageFileName}${imageSyntaxSuffix}",
     "pasteImage.forceUnixStyleSeparator": true,
 }

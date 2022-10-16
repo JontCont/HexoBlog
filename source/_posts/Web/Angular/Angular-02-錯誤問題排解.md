@@ -33,8 +33,7 @@ npm install @angular/cli -g
 (可能會出現 npm WARN using --force Recommended protections disabled.)
 2. ```npm cache verify```
 
-排除完畢後，記得把node_modules 刪除
-如果不再prject 裡面可以無需處理。
+排除完畢後，記得把node_modules 刪除。如果不再prject 裡面可以無需處理。
 ```rd /s /q node_modules```
 
 最後一步重新載入 npm package 就輸入 ```npm install```

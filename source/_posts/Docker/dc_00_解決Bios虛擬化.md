@@ -5,7 +5,6 @@ categories:
 tags: 
   - docker
 description:
-keyword: 'core  , C# ,API'
 cover: https://www.docker.com/wp-content/uploads/2022/05/Docker_Temporary_Image_Google_Blue_1080x1080_v1.png
 ---
 

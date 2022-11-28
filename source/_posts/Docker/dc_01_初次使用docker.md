@@ -1,13 +1,14 @@
 ---
-title: Docker (一)- 初次使用docker 
+title: Docker (二)- 基本使用方式 
 categories: 
   - docker
 tags: 
   - docker
 description:
-keyword: 'core  , C# ,API'
 cover: https://www.docker.com/wp-content/uploads/2022/05/Docker_Temporary_Image_Google_Blue_1080x1080_v1.png
 ---
+
+
 
 # Docker 
 是一個快速建立、測試、部署程式的軟體平台。Docker 作為容器的作業系統與虛擬機器虛擬化伺服器硬體的方法相似，容器可虛擬化伺服器的作業系統。Docker 安裝在每部伺服器上，並提供簡單的命令讓您使用以建立、啟動或停止容器。

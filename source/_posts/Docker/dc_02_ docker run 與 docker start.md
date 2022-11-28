@@ -1,5 +1,5 @@
 ---
-title: Docker (二)- Docker docker run 與 docker start 
+title: Docker (二)- docker run 與 docker start 
 categories: 
   - docker
 tags: 
@@ -8,7 +8,9 @@ description:
 cover: https://www.docker.com/wp-content/uploads/2022/05/Docker_Temporary_Image_Google_Blue_1080x1080_v1.png
 ---
 
+這邊簡單操作一次 docker run 與 docker start 有什麼特別差異。
 ## 準備工具
+開始前，兩套工具可以準備，若不使用Desktop也能操作。
 - Docker Desktop  : https://www.docker.com/products/docker-desktop/
 - Cmd / terminal
 

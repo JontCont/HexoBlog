@@ -1,8 +1,9 @@
 ---
-title: VSC - Markdown PasteImage
+title: (筆記) VSC - Markdown PasteImage
 categories: 
   - Markdown
   - PasteImage 
+  - 筆記
 tags: 
   - VSC
 description:

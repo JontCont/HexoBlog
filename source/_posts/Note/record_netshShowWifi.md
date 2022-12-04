@@ -1,5 +1,5 @@
 ---
-title: (紀錄) 命令提示字元 - netsh 顯示 wifi 資訊
+title: (筆記) 命令提示字元 - netsh 顯示 wifi 資訊
 categories: 
   - other
 tags: 

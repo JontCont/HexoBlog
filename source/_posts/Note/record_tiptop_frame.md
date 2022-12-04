@@ -1,5 +1,5 @@
 ---
-title: (紀錄) 如何確認 TipTop Web Api 對接方式
+title: (筆記) 如何確認 TipTop Web Api 對接方式
 categories: 
   - other
 tags: 

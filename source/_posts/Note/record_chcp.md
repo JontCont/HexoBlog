@@ -1,7 +1,7 @@
 ---
-title: (紀錄) 命令提示字元 - chcp 變更命令提示字元語言環境
+title: (筆記) 命令提示字元 - chcp 變更命令提示字元語言環境
 categories: 
-  - other
+  - 筆記
 tags: 
   - Web Api
 description:

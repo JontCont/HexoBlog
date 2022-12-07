@@ -1,7 +1,7 @@
 ---
 title: 'Github Pages (二) - Google Search Console'
 categories: 
-  - Git
+  - DevOps
   - Github
 tags: 
   - Github

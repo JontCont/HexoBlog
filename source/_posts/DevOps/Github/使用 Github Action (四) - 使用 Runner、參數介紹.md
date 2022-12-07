@@ -1,7 +1,7 @@
 ---
 title: 使用 Github Action (四) - 使用 Runner、參數介紹
 categories: 
-  - Git
+  - DevOps
   - Github
 tags: 
   - Github Action

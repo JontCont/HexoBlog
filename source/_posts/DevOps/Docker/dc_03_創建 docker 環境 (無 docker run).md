@@ -1,11 +1,12 @@
 ---
 title: Docker (三)- 創建 docker 環境 (無 docker run)
 categories: 
-  - docker
+  - DevOps
+  - Docker
 tags: 
   - docker
 description:
-cover: https://www.docker.com/wp-content/uploads/2022/05/Docker_Temporary_Image_Google_Blue_1080x1080_v1.png
+cover: https://www.docker.com/wp-content/uploads/2021/09/Moby-run.png
 ---
 
 上一章節有敘述使用 docker run 與 docker start 差異，一般使用Docker 除非是需要兩種同時生成，不然這東西相當不方便。以下作法會是用 pull、create 、start(stop) 。

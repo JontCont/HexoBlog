@@ -2,7 +2,6 @@
 title: Angular (一) - 使用Angular Router 
 categories: 
   - 前端技術
-  - 三大前端框架
   - Angular
 tags: 
   - Angular

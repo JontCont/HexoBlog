@@ -1,8 +1,7 @@
 ---
 title: (筆記) Net Core - Scaffold 
 categories: 
-  - dotnet
-  - C#
+  - 筆記 / 生活雜記
 tags: 
   - core
   - C#

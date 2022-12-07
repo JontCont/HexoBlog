@@ -1,7 +1,7 @@
 ---
 title: Github - 使用 Github Deploy keys 
 categories: 
-  - Git
+  - DevOps
   - Github
 tags: 
   - Github

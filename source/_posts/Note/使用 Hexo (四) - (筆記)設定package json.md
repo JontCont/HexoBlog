@@ -2,6 +2,7 @@
 title: 使用 Hexo (四) - (筆記)設定package json
 categories: HEXO
 tags: 
+  - 筆記 / 生活雜記
   - HEXO
 description:
 keyword: 'HEXO,Web,Hexo butterfly,Hexo 套件,Hexo套件'

@@ -1,7 +1,7 @@
 ---
 title: 使用 Github Action (二) - 使用 MVC (MSbuild) CI/CD
 categories: 
-  - Git
+  - DevOps
   - Github
 tags: 
   - Github Action

@@ -1,7 +1,7 @@
 ---
 title: Microsoft Azure AD - 創建 SQL 資料庫
 categories: 
-  - Cloud
+  - 雲端平台
   - Azure
 tags: 
   - Azure

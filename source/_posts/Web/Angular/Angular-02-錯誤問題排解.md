@@ -2,7 +2,6 @@
 title: Angular (二) - 錯誤問題排解
 categories: 
   - 前端技術
-  - 三大前端框架
   - Angular
 tags: 
   - Angular

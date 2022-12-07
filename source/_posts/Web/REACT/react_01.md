@@ -2,7 +2,6 @@
 title: React (一) - JSX 使用方式、介紹
 categories: 
   - 前端技術
-  - 三大前端框架
   - ReactJs
 tags: 
   - ReactJs

@@ -1,7 +1,7 @@
 ---
 title: (筆記) IIS - 排除 "必須使用Localhost或是127.0.0.1問題"
 categories: 
-  - other
+  - 筆記 / 生活雜記
 tags: 
   - iis
 description:

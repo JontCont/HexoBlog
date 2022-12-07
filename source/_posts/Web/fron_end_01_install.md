@@ -2,8 +2,6 @@
 title: 三大前端框架 (一) - 安裝/環境設定 
 categories: 
   - 前端技術
-  - 三大前端框架
-  - Vue、ReactJs、Angular
 tags: 
   - ReactJs
   - Angular

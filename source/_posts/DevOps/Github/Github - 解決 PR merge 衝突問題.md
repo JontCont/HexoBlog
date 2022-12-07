@@ -1,7 +1,7 @@
 ---
 title: Github - 解決 PR merge 衝突問題
 categories: 
-  - Git
+  - DevOps
   - Github
 tags: 
   - Github

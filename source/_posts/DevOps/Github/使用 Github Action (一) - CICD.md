@@ -1,7 +1,7 @@
 ---
 title: 使用 Github Action (一) - CI/CD
 categories: 
-  - Git
+  - DevOps
   - Github
 tags: 
   - Github Action

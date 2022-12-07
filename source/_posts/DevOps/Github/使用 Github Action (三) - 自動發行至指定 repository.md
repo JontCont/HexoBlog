@@ -1,7 +1,7 @@
 ---
 title: 使用 Github Action (三) - 自動發行至指定 repository
 categories: 
-  - Git
+  - DevOps
   - Github
 tags: 
   - Github Action

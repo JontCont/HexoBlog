@@ -1,7 +1,7 @@
 ---
 title: (筆記) IIS - 排除 "APK檔案無法下載"
 categories: 
-  - other
+  - 筆記 / 生活雜記
 tags: 
   - iis
 description:

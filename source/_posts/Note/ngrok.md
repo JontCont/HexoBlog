@@ -1,7 +1,7 @@
 ---
 title: (筆記) ngrok - http 轉換 https 神器 
 categories: 
-  - other
+  - 筆記 / 生活雜記
 tags: 
   - ngrok
 description:

@@ -1,7 +1,7 @@
 ---
 title: 'Github Pages (一) - SEO 搜尋引擎'
 categories: 
-  - Git
+  - DevOps
   - Github
 tags: 
   - Github

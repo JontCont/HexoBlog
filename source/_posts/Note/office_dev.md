@@ -1,8 +1,7 @@
 ---
 title: (筆記) 微軟開發者 -  Office 365 E5 無限續期方式
 categories: 
-  - other
-  - 筆記
+  - 筆記 / 生活雜記
 tags: 
   - office
 description:

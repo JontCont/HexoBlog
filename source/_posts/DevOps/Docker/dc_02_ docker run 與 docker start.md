@@ -1,11 +1,12 @@
 ---
 title: Docker (二)- docker run 與 docker start 
 categories: 
-  - docker
+  - DevOps
+  - Docker
 tags: 
   - docker
 description:
-cover: https://www.docker.com/wp-content/uploads/2022/05/Docker_Temporary_Image_Google_Blue_1080x1080_v1.png
+cover: https://www.docker.com/wp-content/uploads/2021/09/Moby-run.png
 ---
 
 這邊簡單操作一次 docker run 與 docker start 有什麼特別差異。

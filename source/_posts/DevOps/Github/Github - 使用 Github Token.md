@@ -1,7 +1,7 @@
 ---
 title: Github - 使用 Github Token 
 categories: 
-  - Git
+  - DevOps
   - Github
 tags: 
   - Github

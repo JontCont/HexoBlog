@@ -1,9 +1,7 @@
 ---
 title: (筆記) VSC - Markdown PasteImage
 categories: 
-  - Markdown
-  - PasteImage 
-  - 筆記
+  - 筆記 / 生活雜記
 tags: 
   - VSC
 description:

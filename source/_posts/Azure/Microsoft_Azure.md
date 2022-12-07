@@ -1,7 +1,7 @@
 ---
 title: Microsoft Azure - 重點整理、簡介 
 categories: 
-  - Cloud
+  - 雲端平台
   - Azure
 tags: 
   - Azure

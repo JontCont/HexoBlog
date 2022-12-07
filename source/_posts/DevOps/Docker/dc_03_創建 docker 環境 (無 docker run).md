@@ -4,7 +4,7 @@ categories:
   - DevOps
   - Docker
 tags: 
-  - docker
+  - Docker
 description:
 cover: https://www.docker.com/wp-content/uploads/2021/09/Moby-run.png
 ---

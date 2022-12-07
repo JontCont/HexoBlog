@@ -2,6 +2,7 @@
 title: 使用 Hexo (一) - 創建 Hexo  
 categories: HEXO
 tags: 
+  - 筆記 / 生活雜記
   - HEXO
 description: 前幾周 GitBook 改版，擔心會變成FaceBook 、Instagram 一樣當機不能使用，我再次挑戰GitHub Blog 製作。這次不會是....
 keyword: 'HEXO,Web'

@@ -1,7 +1,7 @@
 ---
 title: Line Bots (一) - 環境建立、註冊
 categories: 
-  - dotnet
+  - 後端技術
   - C#
   - Line
 tags: 

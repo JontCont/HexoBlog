@@ -1,12 +1,11 @@
 ---
 title: C# NPOI (二) - 使用NPOI 處理 word 套版
 categories: 
-  - dotnet
+  - 後端技術
   - C#
-  - package
+  - Package
 tags: 
   - C#
-  - core
 description:
 cover: /img/dotnet/cs_package_npoi/bg.png
 ---

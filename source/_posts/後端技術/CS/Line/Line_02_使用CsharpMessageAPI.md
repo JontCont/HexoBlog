@@ -1,7 +1,7 @@
 ---
 title: Line Bots (二) - 使用C# Core API 加入 MessageAPI (使用 Push Message)
 categories: 
-  - dotnet
+  - 後端技術
   - C#
   - Line
 tags: 

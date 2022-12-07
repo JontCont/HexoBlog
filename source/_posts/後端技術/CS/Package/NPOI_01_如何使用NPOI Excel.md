@@ -1,12 +1,11 @@
 ---
 title: C# NPOI (一) - 如何使用NPOI Excel 
 categories: 
-  - dotnet
+  - 後端技術
   - C#
-  - package
+  - Package
 tags: 
   - C#
-  - core
 description:
 cover: /img/dotnet/cs_package_npoi/bg.png
 ---

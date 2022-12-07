@@ -1,10 +1,8 @@
 ---
 title: C# .NET 筆記
 categories: 
-  - dotnet
-  - C#
+  - 筆記 / 生活雜記
 tags: 
-  - core
   - C#
 description:
 keyword: 'core  , C# ,API'

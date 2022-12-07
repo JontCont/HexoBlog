@@ -2,6 +2,7 @@
 title: '[學習] Golang 基本使用(二) - 資料型態、運算式'
 categories: Go
 tags: 
+  - 後端技術
   - Go
 description:
 keyword: 'Go,Golang'

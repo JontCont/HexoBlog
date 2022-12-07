@@ -1,7 +1,7 @@
 ---
 title: Line Bots (三) - 使用C# Reply Message
 categories: 
-  - dotnet
+  - 後端技術
   - C#
   - Line
 tags: 

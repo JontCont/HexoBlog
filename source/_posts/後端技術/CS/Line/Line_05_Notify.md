@@ -1,7 +1,7 @@
 ---
 title: Line Notify - 使用 C# 創建 Line Notify
 categories: 
-  - dotnet
+  - 後端技術
   - C#
   - Line
 tags: 

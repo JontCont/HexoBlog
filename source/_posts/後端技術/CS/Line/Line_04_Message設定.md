@@ -1,7 +1,7 @@
 ---
 title: Line Bots (四) - Line Message設定
 categories: 
-  - dotnet
+  - 後端技術
   - C#
   - Line
 tags: 

@@ -1,6 +1,7 @@
 ---
 title: Sql Server -  亂碼問題 - 字串叢集
 categories:
+  - 資料庫技術
   - SQL
 tags: 
   - SQL

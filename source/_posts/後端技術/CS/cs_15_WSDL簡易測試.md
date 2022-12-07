@@ -1,7 +1,7 @@
 ---
 title: C# net5.0 - WSDL 簡易測試
 categories: 
-  - dotnet
+  - 後端技術
   - C#
 tags: 
   - C#

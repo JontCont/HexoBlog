@@ -1,12 +1,9 @@
 ---
 title: 使用 Hexo (二) - Theme Butterfly  
-categories: HEXO
-tags: 
+categories:
   - 筆記 / 生活雜記
+tags: 
   - HEXO
-description: 'HEXO官方網站中，有主題(theme)項目可以自行選擇需要哪種主題。
-  HEXO THEME 我選擇Butterfly，原因有幾個僅供參考。...'
-keyword: 'HEXO,Web'
 cover: /img/Hexo/day_02_UseHexo/hexo.png
 ---
 

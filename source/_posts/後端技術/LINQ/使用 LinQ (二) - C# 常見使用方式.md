@@ -1,7 +1,7 @@
 ---
 title: 使用 LinQ (二) - C# 常見使用方式
 categories: 
-  - dotnet
+  - 後端技術
   - C#
   - LinQ
 tags: 

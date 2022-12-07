@@ -1,6 +1,7 @@
 ---
 title: Sql Server - 介紹SQL、安裝設定環境
 categories:
+  - 資料庫技術
   - SQL
 tags: 
   - SQL

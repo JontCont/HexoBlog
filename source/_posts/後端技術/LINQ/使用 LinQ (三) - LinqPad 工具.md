@@ -1,7 +1,7 @@
 ---
 title: 使用 LinQ (三) - LinqPad 工具
 categories: 
-  - dotnet
+  - 後端技術
   - C#
   - LinQ
 tags: 

@@ -1,7 +1,7 @@
 ---
 title: C# .Net Core SignalR (1)- SignalR 使用方式
 categories: 
-  - dotnet
+  - 後端技術
   - C#
 tags: 
   - C#

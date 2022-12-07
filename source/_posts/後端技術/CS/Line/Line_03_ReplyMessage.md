@@ -21,7 +21,7 @@ Reply 目前使用上沒有任何限制，所以使用上可以不必要特別�
 處理步驟需要修改 ```launchSetting.json``` url ，並執行ngrok、```dotnet run```就可以使用。 
 - launchSetting.json
 - ngrok 
-- dotnet run
+- 後端技術 run
 
 
 {% note info flat %}

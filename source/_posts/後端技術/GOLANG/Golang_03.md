@@ -1,8 +1,9 @@
 ---
 title: '[學習] Golang 基本使用(三) - 判斷式、迴圈'
-categories: Go
-tags: 
+categories:
   - 後端技術
+  - Go
+tags: 
   - Go
 description:
 keyword: 'Go'

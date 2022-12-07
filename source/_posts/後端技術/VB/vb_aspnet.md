@@ -1,7 +1,7 @@
 ---
 title: VB Asp.Net - 使用 Ajax
 categories: 
-  - dotnet
+  - 後端技術
   - VB
 tags: 
   - VB

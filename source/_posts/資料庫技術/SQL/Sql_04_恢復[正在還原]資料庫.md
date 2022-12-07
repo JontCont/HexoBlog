@@ -1,7 +1,8 @@
 ---
 title: Sql Server -  恢復[正在還原]資料庫
 categories:
-  - SQL
+  - 資料庫技術
+  - MS SQL
 tags: 
   - SQL
 keyword: 'SQL'

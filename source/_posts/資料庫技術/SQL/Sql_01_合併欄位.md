@@ -1,6 +1,7 @@
 ---
 title: Sql Server - 合併欄位( FOR XML PATH )
 categories:
+  - 資料庫技術
   - SQL
 tags: 
   - SQL

@@ -1,11 +1,9 @@
 ---
 title: 使用 Hexo (四) - (筆記)設定package json
-categories: HEXO
-tags: 
+categories:
   - 筆記 / 生活雜記
+tags: 
   - HEXO
-description:
-keyword: 'HEXO,Web,Hexo butterfly,Hexo 套件,Hexo套件'
 cover: /img/Hexo/day_03_UseHexo/hexo.png
 ---
 這篇主要使要紀錄設定 package json 。 

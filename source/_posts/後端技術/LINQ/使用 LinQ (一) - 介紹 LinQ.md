@@ -1,7 +1,7 @@
 ---
 title: 使用 LinQ (一) - 介紹 LinQ
 categories: 
-  - dotnet
+  - 後端技術
   - C#
   - LinQ
 tags: 

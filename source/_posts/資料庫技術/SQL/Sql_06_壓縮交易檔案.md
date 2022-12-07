@@ -1,7 +1,8 @@
 ---
 title: Sql Server - 壓縮交易檔案
 categories:
-  - SQL
+  - 資料庫技術
+  - MS SQL
 tags: 
   - SQL
 keyword: 'SQL'

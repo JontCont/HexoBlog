@@ -1,6 +1,7 @@
 ---
-title: (筆記) Sql Server - try...catch 使用方式
+title: Sql Server - try...catch 使用方式
 categories:
+  - 資料庫技術
   - SQL
 tags: 
   - SQL

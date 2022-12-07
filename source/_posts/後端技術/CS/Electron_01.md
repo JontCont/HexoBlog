@@ -1,7 +1,7 @@
 ---
 title: Electron (一) - 安裝 MVC Core 設定 
 categories: 
-  - dotnet
+  - 後端技術
   - C#
 tags: 
   - MVC

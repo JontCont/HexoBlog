@@ -1,7 +1,7 @@
 ---
 title: C# resXManager (一) - 製作多國語言 
 categories: 
-  - dotnet
+  - 後端技術
   - C#
 tags: 
   - C#

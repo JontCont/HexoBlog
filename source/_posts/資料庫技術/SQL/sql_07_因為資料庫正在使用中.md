@@ -1,7 +1,8 @@
 ---
 title: Sql Server - 還原資料庫發生錯誤 "無法獲得獨佔存取權,因為資料庫正在使用中"
 categories:
-  - SQL
+  - 資料庫技術
+  - MS SQL
 tags: 
   - SQL
 keyword: 'SQL'

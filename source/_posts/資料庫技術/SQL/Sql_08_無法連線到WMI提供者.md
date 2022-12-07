@@ -1,7 +1,8 @@
 ---
 title: Sql Server - 無法連線到 WMI 提供者
 categories:
-  - SQL
+  - 資料庫技術
+  - MS SQL
 tags: 
   - SQL
 keyword: 'SQL'

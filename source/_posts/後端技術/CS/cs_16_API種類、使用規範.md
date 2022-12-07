@@ -1,7 +1,7 @@
 ---
 title: C# API (一)- API種類、特性規範
 categories: 
-  - dotnet
+  - 後端技術
   - C#
 tags: 
   - C#

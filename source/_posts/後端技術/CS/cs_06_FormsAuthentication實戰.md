@@ -1,7 +1,7 @@
 ---
 title: C# 表單驗證 - FormsAuthentication 驗證自動登入
 categories: 
-  - dotnet
+  - 後端技術
   - C#
 tags: 
   - C#

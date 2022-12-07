@@ -1,7 +1,7 @@
 ---
 title: C# Asp.Net Global (1) -(筆記) Global.asax 事件方法清單
 categories: 
-  - dotnet
+  - 後端技術
   - C#
   - Global
 tags: 

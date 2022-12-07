@@ -1,7 +1,7 @@
 ---
 title: C# Net5 MVC - 使用 VSC
 categories: 
-  - dotnet
+  - 後端技術
   - C#
 tags: 
   - C#

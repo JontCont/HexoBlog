@@ -1,7 +1,8 @@
 ---
-title: (筆記) Sql Server - begin tran 使用方式
+title: Sql Server - begin tran 使用方式
 categories:
-  - SQL
+  - 資料庫技術
+  - MS SQL
 tags: 
   - SQL
 keyword: 'SQL'

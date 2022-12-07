@@ -1,11 +1,9 @@
 ---
 title: 使用 Hexo (三) -  使用 HEXO 套件
-categories: HEXO
-tags: 
+categories:
   - 筆記 / 生活雜記
+tags: 
   - HEXO
-description:
-keyword: 'HEXO,Web,Hexo butterfly,Hexo 套件,Hexo套件'
 cover: /img/Hexo/day_03_UseHexo/hexo.png
 ---
 

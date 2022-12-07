@@ -1,7 +1,8 @@
 ---
 title: Sql Server - 排除單一使用者
 categories:
-  - SQL
+  - 資料庫技術
+  - MS SQL
 tags: 
   - SQL
 keyword: 'SQL'

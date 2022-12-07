@@ -1,7 +1,7 @@
 ---
 title: C# .Net Core SignalR (2) - 留言板
 categories: 
-  - dotnet
+  - 後端技術
   - C#
 tags: 
   - C#

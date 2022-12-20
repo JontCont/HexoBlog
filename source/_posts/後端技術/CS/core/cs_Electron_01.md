@@ -8,8 +8,6 @@ tags:
   - Core
   - Electron
   - C#
-description:
-keyword: 'Electron  ,MVC'
 cover: /img/dotnet/Electron/bg.png
 ---
 ## 前言

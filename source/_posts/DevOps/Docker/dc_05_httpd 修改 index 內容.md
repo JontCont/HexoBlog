@@ -12,9 +12,9 @@ cover: https://www.docker.com/wp-content/uploads/2021/09/Moby-run.png
 ## 前置作業
 完成下方指令已可繼續本章節。
 ```
-docker pull httpd
-docker create -p 8080:80 -i -name web httpd
-docker start web
+ docker pull httpd
+ docker create -p 8080:80 --name web -i httpd
+ docker start web
 ```
 
 ## 進入 Container 內 Cli

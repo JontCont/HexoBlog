@@ -20,7 +20,7 @@ docker pull httpd
 這裡需要留意 ```-p``` 、```--publish```兩個參數可以使用，都是設定port forwarding。
 ```8080:80```部分是指 host 8080連線後，會直接轉到Container 中的 80 port。
 ```cmd
-docker create -p 8080:80 -i -name web httpd
+docker create -p 8080:80 --name web -i httpd
 ```
 
 稍微補充資訊，像是沒有特別指定 port 參數是不會有預設port ，如下圖顯示。

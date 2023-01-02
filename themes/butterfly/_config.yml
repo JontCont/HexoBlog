@@ -872,6 +872,7 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
+    - <meta name="google-site-verification" content="Koz73dsvc4GAm_Iz3l0SEYMbayu6crUCAJGJ9ycA89w" />
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
     # - <script src="xxxx"></script>

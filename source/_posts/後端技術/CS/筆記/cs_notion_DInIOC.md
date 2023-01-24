@@ -1,7 +1,9 @@
 ---
 title: (筆記) C# - DI / IOC 差異
 categories: 
-  - 筆記 / 生活雜記
+  - 後端技術
+  - C# 
+  - 筆記
 tags: 
   - C#
 description:

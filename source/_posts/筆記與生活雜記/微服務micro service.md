@@ -1,7 +1,8 @@
 ---
 title: (筆記) 微服務 micro service 
 categories: 
-  - 筆記 / 生活雜記
+  - 筆記 
+  - 生活雜記
 tags: 
   - C#
 description:

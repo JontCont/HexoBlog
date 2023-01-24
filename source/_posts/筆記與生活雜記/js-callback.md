@@ -1,7 +1,8 @@
 ---
 title: (筆記) Javascript - Callback Function 回呼函式
 categories: 
-  - 筆記 / 生活雜記
+  - 筆記 
+  - 生活雜記
 tags: 
   - js
   - Callback

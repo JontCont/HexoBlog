@@ -1,7 +1,8 @@
 ---
 title: (VS Code) Live Server 解決 Https、SSL 問題
 categories: 
-  - 筆記 / 生活雜記
+  - 筆記 
+  - 生活雜記
 tags: 
   - vsc
   - Chocolatey

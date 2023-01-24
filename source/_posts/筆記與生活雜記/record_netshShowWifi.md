@@ -1,7 +1,8 @@
 ---
 title: (筆記) 命令提示字元 - netsh 顯示 wifi 資訊
 categories: 
-  - 筆記 / 生活雜記
+  - 筆記 
+  - 生活雜記
 tags: 
   - cmd
 description:

@@ -1,7 +1,9 @@
 ---
 title: C# .NET 筆記
 categories: 
-  - 筆記 / 生活雜記
+  - 後端技術
+  - C# 
+  - 筆記
 tags: 
   - C#
 description:

@@ -1,7 +1,8 @@
 ---
 title: (筆記) 如何確認 TipTop Web Api 對接方式
 categories: 
-  - 筆記 / 生活雜記
+  - 筆記 
+  - 生活雜記
 tags: 
   - Web Api
 description:

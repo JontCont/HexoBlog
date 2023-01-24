@@ -1,6 +1,8 @@
 ---
 title: '[心得] Funter開箱心得'
-categories: 筆記 / 生活雜記
+categories: 
+  - 筆記 
+  - 生活雜記
 description:
 keyword: ''
 cover: /image/20221216_22-45-32.png

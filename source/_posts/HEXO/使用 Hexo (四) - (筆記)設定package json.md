@@ -1,7 +1,8 @@
 ---
 title: 使用 Hexo (四) - (筆記)設定package json
 categories:
-  - 筆記 / 生活雜記
+  - 筆記
+  - Hexo
 tags: 
   - HEXO
 cover: /img/Hexo/day_03_UseHexo/hexo.png

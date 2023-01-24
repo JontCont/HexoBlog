@@ -14,8 +14,7 @@ cover: /img/SQL/bg/bg_01.png
 ## Try Catch 
 平常很寫程式不時會需要查看 Error 錯誤訊息，若在 SQL 上面也比較少人使用try catch。
 
-{% note info flat %}
-### 使用方式
+### 一、使用方式
 ```sql
 begin try
 /*-------
@@ -28,9 +27,8 @@ begin catch
 --------*/
 end catch
 ```
-{% endnote %}
 
-## 範例
+### 二、範例
 ```sql
 begin try
     select 1/0

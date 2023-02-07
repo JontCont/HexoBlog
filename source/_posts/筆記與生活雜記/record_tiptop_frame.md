@@ -7,7 +7,7 @@ tags:
   - Web Api
 description:
 keyword: 'Web Api'
-cover: /img/flower/tiptop.png
+cover: /imgage/tiptop.png
 ---
 
 # 紀錄目的

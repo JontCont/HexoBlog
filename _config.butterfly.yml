@@ -103,5 +103,5 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://github.com/JontCont/JontCont.github.io/
-  branch: main
+  repo: https://github.com/JontCont/JontCont.github.io
+  branch: HotFix_20230207

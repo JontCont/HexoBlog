@@ -106,7 +106,7 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://github.com/JontCont/JontCont.github.io/
+  repo: https://github.com/JontCont/JontCont.github.io
   branch: main
 
 # search

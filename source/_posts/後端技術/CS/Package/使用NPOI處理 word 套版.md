@@ -7,9 +7,8 @@ categories:
 tags: 
   - C#
 description:
-cover: /img/dotnet/cs_package_npoi/bg.png
+cover: /image/20230207_22-55-25.png
 ---
-
 # 使用NPOI
 目前使用npoi功能延伸使用方式，套版是最多人需要使用的部分，這邊只有簡述如何使用。
 如果有需要詳細使用方式，歡迎在下方留言。

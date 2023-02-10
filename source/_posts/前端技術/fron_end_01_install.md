@@ -8,16 +8,14 @@ tags:
   - Vue
 description:
 keyword: 'ES6, ReactJs  ,網頁'
-cover: /img/Web/react/bg.png
+cover: /image/20230210_18-16-58.png
 ---
 ## 前言
-
 近期安排特殊的行程，我會把 React、Vue 、Angular 三大架框玩過一輪，在分析各式的架框使用的方式。我們就直接先從React先下手。
 本篇教學如何安裝 三大架框環境，後續再針對架構探討。
 
 ---
-
-# 基本安裝
+## 基本安裝
 以下我會使用的工具，依據讀者的習慣分配自己的工具。
 1. [Node.js](https://nodejs.org/en/) (必)
 2. [Git](https://git-scm.com/)
@@ -32,16 +30,15 @@ cover: /img/Web/react/bg.png
 官方網連結：[ https://zh-hant.reactjs.org/ ]
 ## 1 安裝/創建 React
 安裝 React 請輸入```npx create-react-app [名稱]``` ，如果有遇到下方錯誤訊息，請參考下方處理方式。
-![](/img/React/01.jpg)
+![](/image/20230210_18-18-30.png)
 
 - [解决npm安装时出现run `npm audit fix` to fix them, or `npm audit` for details](https://blog.csdn.net/weixin_38610651/article/details/107021204)
 
 安裝完畢後，請移動到指定PATH，指令 :```cd [名稱]```，再來進行```npm start```開啟網站。 
-![](/img/react/02.jpg)
+![](/image/20230210_18-18-53.png)
 
 ## 2 結果畫面
-![](/img/react/03.jpg)
-
+![](/image/20230210_18-19-09.png)
 ---
 
 # 二、Angular 
@@ -56,8 +53,8 @@ cover: /img/Web/react/bg.png
 ```command
   ng new [Angular-name]
 ```
-![](/img/angular/01.jpg)
-![](/img/angular/02.jpg)
+![](/image/20230210_18-21-39.png)
+![](/image/20230210_18-22-01.png)
 
 ## 2 執行 Angular
 完成後，移動創好的專案並執行他。官方網有提到 --open 可以改為 -o 。
@@ -65,10 +62,10 @@ cover: /img/Web/react/bg.png
  cd [Angular-name]
  ng serve --open 
 ```
-![](/img/angular/03.jpg)
+![](/image/20230210_18-22-17.png)
 
 ## 3 結果畫面
-![](/img/angular/04.jpg)
+![](/image/20230210_18-22-30.png)
 
 # 三、VueJs 
 官方網連結： [ https://vuejs.org/ ]
@@ -84,13 +81,12 @@ vueJs 需要安裝 Vue-Cli 套件，如同Angular一樣。
   cd [vue-name]
   npm run serve
 ```
-![](/img/vue/01.jpg)
-![](/img/vue/02.jpg)
-![](/img/vue/03.jpg)
+![](/image/20230210_18-23-11.png)
+![](/image/20230210_18-23-22.png)
+![](/image/20230210_18-23-36.png)
 
 ## 2 結果畫面
-![](/img/vue/04.jpg)
-
+![](/image/20230210_18-23-58.png)
 ---
 
 # 結論

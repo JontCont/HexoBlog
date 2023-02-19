@@ -1,15 +1,13 @@
 ---
-title: (筆記) Net Core - Scaffold 
+title: C# Scaffold 
 categories: 
   - 後端技術
   - C# 
   - 筆記
 tags: 
-  - core
   - C#
-  - Scaffold
 description:
-keyword: 'core  , C# , Scaffold'
+keyword: 'C#'
 cover: https://dictionary.cambridge.org/zht/images/thumb/scaffo_noun_002_32226.jpg?version=5.0.248
 ---
 

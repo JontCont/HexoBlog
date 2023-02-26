@@ -8,9 +8,8 @@ tags:
   - C#
 description:
 keyword: 'C#'
-cover: https://dictionary.cambridge.org/zht/images/thumb/scaffo_noun_002_32226.jpg?version=5.0.248
+cover: /image/20230226_20-13-00.png
 ---
-
 # Scaffold 
 又可稱"鷹架"、"支架"。Scaffold 是可以解釋為程式碼產生器，可以透由指令產生出想要的檔案、專案，使用部分通常是透由指令方式呼叫、產生指令。dotnet.exe內也有提供scaffold概念。
 

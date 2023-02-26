@@ -8,9 +8,8 @@ tags:
   - C#
 description:
 keyword: 'C#'
-cover: https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Microsoft_.NET_logo.svg/150px-Microsoft_.NET_logo.svg.png
+cover: /image/20230226_20-12-36.png
 ---
-
 ## DI 依賴注入 (Dependency Injection)
 是 DI 的一種實現方式，它將對象的創建和生命週期管理交給 IoC 容器來處理。
 

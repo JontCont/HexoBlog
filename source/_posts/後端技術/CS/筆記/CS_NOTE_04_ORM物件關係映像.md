@@ -8,9 +8,8 @@ tags:
   - C#
 description:
 keyword: 'C#'
-cover: https://2.bp.blogspot.com/-4ABOoATNbag/V0vUgXqBAEI/AAAAAAAADHY/o61wN5yv2cMDX0lwGghkvzACQcU1YOOaQCLcB/s1600/object_relational_mapping.JPG
+cover: /image/20230226_20-11-47.png
 ---
-
 ## 物件關係映像 Object Relational Mapping
 是一種軟體開發技術，它將關聯式資料庫中的資料表映射到物件導向程式語言中的物件，從而實現程式語言與資料庫之間的無縫集成。
 

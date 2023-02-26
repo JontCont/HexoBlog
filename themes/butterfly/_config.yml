@@ -269,6 +269,7 @@ comments:
   # Up to two comments system, the first will be shown as default
   # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo/Giscus/Remark42/Artalk
   use: # Valine,Disqus
+    - gitalk
     - Disqus
   text: true # Display the comment name next to the button
   # lazyload: The comment system will be load when comment element enters the browser's viewport.
@@ -299,14 +300,14 @@ livere:
 # gitalk
 # https://github.com/gitalk/gitalk
 gitalk:
-  client_id: bee42a61f4b73b0f0ba4
-  client_secret: c8ea7ed809850f89f9b399a071ab2c294916a17f
-  repo: hexo_comment
-  owner: JohnCons
-  admin:
-  # language: en # en, zh-CN, zh-TW, es-ES, fr, ru
+  client_id: a3a01b74dc92f35efecd
+  client_secret: 3470ffd9da44333e31cf12f6cab6fd46ed802b08
+  repo: jontcont.github.io
+  owner: JontCont
+  admin: JontCont
+  language: zh-TW # en, zh-CN, zh-TW, es-ES, fr, ru
   # perPage: 10 # Pagination size, with maximum 100.
-  # distractionFreeMode: true # Facebook-like distraction free mode.
+  distractionFreeMode: true # Facebook-like distraction free mode.
   # pagerDirection: last # Comment sorting direction, available values are last and first.
   # createIssueManually: true # Gitalk will create a corresponding github issue for your every single page automatically
   option:
@@ -649,8 +650,15 @@ subtitle:
   # 如果關閉打字效果，subtitle 只會顯示 sub 的第一行文字
   sub:
 
-# Loading Animation (加載動畫)
-preloader: true
+# 加載動畫 Loading Animation
+preloader:
+  enable: false
+  # source
+  # 1. fullpage-loading
+  # 2. pace (progress bar)
+  source: 1
+  # pace theme (see https://codebyzach.github.io/pace/)
+  pace_css_url:
 
 # aside (側邊欄)
 # --------------------------------------
@@ -676,7 +684,7 @@ aside:
   card_announcement:
     enable: true
     content:
-      - 嗨，大家好。我是Conte 目前在公司擔任全端工程師職位。目前努力成長中....。
+      - Hi~ 大家好! 我是John Conte 目前只要是全端工程師技術發展，歡迎大家互相交流意見。
 
   card_recent_post:
     enable: true
@@ -732,7 +740,7 @@ newest_comments:
 
 # Conversion between Traditional and Simplified Chinese (簡繁轉換)
 translate:
-  enable: false
+  enable: true
   # The text of a button
   default: 繁
   # the language of website (1 - Traditional Chinese/ 2 - Simplified Chinese）

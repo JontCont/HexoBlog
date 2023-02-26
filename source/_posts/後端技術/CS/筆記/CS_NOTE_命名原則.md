@@ -9,7 +9,7 @@ tags:
   - 命名原則
 description:
 keyword: 'C#'
-cover: https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Microsoft_.NET_logo.svg/150px-Microsoft_.NET_logo.svg.png
+cover: /image/20230226_19-44-08.png
 ---
 
 # 命名原則 

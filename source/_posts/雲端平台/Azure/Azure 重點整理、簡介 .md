@@ -1,5 +1,5 @@
 ---
-title: Microsoft Azure - 重點整理、簡介 
+title: Azure 重點整理、簡介 
 categories: 
   - 雲端平台
   - Azure
@@ -7,7 +7,7 @@ tags:
   - Azure
 description:
 keyword: 'Cloud  ,Azure'
-cover: /img/dotnet/bg/cs_bg_003.png
+cover: /image/20230310_08-44-55.png
 ---
 
 # Azure

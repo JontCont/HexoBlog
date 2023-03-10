@@ -1,5 +1,5 @@
 ---
-title: Microsoft Azure AD - 創建 SQL 資料庫
+title: Azure AD 創建 SQL 資料庫
 categories: 
   - 雲端平台
   - Azure
@@ -7,9 +7,8 @@ tags:
   - Azure
 description:
 keyword: 'Cloud  ,Azure'
-cover: /img/dotnet/bg/cs_bg_003.png
+cover: /image/20230310_08-44-55.png
 ---
-
 # SQL 資料庫
 - Azure 入口 : https://portal.azure.com/#home
 

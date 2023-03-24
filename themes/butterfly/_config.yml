@@ -4,13 +4,11 @@
 
 menu:
     首頁 Home: / || fas fa-home #Home
-    目錄 Menu||far fa-compass:
+    分類 Categories||fas fa-folder-open: 
+      項目分類 Categories: /categories/ || fas fa-folder-open
       標籤 Tags: /tags/ || fas fa-tags
       書籍: /books/  || fas fa-book-open
       圖庫: /gallery/  || fa-fw fas fa-images
-    #  歸檔 archives: /archives/ || fas fa-mail-bulk
-    分類 Categories||fas fa-folder-open: 
-      項目分類 Categories: /categories/ || fas fa-folder-open
       時間軸 Archives: /archives/ || fas fa-archive
     休閒 Casual||fas fa-list:
       遊戲: /games/  || fas fa-gamepad

@@ -6,7 +6,7 @@ categories:
 tags: 
   - Github Action
 keyword: 'Github Action,Github'
-cover: /img/GitHub/bg/bg_02.png
+cover: /image/20230401_23-11-09.png
 ---
 
 # 前言

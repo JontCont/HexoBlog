@@ -6,7 +6,7 @@ categories:
 tags: 
   - C#
 description:
-cover: /image/20221212_14-22-46.png
+cover: /image/20230402_19-54-58.png
 ---
 ## 問題
 "引用3C硬炫風強尼圖片"

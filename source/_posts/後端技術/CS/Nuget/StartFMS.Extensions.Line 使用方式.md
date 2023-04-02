@@ -63,7 +63,7 @@ builder.Services.AddSingleton<LineBot>(lineBots);
             using (var linebot = await _lineBots.LoadAsync(Request.Body))
             {
                 //執行內容
-                linebot.ExecuteReader(); //改內容修要透過覆寫方式修改內容
+                linebot.ExecuteReader(); //改內容透過 overrid 方式修改
             }
 
             return JsonConvert.SerializeObject(new

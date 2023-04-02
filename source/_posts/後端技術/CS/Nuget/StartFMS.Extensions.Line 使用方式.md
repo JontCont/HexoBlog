@@ -21,7 +21,7 @@ cover: /image/20230402_16-57-24.png
 # 使用方式
 本範例 .NET6.0 展示，若有其他使用操作問題，可以在下方留言。
 
-## 一、創建新檔案
+## 一、新創一個類別
 創建一個新的 Class 改寫LineBots 內容，後續會比較好使用。
 ```cs
 // Helper/LineBot.cs
@@ -41,7 +41,7 @@ namespace StartFMS.Partner.API.Helper
 }
 ```
 
-## 二、加入參數
+## 二、設定 Program.cs 加入以下設定
 加入 ```StartFMS.Partner.API.Helper.LineBot``` 類別。 (並不是 ```StartFMS.Extensions.Line.LineBots```)
 ```cs
 // Program.cs 
@@ -52,7 +52,7 @@ var lineBots = new LineBot() {
 builder.Services.AddSingleton<LineBot>(lineBots);
 ```
 
-## 三、加入API 
+## 三、加入Controllers
 ```cs
     [HttpPost("", Name = "Message Reply")]
     public async Task<string> Post() {
@@ -88,8 +88,8 @@ builder.Services.AddSingleton<LineBot>(lineBots);
 設定上面只需要以上動作即可，目前簡化到直接透過 Helper 方式進行修改執行內容。為了達到簡化效果本擴充有提供Function ，只需要針對Function 進行修改即可。
 
 
-# override Function 
-## 行為 Function 
+# override method 
+## Behavior method
 function 分為兩段 
 - Join : 加入機器人
 - Message : 留言 
@@ -107,7 +107,7 @@ public override void Message() { }
 ```
 
 
-## Message Function 
+## Message method
 以下是使用者透過下面 Function 選擇、讀取，也是本擴充工具的精華。overrid 建議由這邊function 進行修改，目前實測下來相當好用。
 
 ```cs

@@ -38,3 +38,13 @@ var  ChannelToken = config.GetValue<string>("Line:Bots:channelToken");
 var  AdminUserID = config.GetValue<string>("Line:Bots:adminUserID");
 ```
 
+## Method
+目前有以下Function可以使用
+1. GetConnectionString(string name)
+2. GetAzureConfiguration(string connectionString)
+3. GetConfiguration()
+4. GetConfiguration(string path)
+5. GetAzureConfiguration<T>()
+6. GetAzureConfiguration<T>(string path)
+
+GetAzureConfiguration(string connectionString) 主要是給 Azure Configuration 使用，記得把連線字串加入上去即可。

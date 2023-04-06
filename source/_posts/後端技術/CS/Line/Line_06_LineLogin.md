@@ -1,5 +1,5 @@
 ---
-title: Line Login 使用方式 - Azure 實作
+title: Line Login 使用方式
 categories: 
   - 後端技術
   - C#

@@ -1,14 +1,12 @@
 ---
-title: React (一) - JSX 使用方式、介紹
+title: React - JSX 使用方式、介紹
 categories: 
   - 前端技術
-  - ReactJs
+  - React
 tags: 
-  - ReactJs
-  - Angular
-  - Vue
+  - React
 description:
-keyword: 'ES6, ReactJs  ,網頁'
+keyword: 'ES6, React  ,網頁'
 cover: /img/Web/react/react_bg.png
 ---
 # React 介紹

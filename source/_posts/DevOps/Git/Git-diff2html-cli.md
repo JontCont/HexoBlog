@@ -18,7 +18,7 @@ Git 是現今程式開發中不可或缺的工具之一，它讓我們可以輕�
 ## 前置作業
 必須先有 Node.js 才能進行下列順序。
 1. 安裝diff2html : ```npm install -g diff2html-cli```
-2. 確認 diff2html 可以使用 : ```diff2html -v``
+2. 確認 diff2html 可以使用 : ``` diff2html -v ```
 
 如果不能正常使用，主要原因exe 沒有憑證，會被系統擋住不可以使用，解決方式如下 :
 ```powershell
@@ -40,7 +40,7 @@ diff2html [ flags and/or options ] -- [git diff passthrough flags and options]
 diff2html : [https://diff2html.xyz/demo.html](https://diff2html.xyz/demo.html)
 
 ## 使用 .sh 懶人包
-以下指令需要使用.sh 副檔名，裡面內容主要是用來呈現時間、commit id 比較的id 來使用。
+以下指令需要使用.sh 副檔名，裡面內容主要是用來呈現時間、commit id 比較的id 來使用。原則上 -- 之後的指令是如同 git diff 效果，可以使用資料夾比較。
 ```bash
 !/bin/bash
 

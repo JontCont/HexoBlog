@@ -9,7 +9,7 @@ description:
 keyword: 'ES6, ReactJs  ,網頁'
 cover: /img/Web/react/react_bg.png
 ---
-## 起因
+## 前言
 近期會慢慢研究 react 使用方式，今後會使用 TS 來完成專案，並包含其他前端架購。本篇使用以下版本，若無法正常執行請確認版本再進行作業。
 
 

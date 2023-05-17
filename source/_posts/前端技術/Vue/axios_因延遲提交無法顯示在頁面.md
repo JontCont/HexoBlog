@@ -7,9 +7,8 @@ tags:
   - Vue
 description:
 keyword: 'ES6, Vue  ,網頁'
-cover: /img/Web/react/react_bg.png
+cover: /image/20230517_21-58-52.png
 ---
-
 ## 前言
 近期有努力將 adminlte 套版在專案上，有試著用別人的專案上面改成自己的API，遇到專案上"Menu"是寫死並非是Ajax 回拋過來進行改寫。
 

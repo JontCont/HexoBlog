@@ -10,14 +10,14 @@ keyword: 'ES6, ReactJs  ,網頁'
 cover: /img/Web/react/react_bg.png
 ---
 ## 前言
-一段時間沒有發學習文，主要是為了搞這東西翻找了兩個禮拜終於找到原因以及使用方式，雖然有ChatGPT還是沒有解決道我現在要特別標記的主題。
+好一段時間沒有發表學習文了，主要是因為我花了兩個禮拜的時間研究這個東西，終於找到了原因和使用方式。雖然有ChatGPT的幫助，但還是沒有解決我現在要特別標記的主題。
 
-(P.S. 這次主題先介紹我卡很久時間為主。) 
+(P.S. 這次的主題是我卡了很久的一個技術問題。)
 
 ## React Router 中 Outlet
-在父路由元素中應該使用 <Outlet> 來呈現其子路由元素。這樣當子路由被渲染時，嵌套的使用者介面就能夠顯示出來。如果父路由完全匹配，它會渲染一個子索引路由，如果沒有索引路由則不會呈現任何內容。
+在父路由元素中，應該使用 <Outlet> 來呈現其子路由元素。這樣，當子路由被渲染時，嵌套的使用者介面就能夠顯示出來。如果父路由完全匹配，它會渲染一個子索引路由，如果沒有索引路由，則不會呈現任何內容。
 
-### Type declaration
+### 1. 類型聲明 (Type declaration) 
 ```tsx
 interface OutletProps {
   context?: unknown;
@@ -26,7 +26,7 @@ declare function Outlet(
   props: OutletProps
 ): React.ReactElement | null;
 ```
-### 參考官方作法
+### 2. 參考官方作法
 ```tsx
 function Dashboard() {
   return (
@@ -59,11 +59,11 @@ function App() {
 ---
 
 ## 前置作業
-先把【index.tsx】放入要執行的Router ，本次修改會以這個為主。
+首先，將【index.tsx】放入要執行的Router中，這次的修改將以此為主要依據。
 ![](/image/20230530_22-04-10.png)
 
 ## AppRouter 原始作法
-簡單敘述下方程式碼作用。
+讓我簡單解釋一下下面的程式碼的作用：
 1. Adminlte 需要加入 Js或是 css 才能使用他們的css
 ```tsx
 //append css or js
@@ -75,7 +75,8 @@ import 'admin-lte/dist/js/adminlte'
 ```
 
 2. 拆開的Layout
-其實這邊因該要解釋為元件，我把 Header、Menu拆出來把它當作我的元件。實際上，還是很習慣MVC 中 Shared 放置方式，因此我歸類在Layout使用。
+其實，這部分應該解釋為元件，我將 Header 和 Menu 拆分出來，並將它們作為我的元件使用。實際上，我還是很習慣將它們歸類在MVC模式中的 Shared 資料夾中，所以我將其歸類在 Layout 中使用。
+
 ```tsx
 //append layout
 import Header from '../component/@Shared/@Layout/Header';
@@ -83,9 +84,7 @@ import MenuSidebar from '../component/@Shared/@Layout/MenuSidebar';
 ```
 
 3. Router 路徑
-可以看一下下方程式碼。【Routes、Route】使用的Layout 相當尷尬。
-尷尬部分會有幾種情況不會使用同一個版面，如 登入、註冊、形象首頁等。不符合Layout的定義。
-這邊就會需修改一下程式碼。
+你可以看一下下面的程式碼。在使用 Layout 的地方，會有一些棘手的情況不適用於相同的版面，例如登入、註冊、首頁等。它們不符合 Layout 的定義。這就需要對程式碼進行一些修改。
 ```tsx
 import React, { lazy } from 'react';
 import { BrowserRouter, Routes, Route, Link, Await } from 'react-router-dom';

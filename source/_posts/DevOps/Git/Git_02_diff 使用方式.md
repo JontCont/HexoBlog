@@ -1,5 +1,5 @@
 ---
-title: Git-diff 使用方式
+title: Git 學習新花樣(二) diff 使用方式
 categories: 
   - DevOps
   - Git

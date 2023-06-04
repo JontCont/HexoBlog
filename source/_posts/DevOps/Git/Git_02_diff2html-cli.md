@@ -1,5 +1,5 @@
 ---
-title: Git diff2html 使用指令產生報告
+title: Git 學習新花樣(二) 套件 diff2html 產生差異報告
 categories: 
   - DevOps
   - Git

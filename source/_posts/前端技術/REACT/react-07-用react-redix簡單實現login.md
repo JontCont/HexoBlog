@@ -1,5 +1,5 @@
 ---
-title: React (七) - 用react-redix簡單實現login
+title: React (七) - 簡易製作Login 製作【內建 react-redix】
 categories: 
   - 前端技術
   - React

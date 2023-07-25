@@ -79,7 +79,7 @@ User.ReadWrite.All
 ### 2. 使用 [rclone工具](/upload/zip/rclone-v1.53.1-windows-amd64.zip)
 使用方式是解完壓縮，用 [系統管理員身分執行] 打開 [命令字元] 到你接壓縮的路徑。指令如下 :
 ```cmd
-./rclone.exe "onedrive" "id1" "id2"
+./rclone.exe authorize "onedrive" "id1" "id2"
 ```
 備註 
 - id1 : 應用程式 (用戶端) 識別碼

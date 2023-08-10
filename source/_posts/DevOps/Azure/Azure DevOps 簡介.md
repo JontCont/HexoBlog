@@ -1,15 +1,13 @@
 ---
-title: Azure DevOps 簡介 
+title: 【Azure DevOps】 - 簡介 
 categories: 
   - 雲端平台
   - Azure
 tags: 
   - Azure
-description:
-keyword: 'Cloud  ,Azure, Azure DevOps'
+keyword: 'Cloud  ,Azure , DevOps , Azure DevOps'
 cover: /image/20230310_08-44-55.png
 ---
-
 ## Azure DevOps 簡介
 Azure DevOps 是一個雲端服務，它提供了一個開發人員可以使用的軟體開發工具，Azure DevOps 服務可以讓團隊共享程式碼，追蹤工作項目，協作軟體開發，並且可以透過 Azure DevOps 服務來自動化軟體交付流程。
 
@@ -26,5 +24,3 @@ Azure 是一個雲端平台，它提供了雲端服務，讓開發人員可以�
 
 ## Azure DevOps 使用範圍
 Azure DevOps 服務可以用來管理任何專案，不管是使用哪種程式語言，或是使用哪種平台，都可以使用 Azure DevOps 服務來管理專案。
-
-

@@ -1,5 +1,5 @@
 ---
-title: React (六)) - 先學 react-redux 後學login
+title: React (六) - 先學 react-redux 後學login
 categories: 
   - 前端技術
   - React

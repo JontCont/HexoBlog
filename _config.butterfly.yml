@@ -104,4 +104,4 @@ theme: butterfly
 deploy:
   type: git
   repo: https://github.com/JontCont/JontCont.github.io
-  branch: HotFix_20230207
+  branch: main

@@ -107,7 +107,7 @@ theme: butterfly
 deploy:
   type: git
   repo: https://github.com/JontCont/JontCont.github.io
-  branch: master
+  branch: main
 
 # search
 ## [第三方服务集成 - NexT 使用文档](http://theme-next.iissnan.com/third-party-services.html#local-search)

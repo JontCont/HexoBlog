@@ -8,9 +8,8 @@ tags:
   - Vue
 description:
 keyword: 'ES6, ReactJs  ,網頁'
-cover: /image/20230210_18-16-58.png
+cover: /image/20230901_23-39-02.png
 ---
-
 ## 為什麼要用CSS -Reset
 在 W3C 制訂 HTML 與 CSS 規格時，並沒有強制規定各家瀏覽器應該怎樣實作每一個 HTML tag 的 CSS 預設樣式，只有提供資訊參考的範例[1]，加上IE 獨霸的時期，那時候還沒有其他瀏覽器， CSS Reset 的需求主要落在 IE 各版本之間的調整，後來 Firefox、safari、Chrome 陸續出現，網頁設計師必須要針對每個瀏覽器去做調整，因此 CSS Reset 的需求漸漸增加。
 

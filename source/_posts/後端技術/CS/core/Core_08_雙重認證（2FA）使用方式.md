@@ -1,5 +1,5 @@
 ---
-title: C# - 2FA驗證使用方式
+title: C# - 雙重認證（2FA）使用方式
 categories: 
   - 後端技術
   - C#

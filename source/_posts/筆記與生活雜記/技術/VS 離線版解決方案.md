@@ -7,7 +7,7 @@ tags:
   - vsc
   - Chocolatey
   - mkcert
-cover: /image/20230101_19-18-57.png
+cover: /image/20230901_23-15-10.png
 ---
 ## 備註 
 這問題以前紀錄過，因為壓縮檔其實是自己登入過的電腦取出來的，文章內壓縮檔就是 ```C:\Users\Users\AppData\Local\Microsoft\VSCommon``` 資料夾，將版本以及OnlineLicensing都要複製過去，就可以使用了。

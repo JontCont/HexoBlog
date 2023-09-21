@@ -1,10 +1,10 @@
 ---
-title: HTML - 何謂 robots.txt 
+title: 【HTML】-何謂 robots.txt 
 categories: 
   - 前端技術
-  - html
 tags: 
-  - HTML 
+  - front-end
+  - 前端
 description:
 keyword: 'HTML, robots'
 cover: https://www.yestupa.com/wp-content/uploads/2019/06/2019062605511781.png

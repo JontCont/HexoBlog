@@ -1,13 +1,11 @@
 ---
-title: css - 基本使用方式
+title: 【CSS】-基本使用方式
 categories: 
   - 前端技術
 tags: 
-  - ReactJs
-  - Angular
-  - Vue
+  - front-end
+  - 前端
 description:
-keyword: 'ES6, ReactJs  ,網頁'
 cover: /image/20230901_23-21-50.png
 ---
 

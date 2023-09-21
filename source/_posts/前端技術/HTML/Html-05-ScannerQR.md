@@ -1,10 +1,10 @@
 ---
-title: 製作 Scanner (一) - 把手機轉換電腦攝影機
+title: 【HTML】製作 Scanner (一) - 把手機轉換電腦攝影機
 categories: 
   - 前端技術
-  - html
 tags: 
-  - HTML
+  - front-end
+  - 前端
 cover: /image/20221228_22-45-03.png
 ---
 

@@ -1,11 +1,10 @@
 ---
-title: HTML - Enter Key Hint
-categories:
+title: 【HTML】-Enter Key Hint
+categories: 
   - 前端技術
-  - html
 tags: 
-  - Web 技術 
-  - HTML 
+  - front-end
+  - 前端
 description:
 keyword: 'HTML'
 cover: /img/html-enterkeyHint/enterkeyHint.jpg

@@ -1,13 +1,11 @@
 ---
-title: css - Border-box vs Content-box
+title: 【CSS】- Border-box vs Content-box
 categories: 
   - 前端技術
 tags: 
-  - ReactJs
-  - Angular
-  - Vue
+  - front-end
+  - 前端
 description:
-keyword: 'ES6, ReactJs  ,網頁'
 cover: /image/20230901_23-27-59.png
 ---
 

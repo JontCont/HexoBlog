@@ -1,13 +1,11 @@
 ---
-title: 為什麼要用CSS -Reset
+title: 【CSS】-為什麼要用CSS -Reset
 categories: 
   - 前端技術
 tags: 
-  - ReactJs
-  - Angular
-  - Vue
+  - front-end
+  - 前端
 description:
-keyword: 'ES6, ReactJs  ,網頁'
 cover: /image/20230901_23-39-02.png
 ---
 ## 為什麼要用CSS -Reset

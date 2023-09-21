@@ -1,11 +1,10 @@
 ---
-title: HTML - 滾動條 Scrollbar
+title: 【HTML】-滾動條 Scrollbar
 categories: 
   - 前端技術
-  - html
 tags: 
-  - Web 技術 
-  - HTML 
+  - front-end
+  - 前端
 description:
 keyword: 'HTML, scrollbar , 拉軸 ,網頁'
 cover: /img/html-srcollbar/scrollbar.jpg

@@ -1,10 +1,8 @@
 ---
 title: JavaScript - 正規表示式(二) Regular Expression
-
 categories: 
   - 前端技術
   - javascript
-  - ES6 
 tags: 
   - javascript
 description:

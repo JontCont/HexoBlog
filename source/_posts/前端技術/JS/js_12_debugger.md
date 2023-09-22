@@ -3,7 +3,6 @@ title: Javascript - 常見 除錯(debugger) 方式
 categories: 
   - 前端技術
   - javascript
-  - ES6 
 tags: 
   - js
   - debugger

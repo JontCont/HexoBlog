@@ -3,7 +3,6 @@ title: JavaScript 定時器（timer） - setTimeout() VS setInterval()
 categories: 
   - 前端技術
   - javascript
-  - ES6 
 tags: 
   - javascript
 description:

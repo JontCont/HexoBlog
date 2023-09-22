@@ -2,6 +2,7 @@
 title: 【CSS】-基本使用方式
 categories: 
   - 前端技術
+  - css
 tags: 
   - front-end
   - 前端

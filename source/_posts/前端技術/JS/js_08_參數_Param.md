@@ -3,7 +3,6 @@ title: JavaScript 參數（Param） - Param()
 categories: 
   - 前端技術
   - javascript
-  - ES6 
 tags: 
   - javascript
 description:

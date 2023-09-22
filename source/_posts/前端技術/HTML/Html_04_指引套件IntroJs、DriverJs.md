@@ -2,7 +2,7 @@
 title: 【HTML】套件-簡易操作 IntroJs、DriverJs
 categories: 
   - 前端技術
-  - 套件
+  - html
 tags: 
   - front-end
   - 前端

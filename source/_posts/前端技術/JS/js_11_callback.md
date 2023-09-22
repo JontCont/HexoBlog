@@ -3,7 +3,6 @@ title: (筆記) Javascript - Callback Function 回呼函式
 categories: 
   - 前端技術
   - javascript
-  - ES6 
 tags: 
   - js
   - Callback

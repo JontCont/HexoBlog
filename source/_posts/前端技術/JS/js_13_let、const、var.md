@@ -3,7 +3,6 @@ title: Javascript - let vs const vs var
 categories: 
   - 前端技術
   - javascript
-  - ES6 
 tags: 
   - js
 description:

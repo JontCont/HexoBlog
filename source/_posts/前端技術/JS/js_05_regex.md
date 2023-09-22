@@ -1,11 +1,9 @@
 ---
 title: JavaScript - 正規表示法(一) Regular Expression
-
 categories: 
   - 前端技術
   - javascript
-  - ES6 
-tags: 
+stags: 
   - javascript
 description:
 keyword: 'ES6, 正規表示式,Regular,regex'

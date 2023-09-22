@@ -3,7 +3,6 @@ title: JavaScript - AJAX
 categories: 
   - 前端技術
   - javascript
-  - ES6 
 tags: 
   - javascript
 description:

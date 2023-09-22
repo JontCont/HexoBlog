@@ -2,6 +2,7 @@
 title: 【HTML】製作 Scanner (二) - 快速使用讀取器/掃描器 (使用 html5-qrcode )
 categories: 
   - 前端技術
+  - html
 tags: 
   - front-end
   - 前端

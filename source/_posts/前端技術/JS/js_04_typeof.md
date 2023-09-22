@@ -3,7 +3,6 @@ title: JavaScript - typeof 運算子
 categories: 
   - 前端技術
   - javascript
-  - ES6 
 tags: 
   - javascript
 description:

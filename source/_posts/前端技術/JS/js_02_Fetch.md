@@ -3,7 +3,6 @@ title: JavaScript - Fetch
 categories: 
   - 前端技術
   - javascript
-  - ES6
 tags: 
   - javascript
   - ES6 Web 技術 

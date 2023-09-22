@@ -44,9 +44,9 @@ search:
     hits_stats: '找到 ${hits} 条结果，用时 ${time} 毫秒'
 
   local_search:
-    label: 本地搜索
     input_placeholder: 搜索文章
     hits_empty: '找不到您查询的内容：${query}'
+    hits_stats: '共找到 ${hits} 篇文章'
 
 pagination:
   prev: 上一篇
@@ -119,5 +119,6 @@ Snackbar:
   night_to_day: 你已切换为浅色模式
 
 loading: 加载中...
+load_more: 加载更多
 
 error404: 页面没有找到

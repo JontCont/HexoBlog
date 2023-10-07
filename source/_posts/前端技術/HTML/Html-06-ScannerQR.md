@@ -1,5 +1,6 @@
 ---
 title: 【HTML】製作 Scanner (二) - 快速使用讀取器/掃描器 (使用 html5-qrcode )
+date: 2021-07-09
 categories: 
   - 前端技術
   - html

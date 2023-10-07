@@ -1,5 +1,6 @@
 ---
 title: Sql Server - 壓縮交易檔案
+date: 2021-08-06
 categories:
   - 資料庫技術
   - MS SQL

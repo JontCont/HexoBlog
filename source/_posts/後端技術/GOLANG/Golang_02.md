@@ -1,5 +1,6 @@
 ---
 title: '[學習] Golang 基本使用(二) - 資料型態、運算式'
+date: 2022-10-28
 categories:
   - 後端技術 
   - Go

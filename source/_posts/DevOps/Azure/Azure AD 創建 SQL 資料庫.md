@@ -1,5 +1,6 @@
 ---
 title: Azure AD 創建 SQL 資料庫
+date: 2022-12-12
 categories: 
   - 雲端平台
   - Azure

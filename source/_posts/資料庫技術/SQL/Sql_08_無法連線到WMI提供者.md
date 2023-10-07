@@ -1,5 +1,6 @@
 ---
 title: Sql Server - 無法連線到 WMI 提供者
+date: 2021-08-08
 categories:
   - 資料庫技術
   - MS SQL

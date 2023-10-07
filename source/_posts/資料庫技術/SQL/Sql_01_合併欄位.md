@@ -1,5 +1,6 @@
 ---
 title: Sql Server - 合併欄位( FOR XML PATH )
+date: 2021-08-01
 categories:
   - 資料庫技術
   - SQL

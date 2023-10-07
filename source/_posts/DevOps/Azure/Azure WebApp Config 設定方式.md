@@ -1,5 +1,6 @@
 ---
 title: 【Azure】Web Application 設定方式
+date: 2023-05-16
 categories: 
   - 雲端平台
   - Azure

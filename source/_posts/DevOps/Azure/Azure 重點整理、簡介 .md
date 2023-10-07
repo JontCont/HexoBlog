@@ -1,5 +1,6 @@
 ---
 title: Azure 重點整理、簡介 
+date: 2022-12-10
 categories: 
   - 雲端平台
   - Azure

@@ -1,5 +1,6 @@
 ---
 title: '[學習] Golang 基本使用(一) - 建立 Golang 環境'
+date: 2022-10-27
 categories: 
   - 後端技術
   - GO

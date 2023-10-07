@@ -1,5 +1,6 @@
 ---
 title: '[學習] Golang 基本使用(三) - 判斷式、迴圈'
+date: 2022-10-29
 categories:
   - 後端技術
   - Go

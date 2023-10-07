@@ -1,5 +1,6 @@
 ---
 title: JavaScript - serialize() 方法
+date: 2021-07-13
 categories: 
   - 前端技術
   - javascript

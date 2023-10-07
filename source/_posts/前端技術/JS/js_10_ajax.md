@@ -1,5 +1,6 @@
 ---
 title: JavaScript - AJAX 
+date: 2021-07-20
 categories: 
   - 前端技術
   - javascript

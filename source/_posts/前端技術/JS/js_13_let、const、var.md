@@ -1,5 +1,6 @@
 ---
 title: Javascript - let vs const vs var
+date: 2023-07-13
 categories: 
   - 前端技術
   - javascript

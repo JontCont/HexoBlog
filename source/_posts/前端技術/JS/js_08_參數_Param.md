@@ -1,5 +1,6 @@
 ---
 title: JavaScript 參數（Param） - Param()
+date: 2021-07-18
 categories: 
   - 前端技術
   - javascript

@@ -1,5 +1,6 @@
 ---
 title: JavaScript - Fetch
+date: 2021-07-12
 categories: 
   - 前端技術
   - javascript

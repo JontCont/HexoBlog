@@ -1,5 +1,6 @@
 ---
 title: JavaScript - 正規表示法(一) Regular Expression
+date: 2021-07-15
 categories: 
   - 前端技術
   - javascript

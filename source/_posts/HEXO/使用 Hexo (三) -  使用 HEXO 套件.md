@@ -1,5 +1,6 @@
 ---
 title: 使用 Hexo (三) -  使用 HEXO 套件
+date: 2021-12-03
 categories:
   - 筆記
   - Hexo

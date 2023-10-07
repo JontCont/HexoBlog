@@ -1,5 +1,6 @@
 ---
 title: 使用 Hexo (一) - 創建 Hexo  
+date: 2021-12-01
 categories:
   - 筆記 
   - Hexo

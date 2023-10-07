@@ -1,5 +1,6 @@
 ---
 title: Angular (二) - component 與 router 介紹與實作
+date: 2023-07-25
 categories: 
   - 前端技術
   - Angular

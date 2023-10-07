@@ -1,5 +1,6 @@
 ---
 title: Angular (五) - @Input、@Output 使用方式
+date: 2023-09-25
 categories: 
   - 前端技術
   - Angular

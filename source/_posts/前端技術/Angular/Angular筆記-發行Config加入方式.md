@@ -1,5 +1,6 @@
 ---
 title: Angular筆記-發行到IIS時，Config加入方式
+date: 2023-07-20
 categories: 
   - 前端技術
   - Angular

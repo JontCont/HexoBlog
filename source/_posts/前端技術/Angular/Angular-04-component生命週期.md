@@ -1,5 +1,6 @@
 ---
 title: Angular (四) - component生命週期
+date: 2023-09-23
 categories: 
   - 前端技術
   - Angular

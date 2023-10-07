@@ -1,5 +1,6 @@
 ---
-title: Angular (一) -練習Router使用方式 
+title: Angular (一) -練習Router使用方式
+date: 2023-01-25
 categories: 
   - 前端技術
   - Angular

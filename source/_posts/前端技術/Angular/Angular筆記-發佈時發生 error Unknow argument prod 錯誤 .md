@@ -1,5 +1,6 @@
 ---
 title: Angular筆記-發佈時發生(error Unknow argument prod)錯誤 
+date: 2023-07-21
 categories: 
   - 前端技術
   - Angular

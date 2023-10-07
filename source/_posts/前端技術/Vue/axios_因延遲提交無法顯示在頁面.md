@@ -1,5 +1,6 @@
 ---
 title: 【學習】Vue - axios因延遲提交無法顯示在頁面
+date: 2022-08-02
 categories: 
   - 前端技術
   - Vue

@@ -1,5 +1,6 @@
 ---
 title: nvm-node版本管理工具
+date: 2023-07-18
 categories: 
   - 前端技術
 tags: 

@@ -1,5 +1,6 @@
 ---
 title: React (七) - 簡易製作Login 製作【內建 react-redix】
+date: 2022-05-08
 categories: 
   - 前端技術
   - React

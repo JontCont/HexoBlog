@@ -1,5 +1,6 @@
 ---
 title: '[心得] Funter開箱心得'
+date: 2022-12-20
 categories: 
   - 筆記 
   - 生活雜記

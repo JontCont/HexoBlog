@@ -1,5 +1,5 @@
 ---
-title: Angular筆記-發佈時發生(error Unknow argument prod)錯誤 
+title: Angular筆記 - error Unknow argument prod 錯誤 
 date: 2023-07-21
 categories: 
   - 前端技術
@@ -18,7 +18,9 @@ cover: /img/Web/bg/Angular-bg-01.png
 ng build --configuration production
 ```
 
-## Angular Cli
+### 備註
+Angular 14 之後版本已經移除 ```--prod```指令，改為 ```--configuration production```。
+### Angular Cli
 ![](/imgage/20221201_16-10-33.png)
 
 

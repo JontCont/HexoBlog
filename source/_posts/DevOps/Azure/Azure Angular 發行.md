@@ -18,7 +18,7 @@ cover: /image/20230310_08-44-55.png
 請到 【Web 應用程式】  > 【組態】 > 【一般設定】進行設定。指令如下 : 
 
 ```js
-npmx serve -s 
+npx serve -s 
 ```
 
 ![](/image/20230310_08-56-01.png)

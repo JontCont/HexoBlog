@@ -3,10 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: John Conte Blog 
-subtitle: 點點滴滴技術分享日記
+title: John Conte
+subtitle: 技術、分享、生活
 description: John Conte Blog
-keywords: JohnConte,JohnConte's ,John Cont ,John Cons 
+keywords: John Conte,JohnConte,JohnConte,JohnConte's ,John Conte Blog,conte,John
 author: John Conte
 language: zh-TW
 timezone: ''
@@ -114,9 +114,9 @@ deploy:
 search:
   path: search.xml
   field: post
-  #content: true
+  content: true
+  format: html
   #template: ./search.xml
-  #format: html
   #limit: 10000
 
 aplayer:

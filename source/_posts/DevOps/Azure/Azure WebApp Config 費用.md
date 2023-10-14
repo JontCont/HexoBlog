@@ -1,6 +1,6 @@
 ---
 title: 【Azure】Confidential 費用
-date: 2023-05-17
+date: 2023-04-05 11:51:23
 categories: 
   - 雲端平台
   - Azure

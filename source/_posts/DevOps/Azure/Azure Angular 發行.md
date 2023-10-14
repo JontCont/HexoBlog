@@ -1,6 +1,6 @@
 ---
 title: 【筆記】Azure - 使用 Node 18 LTS 發行
-date: 2023-05-12
+date: 2023-03-10 08:44:55
 categories: 
   - 雲端平台
   - Azure

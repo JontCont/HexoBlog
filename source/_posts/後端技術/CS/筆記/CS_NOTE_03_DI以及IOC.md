@@ -1,5 +1,6 @@
 ---
 title: C# - DI / IOC 差異
+date: 2023-02-26 20:13:00
 categories: 
   - 後端技術
   - C# 

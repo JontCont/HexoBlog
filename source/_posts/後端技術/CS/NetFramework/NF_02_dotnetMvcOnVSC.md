@@ -1,5 +1,6 @@
 ---
 title: C# Net5 MVC - 使用 VSC
+date: 2023-08-31 22:23:40
 categories: 
   - 後端技術
   - C#

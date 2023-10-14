@@ -1,5 +1,6 @@
 ---
 title: Entity Framework 6 如何更新結構、資料型態
+date: 2022-12-19 21:45:27
 categories: 
   - 後端技術
   - C#

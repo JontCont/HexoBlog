@@ -1,6 +1,6 @@
 ---
 title: (筆記) 命令提示字元 - netsh 顯示 wifi 資訊
-date: 2022-11-06
+date: 2022-11-06 21:00:05
 categories: 
   - 筆記 
   - 生活雜記

@@ -1,5 +1,6 @@
 ---
 title: C# 表單驗證 - FormsAuthentication 驗證自動登入
+date: 2023-02-07 22:54:41
 categories: 
   - 後端技術
   - C#

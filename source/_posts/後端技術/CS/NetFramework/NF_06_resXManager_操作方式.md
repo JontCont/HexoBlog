@@ -1,5 +1,6 @@
 ---
 title: C# resXManager (二) - 操作方式
+date: 2022-07-24 19:48:25
 categories: 
   - 後端技術
   - C#

@@ -1,5 +1,6 @@
 ---
 title: VB Asp.Net - 使用 Ajax
+date: 2022-11-07 21:00:05
 categories: 
   - 後端技術
   - VB

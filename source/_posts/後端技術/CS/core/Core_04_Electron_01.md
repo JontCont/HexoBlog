@@ -1,5 +1,6 @@
 ---
 title: Electron (一) - 安裝 MVC Core 設定 
+date: 2021-10-20 13:48:53
 categories: 
   - 後端技術
   - C#

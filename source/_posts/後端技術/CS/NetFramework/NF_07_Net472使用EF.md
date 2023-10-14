@@ -1,5 +1,6 @@
 ---
 title: 使用 Entity Framework 6 CRUD
+date: 2022-12-19 21:30:00
 categories: 
   - 後端技術
   - C#

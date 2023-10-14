@@ -1,6 +1,6 @@
 ---
 title: Sql Server - try...catch 使用方式
-date: 2021-08-10
+date: 2021-08-10 22:45:32
 categories:
   - 資料庫技術
   - SQL

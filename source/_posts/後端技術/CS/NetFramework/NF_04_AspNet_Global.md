@@ -1,5 +1,6 @@
 ---
 title: C# Asp.Net Global (2) - 使用 Global.asax 清除 cache 以及 controller 管控
+date: 2021-09-01 23:15:10
 categories: 
   - 後端技術
   - C#

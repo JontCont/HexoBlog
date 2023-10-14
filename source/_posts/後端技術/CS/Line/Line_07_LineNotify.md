@@ -1,5 +1,6 @@
 ---
 title: Line Notify 使用方式
+date: 2022-10-08 22:20:10
 categories: 
   - 後端技術
   - C#

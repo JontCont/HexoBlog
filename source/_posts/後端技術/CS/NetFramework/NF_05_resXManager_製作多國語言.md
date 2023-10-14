@@ -1,5 +1,6 @@
 ---
 title: C# resXManager (一) - 製作多國語言 
+date: 2022-07-23 20:06:59
 categories: 
   - 後端技術
   - C#

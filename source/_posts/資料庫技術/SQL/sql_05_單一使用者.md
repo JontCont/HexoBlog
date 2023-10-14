@@ -1,6 +1,6 @@
 ---
 title: Sql Server - 排除單一使用者
-date: 2021-08-05
+date: 2021-08-05  22:45:32
 categories:
   - 資料庫技術
   - MS SQL

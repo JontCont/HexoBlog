@@ -1,6 +1,6 @@
 ---
 title: Sql Server - begin tran 使用方式
-date: 2021-08-13
+date: 2021-08-13 22:45:32
 categories:
   - 資料庫技術
   - MS SQL

@@ -1,5 +1,6 @@
 ---
 title: C# Discord Bot(一)-機器製作
+date: 2023-09-24 15:49:45
 categories: 
   - 後端技術
   - C#

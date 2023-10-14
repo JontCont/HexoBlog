@@ -1,5 +1,5 @@
 ---
-title: C# - .NEt Cli Port 設定方式
+title: C# .NEt Cli Port 設定方式
 date: 2023-10-12 22:56:41
 categories: 
   - 後端技術

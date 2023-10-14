@@ -1,5 +1,6 @@
 ---
 title: C# net5.0 - WSDL 簡易測試
+date: 2022-04-02 16:57:24
 categories: 
   - 後端技術
   - C#

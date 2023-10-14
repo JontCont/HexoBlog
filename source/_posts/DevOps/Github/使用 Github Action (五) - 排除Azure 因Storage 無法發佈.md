@@ -1,5 +1,6 @@
 ---
 title: 使用 Github Action (五) - 排除Azure 因Storage 無法發佈
+date: 2023-04-01 23:11:09
 categories: 
   - DevOps
   - Github

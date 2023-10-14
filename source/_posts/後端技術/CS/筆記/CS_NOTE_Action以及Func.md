@@ -1,5 +1,6 @@
 ---
 title: C# 委派(delegate)、Action<T>、Func<T,TResult>
+date: 2022-02-19 22:54:19
 categories: 
   - 後端技術
   - C# 

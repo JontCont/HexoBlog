@@ -1,5 +1,5 @@
 ---
-title: C# NPOI (一) - 如何使用NPOI Excel 
+title: 【C#】NPOI (一) 如何使用NPOI Excel 
 date: 2022-03-07 22:55:25
 categories: 
   - 後端技術
@@ -22,7 +22,7 @@ NPOI 是一個能夠快速讀取與產生Excel檔案的第三方套件，幫助�
 
 # 使用方式
 NPOI可透過兩種方式匯出Excel，一是使用Template，將Excel格式拉好存檔，透過NPOI讀取格式後，再將資料填入並另存新檔。
-## EXCEL 分頁
+## 一、EXCEL 分頁
 使用前，請引用以下內容
  
 ```cs
@@ -33,7 +33,7 @@ using System.IO;
 ```
 
 {% note info flat %}
-## HSSF  vs  XSSF 
+### 1.1 HSSF  vs  XSSF 
 HSSF中，是使用於2007之前的xls版本。XSSF中，適用於2007及其之後的xlsx版本。
 雖然HSSF 只能使用(.xls) ，但可以得知XSSF 是可以使用(.xls)，但可能因為版本問題格式、內容有可能會被損毀。
 {% endnote %}
@@ -122,7 +122,9 @@ private static void Write(XSSFWorkbook XSSF, string FilePath, string Data = "")
 /*以上函示*/
 ```
 
-## 取得Sheet 名稱
+
+## 二、讀取 Excel
+## 2.1、取得Sheet 名稱
 如果要往回抓Sheet 名稱，又不想從 List抓取可以從XSSFWorkbook 、HSSFWorkbook抓取裡面的Sheet Name。
 ```cs
 private static void Get_SheetName(XSSFWorkbook Workbook)
@@ -137,7 +139,7 @@ private static void Get_SheetName(XSSFWorkbook Workbook)
 }
 ```
 
-## 寫入Excel檔案資料
+### 2-2 讀取 Excel 檔案資料
 寫資料要遵循一定的順序，可以概括為：
 
 1. 讀取（或新建一個工作簿）
@@ -180,7 +182,63 @@ private static ISheet ReadSheetAt(string fileName, int index)
 /*以上函示*/
 ```
 
-## 隱藏工作表
+## 三、寫入 Excel
+### 3-1 設定測試資料
+這邊用一個簡單的測試資料，利用class 方便寫入 excel 欄位。
+```cs
+    public class Demo
+    {
+        [DisplayName("名稱")]
+        public string name { get; set; }
+
+        [DisplayName("日期")]
+        public DateTime date { get; set; }
+    }
+```
+```cs
+    var data = new List<Demo>(){
+        new Demo{ name = "test1", date = DateTime.Now },
+        new Demo{ name = "test2", date = DateTime.Now },
+    };
+```
+### 3-2 寫入 Excel
+處理excel 先建立 Workbook，再建立 Sheet，最後建立 Row，再將資料寫入 Cell。
+接下來，下載用Steam 方式將資料寫入檔案或下載。
+
+data 是由上面```new List<Demo>()```取得的資料。透過data來讓欄位自動生成，而不用一個一個欄位去寫入。
+```cs
+    //建立excel檔案物件
+    IWorkbook workbook = new XSSFWorkbook();
+    ISheet sheet = (XSSFSheet)workbook.CreateSheet("Default");
+    Type header = typeof(Demo);
+    //建立表頭
+    IRow row = sheet.CreateRow(0);
+    for (int i = 0; i < header.GetProperties().Length; i++)
+    {
+        ICell cell = row.CreateCell(i);
+        cell.SetCellValue(header.GetProperties()[i].GetCustomAttribute<DisplayNameAttribute>().DisplayName);
+    }
+
+    //建立資料
+    for (int i = 0; i < data.Count; i++)
+    {
+        IRow row = sheet.CreateRow(i + 1);
+        for (int j = 0; j < header.GetProperties().Length; j++)
+        {
+            ICell cell = row.CreateCell(j);
+            cell.SetCellValue(header.GetProperties()[j].GetValue(data[i]).ToString());
+        }
+    }
+
+    //寫入檔案
+    FileStream file = new FileStream(@"F:\NPOI_Excel\Excel2007.xlsx", FileMode.Create);
+    workbook.Write(file);
+    file.Close();  //關閉檔案流
+    workbook.Close();
+```
+
+## 四、補充
+### 4-1 隱藏工作表
 如果要隱藏工作表，需要對XSSFWorkbook抓取哪個是要隱藏的工作表。
 以下範例只針對最後一比工作表進行隱藏。
 ```cs

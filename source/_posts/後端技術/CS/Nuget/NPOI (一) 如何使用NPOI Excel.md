@@ -8,9 +8,8 @@ categories:
 tags: 
   - C#
 description:
-cover: /img/dotnet/cs_package_npoi/bg.png
+cover: /image/20231017_22-11-13.png
 ---
-
 
 # NPOI  
 NPOI中N指代的是.Net，POI是一個完全開源的Java寫成的庫，能夠在沒有安裝微軟Office或者相應環境的情況下讀寫Excel、Word等微軟OLE2元件文件，幾乎支援所有的Office97~Office2007的檔案格式。所以NPOI就是POI專案的.Net版本。目前NPOI的最新版本是今年5月份釋出的V2.2.1，包含了.Net Framework2和.Net Framework4兩個版本。

@@ -8,7 +8,7 @@ categories:
 tags: 
   - C#
 description:
-cover: /img/dotnet/cs_package_npoi/bg.png
+cover: /image/20231017_22-11-13.png
 ---
 
 近期會去整理一下歷經多年的NPOI文章，意外露寫了一小段章節。因此，我這邊特別把這段章節補完整一點，讓Excel的讀寫可以更加完整。

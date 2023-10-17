@@ -107,6 +107,7 @@ export class GlobalDataService {
 
 ### 設定 PageOneComponent、PageTwoComponent
 1. PageOneComponent
+
 ```html
 <div>
   <label for="">測試傳值</label>
@@ -125,11 +126,12 @@ export class GlobalDataService {
   }
 ```
 
-2. PageTwoComponent
+1. PageTwoComponent
+
 ```html
 <p>page-two works!</p>
 <div>
-  
+  {{testValue}}}
 </div>
 
 <div>

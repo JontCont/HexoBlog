@@ -7,9 +7,8 @@ categories:
 tags: 
   - C#
 description:
-cover: /image/20230402_19-54-58.png
+cover: /image/20231017_22-43-37.png
 ---
-
 ## 問題
 以前遇到排版時候，預設排版無法對參數方式排版，例如
 ```html

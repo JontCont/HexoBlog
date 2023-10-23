@@ -153,6 +153,9 @@ export class GlobalDataService {
 完成以下動作後，可以利用 console.log 來確認資料是否有傳遞成功，功能相當簡單但是需要記得要將多餘資料清掉。
 若使用 IndexedDB 或者情況就會變成更單純一點，之後有機會再來研究 ~。
 
+更新 2023/11/22
+以上敘述的方式，要當作為暫存資料的方式，需要被動存取簡易建議另外處理(例如 : 整理時彈出視窗)，否則暫存意義就會不存在。
+
 ---
 ## 範例程式碼
 1. [Github](https://github.com/JontCont/angular-storage)

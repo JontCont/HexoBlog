@@ -1,6 +1,6 @@
 ---
 title: Angular (七) - 使用 IndexedDb
-date: 2023-10-17 19:54:58
+date: 2023-10-23 19:54:58
 categories: 
   - 前端技術
   - Angular

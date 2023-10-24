@@ -16,12 +16,14 @@ cover: /img/Web/bg/Angular-bg-01.png
 IndexedDb 是一個瀏覽器內建的資料庫，可以透過 Javascript 進行操作，並且可以在瀏覽器關閉後，資料依然存在，因此可以用來做離線儲存的功能。實際應用上通常是紀錄暫存資料，按下存檔後一次檢查、存檔讓資料可以不用平凡使用在API 傳送的一項工具。
 
 前陣子，需要用到暫存資料的功能，因此就研究了一下 IndexedDb 的使用方式，而初期使用的確不好學習。此範例會用簡單的CRUD製作。
+
 ---
+
 ## 實作 CRUD 範例
 在開始之前，不論是問 chatGPT 或是 其他教學文章，都會逃不了裝套件的問題。所以這邊就不用套件示範，直接使用原生的方式來實作。
 
 ### 1. 製作 Service 環境
-```IDBDatabase``` 為內建Interface可以不用特別引入。稍微補充下面程式碼，因為使用v16版本是強制要帶入預設值，所以 ```private db: IDBDatabase | null = null;``` 才會這樣寫。
+下方程式碼中，```IDBDatabase```為內建Interface可以不用特別引入。稍微補充下面程式碼，因為使用v16版本是強制要帶入預設值，所以 ```private db: IDBDatabase | null = null;``` 才會這樣寫。
 
 初始化資料庫作法如下 : 
 1. 建立資料庫 : ``` indexedDB.open( 資料庫名稱 , 資料庫版本 );```。
@@ -99,6 +101,7 @@ export class IndexedDbService {
 ```
 
 #### 1-3 加入 Service 到 AppModule
+要加入component 之前，必須要先加入到 AppModule，否則無法正常使用。
 ```ts
 @NgModule({
   declarations: [AppComponent, HomeComponent],
@@ -114,10 +117,12 @@ export class IndexedDbService {
 })
 export class AppModule {}
 ```
+
 --- 
 
 ### 2. 加入component UI
 如果要更詳細 UI 資訊，可以直接到下方參考文件取得。
+
 ```html
 <div class="form">
   <label for="">id</label>
@@ -208,9 +213,17 @@ export class HomeComponent {
     });
   }
 ```
+備註: 
+- ```transaction(資料表, 權限)``` : 權限有 readwrite / readonly / versionchange 三種。
+- add : 新增資料。
+- put : 修改資料。
+- delete : 刪除資料。
+- get/getAll : 取得資料。
 
 #### 3-1 加入 component 新增
+
 透過 row 方式取得資料或是新增即可。
+
 ```ts
 export class HomeComponent {
   constructor(private dbService: IndexedDbService) {} //必須加入
@@ -241,7 +254,8 @@ export class HomeComponent {
 ```
 ---
 
-### 加入 Edit / Delete 環境
+### 4 加入 Edit / Delete 環境
+依據Create 作法，可以用同樣方式修改/刪除資料。
 ```ts
   // IndexDbService.ts
   async updateContact(contact: any): Promise<void> {
@@ -380,7 +394,7 @@ export class HomeComponent {
 ![](/image/20231024_18-13-56.png)
 
 ---
-### 參考文件
+## 參考文件
 - [Github : angular_IndexedDb](https://github.com/JontCont/angular_IndexedDb/tree/master)
 
 

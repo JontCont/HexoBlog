@@ -1,4 +1,4 @@
-title: 【】何謂 IndexedDb
+title: 【前端】何謂 IndexedDb
 categories:
   - 前端技術
 tags:

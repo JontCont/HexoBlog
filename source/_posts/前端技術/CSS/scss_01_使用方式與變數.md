@@ -1,14 +1,13 @@
----
-title: SCSS - 使用方式與變數
-date: 2023-10-11 07:32:28
-categories: 
+title: 【SCSS】使用方式與變數
+categories:
   - 前端技術
   - scss
-tags: 
+tags:
   - front-end
   - 前端
-description:
 cover: /image/20231011_07-32-28.png
+date: 2023-10-11 07:32:28
+description:
 ---
 css 在各家公司無法脫離存在，但是 css 本身的語法不夠強大，因此有了 scss 的誕生，scss 是 css 的超集合，也就是說 scss 可以完全兼容 css 的語法，但是 css 不行。
 ## 一、SCSS

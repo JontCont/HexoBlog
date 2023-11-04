@@ -1,13 +1,12 @@
----
-title: 何謂 IndexedDb
-date: 2023-10-22 18:16:58
-categories: 
+title: 【】何謂 IndexedDb
+categories:
   - 前端技術
-tags: 
+tags:
   - IndexedDb
-description:
 keyword: 'ES6, 網頁'
 cover: /image/20231022_22-47-29.png
+date: 2023-10-22 18:16:58
+description:
 ---
 IndexedDB 是一個強大的瀏覽器內本地資料庫技術，它允許網頁應用程式在客戶端存儲和檢索大量資料，而無需依賴傳統的伺服器資料庫。在本文中，我們將深入瞭解 IndexedDB，包括它的特點、用途以及如何使用它來增強網頁應用程式的功能。
 

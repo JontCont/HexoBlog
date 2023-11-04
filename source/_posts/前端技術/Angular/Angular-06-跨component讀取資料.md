@@ -1,14 +1,13 @@
----
-title: Angular (六) - 跨越 component 讀取資料
-date: 2023-10-17 19:54:58
-categories: 
+title: 【Angular (6)】跨越 component 讀取資料
+categories:
   - 前端技術
   - Angular
-tags: 
+tags:
   - Angular
-description:
 keyword: 'ES6, Angular ,網頁'
 cover: /img/Web/bg/Angular-bg-01.png
+date: 2023-10-17 19:54:58
+description:
 ---
 
 ## 前言

@@ -1,15 +1,14 @@
----
-title: Angular (七) - 使用 IndexedDb
-date: 2023-10-23 19:54:58
-categories: 
+title: 【Angular (7)】使用 IndexedDb
+categories:
   - 前端技術
   - Angular
   - IndexedDb
-tags: 
+tags:
   - Angular
-description:
 keyword: 'ES6, Angular ,網頁'
 cover: /img/Web/bg/Angular-bg-01.png
+date: 2023-10-23 19:54:00
+description:
 ---
 
 ## 前言

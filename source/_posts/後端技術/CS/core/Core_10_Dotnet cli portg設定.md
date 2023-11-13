@@ -1,14 +1,13 @@
----
-title: C# .NEt Cli Port 設定方式
-date: 2023-10-12 22:56:41
-categories: 
+title: 【C#】.NEt Cli Port 設定方式
+categories:
   - 後端技術
   - C#
-tags: 
+tags:
   - Core
   - C#
 keyword: 'Core, 2FA , C#'
 cover: /image/20231012_23-08-02.png
+date: 2023-10-12 22:56:41
 ---
 ## 前言
 近期想要用 Cli 執行專案遇到 Port 不是自己當初設定的Port，因此想要記錄一下。
@@ -76,3 +75,5 @@ dotnet watch
 ```cmd
 dotnet watch run --launch-profile "test"
 ```
+```
+`

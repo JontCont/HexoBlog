@@ -95,6 +95,7 @@ pagination_dir: page
 ## include:/exclude: options only apply to the 'source/' folder
 include:
   - '_discord.jontcont.github.io.txt'
+  - '.nojekyll'
 exclude:
 ignore:
 

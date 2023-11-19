@@ -7,9 +7,8 @@ categories:
 tags: 
   - Github
 keyword: 'Github Pages, SEO, 搜尋引擎'
-cover: https://miro.medium.com/max/500/1*GCVYwFnJKmbmcgnTkGdPuA.jpeg
+cover: /image/20231119_16-06-51.png
 ---
-
 # 使用 [Google Search Console](https://search.google.com/search-console/about)
 
 Google Search Console 近期有新增[網域]資源類型，因為我們是使用 Github Pages 所以要使用 [網址前置字元] 來設定 。

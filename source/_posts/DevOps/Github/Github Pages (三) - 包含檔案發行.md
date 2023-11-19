@@ -1,5 +1,5 @@
 ---
-title: Github Pages - 包含檔案發行
+title: Github Pages (三) - 包含檔案發行
 date: 2023-11-17 12:12:45
 categories: 
   - 筆記 
@@ -7,7 +7,7 @@ categories:
 tags: 
   - github
 description:
-cover: /image/20230302_10-12-45.png
+cover: /image/20231119_16-06-51.png
 ---
 
 ## 問題

@@ -7,7 +7,7 @@ categories:
 tags: 
   - Github
 keyword: 'Github Pages, SEO, 搜尋引擎'
-cover: https://blog.moli.rocks/content/images/2018/07/-----2018-07-11---2.12.56.png
+cover: /image/20231119_16-06-51.png
 ---
 
 Blog 目前已經經營快要過完半年，近期發現Google 搜尋引擎找不到我的Blog，原本以為Github Pages 會加入在搜尋引擎當中，測試下來結論是沒有出現。目前想到原因是 SEO 無法辨認出網站，於是，目前得知每個Browser會有搜尋引擎運算，如果沒有出現可能要留意了。

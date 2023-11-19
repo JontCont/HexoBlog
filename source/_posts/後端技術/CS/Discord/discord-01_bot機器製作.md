@@ -1,5 +1,5 @@
 ---
-title: C# Discord Bot(一)-機器製作
+title: C# Discord (一) - 製作簡易版本機器人
 date: 2023-09-24 15:49:45
 categories: 
   - 後端技術
@@ -9,7 +9,7 @@ tags:
   - Discord
 description:
 keyword: 'C#, Discord'
-cover: https://www.freepnglogos.com/uploads/discord-logo-png/concours-discord-cartes-voeux-fortnite-france-6.png
+cover: /image/20231119_16-33-11.png
 ---
 
 Discord Bot 是一個很好玩的東西，可以讓你的 Discord 伺服器更加的有趣，而且可以自己寫程式來控制機器人。本人已經玩過幾次，想要將爬蟲功能加入在伺服器當中。這篇文章會教你如何製作一個 Discord Bot，並且讓他加入你的伺服器。

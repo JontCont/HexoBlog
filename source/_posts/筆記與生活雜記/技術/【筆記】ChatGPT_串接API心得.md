@@ -1,5 +1,5 @@
 ---
-title: chatGPT API 串接API 心得
+title: 【筆記】ChatGPT API 串接API 心得
 date: 2023-02-19 22:54:19
 categories: 
   - 筆記 

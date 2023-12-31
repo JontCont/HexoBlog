@@ -1,5 +1,5 @@
 ---
-title: '[心得] Funter開箱心得'
+title: 【心得】Funter開箱心得
 date: 2022-12-16 22:45:32
 categories: 
   - 筆記 

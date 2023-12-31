@@ -1,5 +1,5 @@
 ---
-title: (筆記) 如何確認 TipTop Web Api 對接方式
+title: 【筆記】如何確認 TipTop Web Api 對接方式
 date: 2022-05-13 21:00:05
 categories: 
   - 筆記 

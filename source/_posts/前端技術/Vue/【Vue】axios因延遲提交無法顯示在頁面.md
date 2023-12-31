@@ -1,5 +1,5 @@
 ---
-title: 【學習】Vue - axios因延遲提交無法顯示在頁面
+title: 【Vue】axios因延遲提交無法顯示在頁面
 date: 2023-05-17 21:58:52
 categories: 
   - 前端技術

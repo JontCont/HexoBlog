@@ -1,5 +1,5 @@
 ---
-title: JavaScript - AJAX 
+title: 【JS】非同步 vs 同步 - AJAX 使用方式 
 date: 2021-07-20
 categories: 
   - 前端技術

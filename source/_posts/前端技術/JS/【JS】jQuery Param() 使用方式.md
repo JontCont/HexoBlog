@@ -1,5 +1,5 @@
 ---
-title: JavaScript 參數（Param） - Param()
+title: 【JS】jQuery Param() 使用方式
 date: 2021-07-18
 categories: 
   - 前端技術

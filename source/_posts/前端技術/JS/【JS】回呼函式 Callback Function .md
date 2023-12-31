@@ -1,5 +1,5 @@
 ---
-title: (筆記) Javascript - Callback Function 回呼函式
+title: 【JS】回呼函式 Callback Function 
 date: 2021-07-28
 categories: 
   - 前端技術

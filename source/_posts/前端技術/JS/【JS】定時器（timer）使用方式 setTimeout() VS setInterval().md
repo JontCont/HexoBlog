@@ -1,5 +1,5 @@
 ---
-title: JavaScript 定時器（timer） - setTimeout() VS setInterval()
+title: 【JS】定時器（timer）使用方式 setTimeout() VS setInterval()
 date: 2021-07-17
 categories: 
   - 前端技術

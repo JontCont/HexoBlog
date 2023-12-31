@@ -1,5 +1,5 @@
 ---
-title: Javascript - 常見 除錯(debugger) 方式
+title: 【JS】常見除錯(debugger) 方式
 date: 2023-09-16 09:11:23
 categories: 
   - 前端技術

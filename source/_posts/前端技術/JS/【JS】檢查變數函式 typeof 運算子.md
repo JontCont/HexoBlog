@@ -1,5 +1,5 @@
 ---
-title: JavaScript - typeof 運算子
+title: 【JS】檢查變數函式 typeof 運算子
 date: 2021-07-14
 categories: 
   - 前端技術

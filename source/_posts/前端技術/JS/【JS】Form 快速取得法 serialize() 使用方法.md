@@ -1,5 +1,5 @@
 ---
-title: JavaScript - serialize() 方法
+title: 【JS】Form 快速取得法 serialize() 使用方法
 date: 2021-07-13
 categories: 
   - 前端技術

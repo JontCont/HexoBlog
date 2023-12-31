@@ -1,5 +1,5 @@
 ---
-title: JavaScript - Fetch
+title: 【JS】Fetch 使用方式
 date: 2021-07-12
 categories: 
   - 前端技術

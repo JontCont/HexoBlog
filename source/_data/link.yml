@@ -1,0 +1,93 @@
+# 1. 確保你使用 Butterfly 主題
+# 2. 確保你的網站是 https
+# 3. 修改 source/_data/link.yml
+# 4. 按要求新增內容
+#     - name: 博客名
+#       link: 博客地址
+#       avatar: 博客頭像
+#       descr: 博客描述
+# 5. 發起 Pull requests ，合併到 butterfly.js.org 倉庫
+
+- class_name: '<i class="fas fa-check-double" style="color: #FF6666;padding-right: 0.4rem"></i>網站'
+  class_desc: ''
+  link_list:
+    - name: John Conte
+      link: https://jontcont.github.io/
+      avatar: https://avatars.githubusercontent.com/u/52921053?v=4
+      descr: '👨‍💻 A blog about programming, technology, and life.'
+    - name: Github
+      link: https://github.com/JontCont
+      avatar: https://fastly.jsdelivr.net/gh/jerryc127/CDN/img/butterfly-github-avatar.png
+      descr: '努力努力，為自己找到新的路口。'
+    - name: Discord
+      link: https://discord.gg/9AtR3b9vqh
+      avatar: https://support.discord.com/hc/article_attachments/1500015317842/Rebrand_Blog__1_.png
+      descr: 五分鐘樂度的綜合頻道 (語音/論壇/遊戲/音樂/影片/圖片/表情/機器人)
+    - name: Youtube
+      link: https://www.youtube.com/@user-yd3kn6rs4q
+      avatar: https://pbs.twimg.com/media/Fp6HcA0WwAAdF6J.jpg
+      descr: 五分鐘樂度的貓貓生活
+    - name: Butterfly
+      link: https://github.com/jerryc127/hexo-theme-butterfly/issues/76
+      avatar: https://fastly.jsdelivr.net/gh/jerryc127/CDN/img/more-butterfly-demo-avatar.png
+      descr: 更多使用 Butterfly 的網站
+
+- class_name: '<i class="fas fa-fan" style="color:#00cccc;padding-right: 0.4rem"></i>推薦/好友連結'
+  class_desc: ''
+  link_list:
+    - name: 園丁Tim
+      link: https://s7514381.github.io/
+      avatar: https://s7514381.github.io/image/1674710448408.jpg
+      descr: '嚴格把關'
+    - name: MYW
+      link: https://crazywong.com/
+      avatar: https://crazywong.com/img/avatar.png
+      descr: 今日事,今日畢
+    - name: Will Will Web
+      link: https://blog.miniasp.com/
+      avatar: https://blog.miniasp.com/Custom/Themes/Standard-2015/images/logo.avif
+      descr: 記載著 Will 在網路世界的學習心得與技術分享
+    - name: 黑暗執行緒
+      link: https://blog.darkthread.net/
+      avatar: https://blog.darkthread.net/img/darkthreadbanner-d.jpg?v=ki9goCesQHJcRhAIOwrdIvwN90c
+      descr: ''
+
+- class_name: '<i class="fas fa-vote-yea" style="color:#01ccfc;padding-right: 0.4rem"></i>示例'
+  class_desc: ''
+  link_list:
+    - name: pai233
+      link: https://blog.pai233.top/
+      descr: Write Down My Life.
+      avatar: https://blog.pai233.top/img/avatar.jpg  
+    - name: hermoso
+      link: https://imszz.com
+      avatar: https://fastly.jsdelivr.net/gh/weilain/cdn-photo/Photo/avatar.jpg
+      descr: 时间如一捧流沙,缓缓的在指间流尽
+    - name: BARAN的小站🔥🔥🔥
+      link: https://cxvh.com
+      avatar: https://fastly.jsdelivr.net/gh/cxvh/static@main/avatar/avatar.jpg
+      descr: 指尖跳动留下足迹.
+    - name: JCAlways
+      link: https://blog.zhangsifan.com
+      avatar: https://i.loli.net/2019/10/13/2a6ve3ZdW8TPCNY.jpg
+      descr: 记录前端知识
+    - name: 白醭飙尘
+      link: https://y-jinhao.github.io/
+      avatar: https://fastly.jsdelivr.net/gh/Y-JINHAO/resources/img/avator1.png
+      descr: 无疾而终的困倦变成苋红的太阳的血瓷砖石仰慕的书架上呕吐的诗集
+    - name: Hey,Joker - Blog
+      link: https://jokerdig.com
+      avatar: https://fastly.jsdelivr.net/gh/JokerDaxiong/Jokerblog@main/source/images/avatar.png
+      descr: 一个代码小白的成长。
+    - name: RockJesus's blog
+      link: https://rockjesus.cn
+      avatar: https://www.rockjesus.cn/img/black.png
+      descr: 外星人👽黑苹果🍎
+    - name: 洛竹的博客
+      link: https://youngjuning.js.org
+      avatar: https://fastly.jsdelivr.net/gh/youngjuning/images/202109211729538.png
+      descr: 怕什么真理无穷，进一寸有一寸的欢喜。
+    - name: 小康博客
+      link: https://www.antmoe.com
+      avatar: https://fastly.jsdelivr.net/npm/kang-static@latest/avatar.jpg
+      descr: 一个收藏回忆与分享技术的地方！

@@ -1,5 +1,5 @@
 ---
-title: 【VSC】套件 文件格式化 prettier (程式碼排序)
+title: 【筆記】VSC套件 文件格式化 prettier (程式碼排序)
 date: 2023-10-15 19:54:58
 categories: 
   - 筆記 

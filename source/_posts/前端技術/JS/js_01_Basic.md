@@ -1,5 +1,5 @@
 ---
-title: 前端遇到的基本問題 
+title: 【JS】前端遇到的基本問題 
 date: 2021-07-11
 categories: 
   - 前端技術

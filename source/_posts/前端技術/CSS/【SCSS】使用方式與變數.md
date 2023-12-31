@@ -1,9 +1,9 @@
+---
 title: 【SCSS】使用方式與變數
 categories:
   - 前端技術
   - scss
 tags:
-  - front-end
   - 前端
 cover: /image/20231011_07-32-28.png
 date: 2023-10-11 07:32:28

@@ -14,6 +14,10 @@ menu:
       遊戲: /games/  || fas fa-gamepad
       影片: /movies/ || fas fa-video
       音樂: /music/  || fas fa-music
+    備註 Notes||fas fa-sticky-note:
+      筆記: /notes/ || fas fa-sticky-note
+      # 網站: /sites/ || fas fa-globe
+      # 資源: /resources/ || fas fa-book
     友鏈 Link: /link/ || fas fa-link
 # Code Blocks (代碼相關)
 # --------------------------------------

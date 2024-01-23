@@ -1,14 +1,13 @@
----
-title: React (九) - 使用api方式加入routes
-date: 2023-12-18 10:00:00
+title: 【前端】 (九) - 使用api方式加入routes
 categories:
   - 前端技術
   - React
 tags:
   - React
-description:
-keyword: "ES6, ReactJs  ,網頁"
+keyword: 'ES6, ReactJs  ,網頁'
 cover: /img/Web/react/react_bg.png
+date: 2023-12-18 10:00:00
+description:
 ---
 
 ## 一、前言
@@ -100,3 +99,5 @@ React.lazy、React.Suspense、Component 這兩者的組合可以讓我們在使�
 
 製作階段時候，可以參考以下資料表定義去設計資料庫，以及使用者的權限，這樣在後續開發時，可以更加的方便。如下圖所示。
 ![](/image/20231217_23-08-23.png)
+)
+g)

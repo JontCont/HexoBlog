@@ -1,6 +1,4 @@
----
-title: C# - Net Core ResultFilter 實戰
-date: 2023-12-18 22:23:40
+title: '【C#】實戰 Net Core ResultFilter '
 categories:
   - 後端技術
   - C#
@@ -8,8 +6,9 @@ tags:
   - Core
   - C#
   - Filter
-keyword: "Core, Filter , C#"
+keyword: 'Core, Filter , C#'
 cover: /image/20230831_22-23-40.png
+date: 2023-12-18 22:23:40
 ---
 
 ## 前言
@@ -193,4 +192,6 @@ public IActionResult Get()
 ## 結論
 
 這篇主要是紀錄一下 ResultFilter 的使用方式，主要是透過 OnResultExecuting、OnResultExecuted 來進行處理，並且可以透過 Attribute 來進行設定，這樣就可以在特定的 API 使用 ResultFilter。
+
+r。
 

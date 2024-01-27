@@ -61,19 +61,7 @@ Console.WriteLine($"{a} - {temp}");
 //1 - 2
 ```
 
-但是 Reference Type 會將資料存放在 Heap 中，因此當我們將變數複製一份出來，並且修改 temp 變數，a 變數會跟著變更，因為他們是存放在同一個記憶體位置，因此我們可以知道 Reference Type 是將資料存放在 Heap 中，因此當我們修改 temp 變數，a 變數會跟著變更。因此我們可以知道，當我們將 Object 複製一份出來，並且修改 temp 變數，a 變數會跟著變更，因為他們是存放在同一個記憶體位置，因此我們可以知道，當我們將 Object 複製一份出來，並且修改 temp 變數，a 變數會跟著變更，如下方範例
-
-```cs
-var A = new Person() { Name = "A", Age = 10 };
-var temp = A;
-temp.Age = 20;
-Console.WriteLine($"{A.Name} - {A.Age}");
-Console.WriteLine($"{temp.Name} - {temp.Age}");
-
-//output
-//A - 20
-//A - 20
-```
+但是 Reference Type 會將資料存放在 Heap 中，因此當我們將變數複製一份出來，並且修改 temp 變數，a 變數會跟著變更，因為他們是存放在同一個記憶體位置，因此我們可以知道 Reference Type 是將資料存放在 Heap 中，因此當我們修改 temp 變數，a 變數會跟著變更。因此我們可以知道，當我們將 Object 複製一份出來，並且修改 temp 變數，a 變數會跟著變更，因為他們是存放在同一個記憶體位置，因此我們可以知道，當我們將 Object 複製一份出來，並且修改 temp 變數，a 變數會跟著變更
 
 ### 如何解決呢？
 

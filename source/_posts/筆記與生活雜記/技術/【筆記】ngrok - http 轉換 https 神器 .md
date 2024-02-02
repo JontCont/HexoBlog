@@ -1,6 +1,6 @@
 ---
-title: 【筆記】ngrok - http 轉換 https 神器 
-date: 2022-11-01 21:00:05
+title: 【筆記】ngrok-http轉換https神器 
+date: 2024-02-01 23:10:05
 categories: 
   - 筆記 
   - 生活雜記
@@ -9,15 +9,16 @@ tags:
 description:
 cover: https://miro.medium.com/max/554/1*sQhD5gYF74FvBF8aoWf8cw.png
 ---
-
+## 前言
 相信不少有製作專案時候，面臨不少有管https的問題 ，例如 Line Bot (message api)、影像識別等。必需要https 才能使用，ngrok會將成為專案救星。
-
 如果是使用 windows 以外系統，建議配合其他資料參考。
 
 # [ngrok](https://ngrok.com/)
 ngrok 是一個可以將內網伺服器與對外伺服器溝通的服務。ngrok 可以把外界的請求轉發到你指定的 Port，使用的背景原理是連接到 ngrok 雲端伺服器，將你本機指定的地址公開，再將由 ngrok 一串公開的網址來存取內容。
 
-## 安裝
+--- 
+## ngrok
+### 一、安裝
 註冊部分請各位自行去註冊。
 
 進入ngrok網站後，會需要進行安裝的動作，點擊[ngrok.exe](https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-windows-amd64.zip)即可。
@@ -34,7 +35,7 @@ ngrok config add-authtoken xxxxxxx
 完成後，可以輸入```ngrok help ```先看看指令。官方網所提供如果要開啟 port 80 必須要輸入```ngrok http 80```。
 
 
-## 執行
+### 二、執行
 ngrok其實有三種種做法。
 1. 單一開啟
 2. 多個開啟
@@ -42,7 +43,9 @@ ngrok其實有三種種做法。
 
 依據專案開放測試，可能遇到串接問題需要兩個https 同時存在就會需要開啟多個port來解決現況。
 
-## 多個開啟 (.yml)
+---
+## ngrok 使用方式
+### 一、多個開啟 (.yml)
 加入憑證時候，其實可以看到已經有加入yml檔案，也就是設定檔案。設定部分需要透過```C:\Users\user\AppData\Local\ngrok```當中```ngrok.yml```設定。
 
 預設通常會看到憑證、版本，接下來再輸入我們要哪些Port以及名稱。下方範例加入兩個port 以及 名稱，這樣設定部分就已經完成了。
@@ -66,23 +69,18 @@ tunnels:
 ngrok start LineBot LineAPI
 ```
 
-## 全部開啟
+### 二、全部開啟
 使用方式如同多個開啟一樣，必須要先設定yml 這個指令才會生效。
 ```cmd
 ngrok start --all
 ```
 
 
-## 單一開啟
+### 三、單一開啟
 單一開啟有兩種做法，yml設定檔中的名稱以及指定port名稱。
+#### 使用方式
+1. 啟用 : ```ngrok start LineBot```
+2. 指定port : ```ngrok http 7777```
 
-```cmd
-ngrok start LineBot 
-
-```
-
-```cmd
-ngrok http 7777
-```
 
 

@@ -1,5 +1,5 @@
 ---
-title: Git (七) - 將不同git環境同步程式碼
+title: 【Git】- 使用 git remote 將不同git環境同步程式碼
 date: 2023-11-17 12:12:45
 categories: 
   - DevOps

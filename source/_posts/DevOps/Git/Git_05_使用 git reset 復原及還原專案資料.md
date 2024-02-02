@@ -1,5 +1,5 @@
 ---
-title: Git (五) - 復原/還原專案資料
+title: 【Git】- 使用 git reset 復原及還原專案資料
 date: 2023-03-02 10:12:45
 categories: 
   - DevOps

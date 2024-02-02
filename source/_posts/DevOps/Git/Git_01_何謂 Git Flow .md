@@ -1,5 +1,5 @@
 ---
-title: Git 學習新花樣(一) Git Flow 基本流程
+title: 【Git】- 何謂 Git Flow 
 date: 2023-03-02 10:12:45
 categories: 
   - DevOps
@@ -8,6 +8,8 @@ tags:
   - Git
 cover: /image/20230302_10-12-45.png
 ---
+
+
 # Git Flow 
 期初使用 Git 多人開發時候，常因為沒定義規則，遇到 Commit 集中一堆會造成後續維護很大困擾。因此於 2010年提出一套流程 [【Git Flow】](https://nvie.com/posts/a-successful-git-branching-model/)，而這套流程廣泛被應用。
 
@@ -24,6 +26,9 @@ Git Flow 使用主分支（master）和開發分支（develop）以及支援分�
 2. 修復分支（hotfix）：代表著緊急修復的分支，通常是由主分支分出來的，完成後再合併回主分支和開發分支。
 3. 發布分支（release）：代表著發布準備的分支，通常是由開發分支分出來的，完成後再合併回主分支和開發分支。
 
+![](/image/20240202_21-51-52.png)
+
+---
 ## 分支運作方式
 ### Master / Develop 分支
 當中 Master 與 Develop 會有一定的關聯性，必須要與 Develop 、Master 維持上下版本關係，才能有效達到效果。

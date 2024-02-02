@@ -1,5 +1,5 @@
 ---
-title: Git (六) - 回到先前的commit
+title: 【Git】- 使用 git reset 回到先前的commit
 date: 2023-11-17 12:12:45
 categories: 
   - DevOps

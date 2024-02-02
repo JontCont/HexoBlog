@@ -1,5 +1,5 @@
 ---
-title: Git 學習新花樣(二) diff 使用方式
+title: 【Git】- 比較前後差異(一) git diff 
 date: 2023-03-02 10:12:45
 categories: 
   - DevOps

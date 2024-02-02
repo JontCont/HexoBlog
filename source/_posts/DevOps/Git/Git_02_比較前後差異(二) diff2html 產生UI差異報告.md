@@ -1,5 +1,5 @@
 ---
-title: Git 學習新花樣(二) 套件 diff2html 產生差異報告
+title: 【Git】- 比較前後差異(二) diff2html 產生UI差異報告
 date: 2023-04-26 22:59:09
 categories: 
   - DevOps

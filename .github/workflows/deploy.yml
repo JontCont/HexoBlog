@@ -32,16 +32,13 @@ jobs:
         key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
         restore-keys: |
           ${{ runner.os }}-node-
-    - name: Install Dependencies
-      if: steps.cache.outputs.cache-hit != 'true'
-      run: npm ci
 
     - name: Hexo Deploy
       id: deploy
       uses: sma11black/hexo-action@v1.0.3
       with:
-        user_name  : ${{ env.USER_NAME }}
-        user_email : ${{ env.USER_EMAIL }}
+        deploy_key: ${{ secrets.DEPLOY_KEY }}
+        commit_msg: ${{ github.event.head_commit.message }}  # (or delete this input setting to use hexo default settings)
     - name: Get the output
       run: |
         echo "${{ steps.deploy.outputs.notify }}"

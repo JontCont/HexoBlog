@@ -12,7 +12,7 @@ on:
 env:
   TZ: 'Asia/Taipei'
   USER_NAME   : github-actions[bot]
-  USER_EMAIL  : information9527@gmail.com
+  USER_EMAIL  : 41898282+github-actions[bot]@users.noreply.github.com
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -41,6 +41,7 @@ jobs:
       uses: sma11black/hexo-action@v1.0.3
       with:
         deploy_key: ${{ secrets.DEPLOY_KEY }}
+        user_email: $${{ env.USER_EMAIL }}
         commit_msg: ${{ github.event.head_commit.message }}  # (or delete this input setting to use hexo default settings)
     - name: Get the output
       run: |

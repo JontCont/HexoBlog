@@ -12,7 +12,7 @@ on:
 env:
   TZ: 'Asia/Taipei'
   USER_NAME   : github-actions[bot]
-  USER_EMAIL  : 41898282+github-actions[bot]@users.noreply.github.com
+  USER_EMAIL  : information9527@gmail.com
 jobs:
   build:
     runs-on: ubuntu-latest

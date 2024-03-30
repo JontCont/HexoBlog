@@ -19,33 +19,22 @@ jobs:
     name: Deploy Hexo Blog
     steps:
     - name: Checkout
-      uses: actions/checkout@v4
-
-    - name: Install Node.js
-      uses: actions/setup-node@v4
+      uses: actions/checkout@v1
       with:
-        node-version: 20
-
-    - uses: pnpm/action-setup@v3
-      name: Install pnpm
-      with:
-        version: 8
-        run_install: false
-
+        submodules: true # Checkout private submodules(themes or something else).
     - name: Timezone set Asia/Taipei
       run: sudo timedatectl set-timezone 'Asia/Taipei'
-
-    - name: Cache pnpm modules
-      uses: actions/cache@v4
+    - name: Cache node modules
+      uses: actions/cache@v1
       id: cache
       with:
         path: node_modules
-        key: ${{ runner.os }}-pnpm-${{ hashFiles('**/package-lock.json') }}
+        key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
         restore-keys: |
-          ${{ runner.os }}-pnpm-
-
-    - name: Install dependencies
-      run: pnpm install
+          ${{ runner.os }}-node-
+    - name: Install Dependencies
+      if: steps.cache.outputs.cache-hit != 'true'
+      run: npm ci
 
     - name: Hexo Deploy
       id: deploy

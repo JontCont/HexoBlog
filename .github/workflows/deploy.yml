@@ -43,8 +43,8 @@ jobs:
       - name: Build and Deploy
         uses: solybum/hexo-deploy@master
         env:
-          PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          PUBLISH_REPOSITORY: JontCont/JontCont.github.io # The repository the action should deploy to.
+          PERSONAL_TOKEN: ${{ env.DEPLOY_KEY }}
+          PUBLISH_REPOSITORY: jontcont/jontcont.github.io # The repository the action should deploy to.
           BRANCH: main # The branch the action should deploy to.
           PUBLISH_DIR: ./public # The folder the action should deploy.
 

@@ -36,10 +36,6 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-node-
 
-      - name: Install npm hexo-renderer-pug hexo-renderer-stylus
-        run: | 
-          npm install hexo-renderer-pug hexo-renderer-stylus --save
-
       - name: Install Dependencies
         if: steps.cache.outputs.cache-hit != 'true'
         run: npm ci

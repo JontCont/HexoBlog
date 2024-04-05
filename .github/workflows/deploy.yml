@@ -41,7 +41,7 @@ jobs:
 
       - name: Hexo Deploy
         id: deploy
-        uses: sma11black/hexo-action@v1.0.4
+        uses: marsen/hexo-action@v1.0.7
         with:
           deploy_key: ${{ env.DEPLOY_KEY }}
           user_email: ${{ env.USER_EMAIL }}

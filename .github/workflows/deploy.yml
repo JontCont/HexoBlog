@@ -9,19 +9,42 @@ on:
   pull_request:
     branches: [ "deploy" ]
 
+env:
+  TZ: 'Asia/Taipei'
+  USER_NAME   : github-actions[bot]
+  USER_EMAIL  : 41898282+github-actions[bot]@users.noreply.github.com
 jobs:
   build:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: [14.x, 16.x, 18.x]
-        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
-
+    name: Deploy Hexo Blog
     steps:
-    - uses: actions/checkout@v3
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v3
+    - name: Checkout
+      uses: actions/checkout@v1
       with:
-        node-version: ${{ matrix.node-version }}
-        cache: 'npm'
-    - run: npm run publish
+        submodules: true # Checkout private submodules(themes or something else).
+    - name: Timezone set Asia/Taipei
+      run: sudo timedatectl set-timezone 'Asia/Taipei'
+    - name: Cache node modules
+      uses: actions/cache@v1
+      id: cache
+      with:
+        path: node_modules
+        key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+        restore-keys: |
+          ${{ runner.os }}-node-
+    - name: Install Dependencies
+      if: steps.cache.outputs.cache-hit != 'true'
+      run: npm ci
+
+    - name: Hexo Deploy
+      id: deploy
+      uses: sma11black/hexo-action@v1.0.3
+      with:
+        deploy_key: ${{ secrets.DEPLOY_KEY }}
+        user_email: $${{ env.USER_EMAIL }}
+        commit_msg: ${{ github.event.head_commit.message }}  # (or delete this input setting to use hexo default settings)
+    - name: Get the output
+      run: |
+        echo "${{ steps.deploy.outputs.notify }}"
+    
+

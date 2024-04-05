@@ -40,19 +40,13 @@ jobs:
         if: steps.cache.outputs.cache-hit != 'true'
         run: npm ci
 
-      - name: Build and Deploy
-        uses: solybum/hexo-deploy@master
-        env:
-          PERSONAL_TOKEN: ${{ env.DEPLOY_KEY }}
-          PUBLISH_REPOSITORY: jontcont/jontcont.github.io # The repository the action should deploy to.
-          BRANCH: main # The branch the action should deploy to.
-          PUBLISH_DIR: ./public # The folder the action should deploy.
-
-
-      # - name: Hexo Deploy
-      #   id: deploy
-      #   uses: sma11black/hexo-action@v1.0.3
-      #   with:
-      #     deploy_key: ${{ env.DEPLOY_KEY }}
-      #     user_email: ${{ env.USER_EMAIL }}
-      #     commit_msg: ${{ env.Commit_MSG }}
+      - name: Hexo Deploy
+        id: deploy
+        uses: sma11black/hexo-action@v1.0.3
+        with:
+          deploy_key: ${{ env.DEPLOY_KEY }}
+          user_email: ${{ env.USER_EMAIL }}
+          commit_msg: ${{ env.Commit_MSG }}
+          PUBLISH_REPOSITORY: jontcont/jontcont.github.io
+          BRANCH: main
+          PUBLISH_DIR: ./public

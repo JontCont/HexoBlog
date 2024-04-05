@@ -21,14 +21,14 @@ jobs:
     name: Deploy Hexo Blog
     steps:
       - name: Checkout
-        uses: actions/checkout@v1
+        uses: actions/checkout@v4
         with:
           submodules: true # Checkout private submodules(themes or something else).
 
       - name: Timezone set Asia/Taipei
         run: sudo timedatectl set-timezone 'Asia/Taipei'
       - name: Cache node modules
-        uses: actions/cache@v1
+        uses: actions/cache@v4
         id: cache
         with:
           path: node_modules
@@ -37,22 +37,12 @@ jobs:
             ${{ runner.os }}-node-
 
       - name: Install Dependencies
-        if: steps.cache.outputs.cache-hit != 'true'
-        run: npm ci
+        run: npm version && npm ci
 
-      - name: Build and Deploy
-        uses: solybum/hexo-deploy@master
-        env:
-          PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          PUBLISH_REPOSITORY: JontCont/JontCont.github.io # The repository the action should deploy to.
-          BRANCH: main # The branch the action should deploy to.
-          PUBLISH_DIR: ./public # The folder the action should deploy.
-
-
-      # - name: Hexo Deploy
-      #   id: deploy
-      #   uses: sma11black/hexo-action@v1.0.3
-      #   with:
-      #     deploy_key: ${{ env.DEPLOY_KEY }}
-      #     user_email: ${{ env.USER_EMAIL }}
-      #     commit_msg: ${{ env.Commit_MSG }}
+      - name: Hexo Deploy
+        id: deploy
+        uses: marsen/hexo-action@v1.0.7
+        with:
+          deploy_key: ${{ env.DEPLOY_KEY }}
+          user_email: ${{ env.USER_EMAIL }}
+          commit_msg: ${{ env.Commit_MSG }}

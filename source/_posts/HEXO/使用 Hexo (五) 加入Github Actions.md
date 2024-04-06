@@ -21,12 +21,14 @@ cover: /img/Hexo/day_03_UseHexo/hexo.png
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 ```
 
+{% note info simple %}
 #### 補充: ssh 區分
 - 有 .pub 是公鑰
 - 沒有副檔名是 私鑰
 ![](/image/20240405_23-04-44.png)
 
 PS 若第一是使用 ssh-keygen 務必留意這個小東西只能用一次 repository ，如果你澳用在其他 repository 會被阻擋使用。
+{% endnote %}
 
 #### 二、使用 Hexo Actions 
 這邊要使用的是官方提供的工具，這邊用現成說明。
@@ -43,14 +45,13 @@ PS 若第一是使用 ssh-keygen 務必留意這個小東西只能用一次 repo
 | `deploy_key` | YES | 用於存取你的 GitHub Pages 儲存庫的Deploy Key。 | `null` |
 | `commit_msg` | NO | 用於你的 GitHub Pages 儲存庫的 Git 提交訊息。 | `null` |
 
-
-
+{% note info simple %}
 #### 補充 : 官方提供 commit msg 預設輸入方式
 github actions 有特別支援這種作法，可以抓取當初定義的 message 發行。
 ```yml
 github.event.head_commit.message
 ```
-
+{% endnote %}
 
 ### 三、設定 Github Actions 環境
 本作者有分兩個路徑，兩這只要有一個設定錯 deploy key 會造成無法發布成功的尷尬問題。
@@ -67,11 +68,13 @@ github.event.head_commit.message
 然後私鑰要用在 **Actions secrets and variables** > **Repository secrets** ，名字取名為 *DEPLOY_KEY* 。
 ![](/image/20240405_23-27-34.png)
 
-
+{% note info simple %}
 #### 補充 : 存放原因
 這個動作目前測試結果發現是發佈動作後會由一個動作要 push 到 github pages repository 上面，這段過程就需要使用 deploy key ，若沒使用就會在 Github Actions一直不斷輪迴失敗。
 
 PS 如果要要使用 ssh 方式解決，我是沒有成功過若有興趣可以嘗試看看
+{% endnote %}
+
 
 
 
@@ -127,7 +130,7 @@ jobs:
 
 ```
 
-
+{% note info simple %}
 #### 補充 : 區域時間
 先前有另外爬文設定時區作法可以設定參數，這樣就不會去抓預設地區時間。
 ```yml
@@ -141,10 +144,9 @@ jobs:
       - name: Timezone set Asia/Taipei
         run: sudo timedatectl set-timezone 'Asia/Taipei'
 ```
-
+{% endnote %}
 
 ---
-
 
 ## 使用 butterfly 須知
 如果要使用 actions 且又使用 butterfly 務必要看這段內容，否則又會在卡關一次。因為作者是使用 ruby 撰寫前端，所以要用hexo 要記得下以下內容

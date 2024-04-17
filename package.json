@@ -13,7 +13,7 @@
     "version": "7.1.1"
   },
   "dependencies": {
-    "hexo": "^7.1.1",
+    "hexo": "^7.2.0",
     "hexo-admin": "^2.3.0",
     "hexo-butterfly-artitalk": "^1.0.4",
     "hexo-butterfly-douban": "^1.2.4",

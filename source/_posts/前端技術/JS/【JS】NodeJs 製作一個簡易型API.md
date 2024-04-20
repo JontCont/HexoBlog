@@ -8,7 +8,7 @@ tags:
   - javascript
 description:
 keyword: 'ES6, AJAX '
-cover: /img/Web/js/Ajax/ajax-logo.jpg
+cover: 'https://raw.githubusercontent.com/surmon-china/nodepress/main/logo.png'
 ---
 
 ## 前言

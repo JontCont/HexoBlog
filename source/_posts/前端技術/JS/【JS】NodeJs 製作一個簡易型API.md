@@ -131,27 +131,79 @@ app.delete("/users/:id", (req, res) => {
 });
 ```
 
-
-
-## 二、API 路由
-
-### 2-1 路由
-在 express 中，路由是指如何定義應用程式的端點 (URI) 以及如何回應用戶端的要求。路由是由一個 URI、HTTP 要求 (GET、POST 等) 和若干個處理程序組成的。每個路由可以有一個或多個處理程序，當路由匹配時，這些處理程序將被執行。
-
-### 2-2 建立路由
-在這邊我們建立一個簡單的路由，當使用者輸入 `http://localhost:3000/api` 時候，會回傳 `API` 字串。
-
+### 2-4 統一使用 json 格式
+這邊我們統一使用 json 格式，所以我們需要在最上面加入以下程式碼。若沒有使用這段程式碼，會導致 req.body 無法使用。
 ```javascript
-app.get("/api", (req, res) => {
-    res.send("API");
-});
+app.use(require("express").json());
 ```
 
+### 2-4 透過 postman 測試
+這邊我們使用 postman 來測試，這邊我們使用 GET、POST、PUT、DELETE 四種方法來測試。
+
+1. **GET**：取得所有使用者資料
+    - URL：`http://localhost:3000/users`
+    - Method：GET
+    - Response：`[{"id":1,"name":"Alice"},{"id":2,"name":"Bob"},{"id":3,"name":"Cara"}]`
+
+2. **GET**：取得指定使用者資料
+    - URL：`http://localhost:3000/users/2`
+    - Method：GET
+    - Response：`{"id":2,"name":"Bob"}`
+
+3. **POST**：新增使用者資料
+   - URL：`http://localhost:3000/users`
+   - Method：POST
+   - Body：`{ "name": "David" }`
+   - Response：`{"id":4,"name":"David"}`
+
+4. **PUT**：更新使用者資料
+   - URL：`http://localhost:3000/users/4`
+   - Method：PUT
+   - Body：`{ "name": "Eva" }`
+   - Response：`{"id":4,"name":"Eva"}`
+
+5. **DELETE**：刪除使用者資料
+   - URL：`http://localhost:3000/users/4`
+   - Method：DELETE
+   - Response：`{"id":4,"name":"Eva"}`
 
 
 
 
+## 三、補充
+### 3-1 request、response
+- **req**：是 request 的縮寫，是一個物件，包含了所有的 HTTP 請求的資訊。
+- **res**：是 response 的縮寫，也是一個物件，包含了所有的 HTTP 回應的資訊。
+
+### 3-2 request 參數
+1. req.query：這是一個物件，包含了查詢字串中的所有參數。例如，在 URL "/search?keyword=nodejs" 中，你可以通過 req.query.keyword 獲取 "nodejs"。
+2. req.params：這是一個物件，包含了路由中的命名參數。例如，在路由 "/users/:userId" 中，你可以通過 req.params.userId 獲取用戶 ID。
+3. req.body：這是一個物件，包含了 POST 或 PUT 請求的主體數據。需要注意的是，要使用此屬性，你需要使用 body-parser 中間件。
+4. req.headers：這是一個物件，包含了所有 HTTP 請求標頭。
+5. req.method：這是一個字串，表示 HTTP 請求的方法，如 "GET"、"POST" 等。
+6. req.url：這是一個字串，表示完整的 URL，包括路徑和查詢字串。
+7. req.path：這是一個字串，表示 URL 的路徑部分，不包括查詢字串。
+8. req.hostname：這是一個字串，表示 HTTP 請求的主機名稱，不包括端口。
+9. req.ip：這是一個字串，表示發送 HTTP 請求的客戶端的 IP 位址。
 
 
-
-
+### 3-3 response 方法
+1. **res.end()**：這個方法會結束回應進程，不再發送任何數據。
+2. **res.download()**：這個方法會提示瀏覽器下載文件。你需要提供文件的路徑作為參數。
+3. **res.json()**：這個方法會發送一個 JSON 格式的回應。你需要提供一個物件作為參數。
+4. **res.jsonp()**：這個方法會發送一個 JSONP 格式的回應，允許跨域請求。你需要提供一個物件作為參數。
+5. **res.redirect()**：這個方法會重定向請求到一個新的 URL。你需要提供新的 URL 作為參數。
+6. **res.render()**：這個方法會呈現一個視圖模板。你需要提供模板的名稱和一個物件（包含模板變數）作為參數。
+7. **res.send()**：這個方法會發送一個回應，可以是 String、Buffer、JSON 或 HTML。
+8. **res.sendFile()**：這個方法會發送一個文件。你需要提供文件的路徑作為參數。
+9. **res.sendStatus()**：這個方法會設置響應狀態碼，並將其作為回應的主體發送。
+10. **res.status()**：這個方法會設置響應狀態碼。
+11. **res.type()**：這個方法會設置 Content-Type 響應標頭。
+12. **res.set()**：這個方法會設置一個或多個響應標頭。
+13. **res.cookie()**：這個方法會設置一個 cookie。你需要提供 cookie 的名稱和值作為參數。
+14. **res.clearCookie()**：這個方法會清除一個 cookie。你需要提供 cookie 的名稱作為參數。
+15. **res.append()**：這個方法會追加一個值到已存在的 HTTP 響應頭。
+16. **res.attachment()**：這個方法會將 HTTP 響應頭中的 Content-Disposition 設置為附件，這通常用於提示瀏覽器下載文件。
+17. **res.header()**：這個方法會設置一個或多個響應標頭。
+18. **res.get()**：這個方法會返回指定的 HTTP 頭的值。
+19. **res.format()**：這個方法會根據請求的 Accept HTTP 頭字段，呈現不同格式的回應。你需要提供一個物件，物件的鍵是內容類型，值是對應的回應函數。

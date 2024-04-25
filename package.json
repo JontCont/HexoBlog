@@ -13,7 +13,7 @@
     "version": "7.1.1"
   },
   "dependencies": {
-    "hexo": "^7.1.1",
+    "hexo": "^7.2.0",
     "hexo-admin": "^2.3.0",
     "hexo-butterfly-artitalk": "^1.0.4",
     "hexo-butterfly-douban": "^1.2.4",
@@ -26,7 +26,7 @@
     "hexo-generator-tag": "^2.0.0",
     "hexo-renderer-ejs": "^2.0.0",
     "hexo-renderer-jade": "^0.5.0",
-    "hexo-renderer-marked": "^6.2.0",
+    "hexo-renderer-marked": "^6.3.0",
     "hexo-renderer-pug": "^3.0.0",
     "hexo-renderer-stylus": "^3.0.1",
     "hexo-server": "^2.0.0",

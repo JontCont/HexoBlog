@@ -1,4 +1,5 @@
-title: 【Angular (7)】使用 IndexedDb
+---
+title: 【Angular】07 使用IndexedDb
 categories:
   - 前端技術
   - Angular

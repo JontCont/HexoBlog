@@ -10,6 +10,9 @@ description:
 keyword: 'office, 微軟 '
 cover: https://i0.wp.com/kkplay3c.net/wp-content/uploads/2020/02/microsoft-office-700x375.jpg
 ---
+**備註: 目前微軟現階段是排隊狀況，需要等白名單(沙盒)可能要一段時間。**
+
+
 # 前言
 微軟已經提供很久讓開發者可以持續使用E5，相信很多人也有用過這個東西，後面發現Github AutApi 消失又再一次重複操作，這次會將重要操作列出。本篇文章提供下載點以及操作說明讓所有人可以快速創出自己的環境。
 

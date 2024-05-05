@@ -1,3 +1,4 @@
+---
 title: 【Angular (6)】跨越 component 讀取資料
 categories:
   - 前端技術

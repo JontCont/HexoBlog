@@ -1,6 +1,6 @@
 ---
-title: Angular筆記-發行到IIS時，Config加入方式
-date: 2023-07-20
+title: 【Angular】發行到IIS時，如何加入Config加入方式
+date: 2023-07-20 22:30:00
 categories: 
   - 前端技術
   - Angular

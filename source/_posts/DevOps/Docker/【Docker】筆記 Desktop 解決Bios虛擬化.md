@@ -1,5 +1,5 @@
 ---
-title: Docker Desktop - 解決 "Hardware assisted virtualization and data execution protection must be enabled in the BIOS" 
+title: 【筆記】Docker Desktop - 解決 "Hardware assisted virtualization and data execution protection must be enabled in the BIOS" 
 date: 2022-10-06 21:40:59
 categories: 
   - DevOps
@@ -11,7 +11,7 @@ cover: https://www.docker.com/wp-content/uploads/2021/09/Moby-run.png
 ---
 
 為了再次學習之前學一半的Docker ，重新再次安裝 Docker Desktop 。安狀完成以為可以正常使用，發生 "Hardware assisted virtualization and data execution protection must be enabled in the BIOS" 錯誤訊息，急忙地排除這問題。
-![](/img/Docker/Snipaste_2022-10-06_21-40-59.png)
+![](/image/Snipaste_2022-10-06_21-40-59.png)
 
 
 ## 問題排除一、指令方式排除
@@ -33,7 +33,7 @@ dism.exe /Online /Enable-Feature:Microsoft-Hyper-V /All
 ```cmd
 bcdedit /set hypervisorlaunchtype auto
 ```
-![](/img/Docker/Snipaste_2022-10-06_21-43-21.png)
+![](/image/Snipaste_2022-10-06_21-43-21.png)
 
 以上方式結果一樣卻沒辦法成功開啟，看似是透過其他方式開啟，因此，嘗試用其他方式解決。
 
@@ -43,14 +43,14 @@ bcdedit /set hypervisorlaunchtype auto
 檢查方式 : 開啟工作管理員 > 效能 > 模擬。
 
 底下會有 "模擬: 關閉"，看似是這個搞的鬼。這時候需要透過BIOS方式打開，進入Advanced Mode > 開啟 (SVM) 即可。
-![](/img/Docker/Snipaste_2022-10-06_22-11-35.png)
+![](/image/Snipaste_2022-10-06_22-11-35.png)
 
 備註 : Intel 虛擬化功能名稱會不相同 (Virtualization Technology)。
 
 重新開機後，從工作管理員可見已經開啟，Docker Desktop 順利開起來
 結束這怪問題。
-![](/img/Docker/Snipaste_2022-10-06_22-40-03.png)
-![](/img/Docker/Snipaste_2022-10-06_22-40-10.png)
+![](/image/Snipaste_2022-10-06_22-40-03.png)
+![](/image/Snipaste_2022-10-06_22-40-10.png)
 
 這幾周稍微摸摸如何使用Docker，努力推進 DevOps 工具之一。
 

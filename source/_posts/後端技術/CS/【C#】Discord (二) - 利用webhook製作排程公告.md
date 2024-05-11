@@ -1,5 +1,5 @@
 ---
-title: C# Discord (二) - 利用webhook製作排程公告
+title: 【C#】Discord (二) - 利用webhook製作排程公告
 date: 2023-11-20 15:49:45
 categories: 
   - 後端技術

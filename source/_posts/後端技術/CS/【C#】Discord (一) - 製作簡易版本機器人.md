@@ -1,5 +1,5 @@
 ---
-title: C# Discord (一) - 製作簡易版本機器人
+title: 【C#】Discord (一) - 製作簡易版本機器人
 date: 2023-09-24 15:49:45
 categories: 
   - 後端技術

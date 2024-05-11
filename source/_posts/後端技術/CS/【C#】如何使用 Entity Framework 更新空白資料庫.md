@@ -1,5 +1,5 @@
 ---
-title: 【C#】 如何使用 Entity Framework 更新空白資料庫
+title: 【C#】如何使用 Entity Framework 更新空白資料庫
 date: 2022-03-13 17:08:03
 categories: 
   - 後端技術

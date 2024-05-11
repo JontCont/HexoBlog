@@ -1,5 +1,5 @@
 ---
-title: Line Notify - 使用 C# 創建 Line Notify
+title: 【C#】Line Notify (一) 使用 C# 創建 Line Notify
 date: 2022-10-08 22:20:10
 categories: 
   - 後端技術

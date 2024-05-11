@@ -1,5 +1,5 @@
 ---
-title: 使用 LinQ (四) - Join 使用方式 
+title: 【LinqPAD】使用 LinQ (四) - Join 使用方式 
 date: 2022-12-12 14:22:46
 categories: 
   - 後端技術

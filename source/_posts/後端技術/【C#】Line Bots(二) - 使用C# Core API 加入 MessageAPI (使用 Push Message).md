@@ -1,5 +1,5 @@
 ---
-title: Line Bots (二) - 使用C# Core API 加入 MessageAPI (使用 Push Message)
+title: 【C#】Line Bots(二) - 使用C# Core API 加入 MessageAPI (使用 Push Message)
 date: 2022-09-09 17:16:33
 categories: 
   - 後端技術
@@ -14,7 +14,7 @@ cover: https://developers.line.biz/media/services/messaging-api-thumb1.png
 # sticky: 1
 ---
 
-Line Bots 使用方式會主要使用 C# 撰寫，如果是使用其他語言只僅供參考。繼上篇紀錄儲存相關資訊後，需要準備一個 [ngrok](/2022/08/11/Note/ngrok/) 即可。
+【C#】Line Bots使用方式會主要使用 C# 撰寫，如果是使用其他語言只僅供參考。繼上篇紀錄儲存相關資訊後，需要準備一個 [ngrok](/2022/08/11/Note/ngrok/) 即可。
 
 本章節範例 : 
 - Github [dotnetCore_LineBot](https://github.com/JontCont/dotnetCore_LineBot)
@@ -71,7 +71,7 @@ app.UseCors();
     }
 ```
 ### 開啟 ngrok 
-剩下最後一項工作，必須要加入ngrok。Line Bots Webhook URL 這個選像是待會再把ngrok網址貼在上面，這東西因為不能用```localhost``` 必須要使用ngrok;
+剩下最後一項工作，必須要加入ngrok。【C#】Line BotsWebhook URL 這個選像是待會再把ngrok網址貼在上面，這東西因為不能用```localhost``` 必須要使用ngrok;
 
 首先，先到launchSetting.json 修改一小段。暫時把原本applicationUrl註解，並往下加入你想要的Port。
 ```json

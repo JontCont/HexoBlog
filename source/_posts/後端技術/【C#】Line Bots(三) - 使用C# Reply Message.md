@@ -1,5 +1,5 @@
 ---
-title: Line Bots (三) - 使用C# Reply Message
+title: 【C#】Line Bots(三) - 使用C# Reply Message
 date: 2022-09-09 17:16:33
 categories: 
   - 後端技術
@@ -37,7 +37,7 @@ ngrok 只要不中途離開，即使當下"網頁失效" ngrok 是會繼續執�
 ## Reply Message - 1/2
 Line Reply 需要使用者回覆訊息，Bots 部分會選擇適當回覆內容回覆給對方。當中 Reply 可以判別對方發的訊息是 Message 、Images 、貼圖 ，Json 回覆部分後續再探討。
 
-完成Line Bots Reply Message 前置作業，需要完成三步驟。
+完成【C#】Line BotsReply Message 前置作業，需要完成三步驟。
 ### 一、取得 JSON Body
 ```cs
   string strBody = "";

@@ -1,5 +1,5 @@
 ---
-title: Line Bots (一) - 環境建立、註冊
+title: 【C#】【C#】Line Bots(一) - 環境建立、註冊
 date: 2022-09-09 10:06:48
 categories: 
   - 後端技術
@@ -13,7 +13,7 @@ keyword: 'Net FrameWork, C# , Line '
 cover: https://developers.line.biz/media/services/bot-designer-main-contents.png
 # sticky: 1
 ---
-Line Bots 是台灣最多的使用之一的APP，如果要向外推廣必須要從 Line 下手是最好的選擇。本次計畫會撰寫Line Message 使用方式，大致上只有簡單如何創建 Message API。
+【C#】Line Bots是台灣最多的使用之一的APP，如果要向外推廣必須要從 Line 下手是最好的選擇。本次計畫會撰寫Line Message 使用方式，大致上只有簡單如何創建 Message API。
 
 ## [Line Developers](https://developers.line.biz/zh-hant/)
 Line Developers 是 Line 提供的開發環境。詳細介紹 : [LINE Bot 開發者指南詳解](https://engineering.linecorp.com/zh-hant/blog/line-bot-guideline-1/)

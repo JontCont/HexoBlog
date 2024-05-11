@@ -1,5 +1,5 @@
 ---
-title: C# API (一)- API種類、特性規範
+title: 【API】API種類、特性規範
 date: 2022-04-02 16:57:24
 categories: 
   - 後端技術

@@ -1,5 +1,5 @@
 ---
-title: C# Core - 設定跨來源資源共用（CORS）
+title: 【C#】ASPNET Core 設定跨來源資源共用（CORS）
 date: 2022-06-11 22:42:03
 categories: 
   - 後端技術

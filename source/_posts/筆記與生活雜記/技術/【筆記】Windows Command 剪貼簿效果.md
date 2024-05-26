@@ -6,7 +6,7 @@ categories:
   - 生活雜記
 description:
 keyword: 'CLI'
-cover: 2024-05-13-13-59-18.png
+cover: /image/20240526_12-05-25.png
 ---
 
 ## Clip 命令

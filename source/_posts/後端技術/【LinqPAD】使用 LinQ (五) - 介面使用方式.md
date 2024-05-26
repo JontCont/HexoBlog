@@ -31,9 +31,9 @@ LinqPad 左邊兩個區塊第一個是連線資料庫、第二個是查詢(Queri
 
 
 - 查詢(Queries):
-- 可以使用 C#、VB.NET、F# 進行查詢
-- 可以使用 NuGet 安裝套件
-- 可以使用自訂的 NuGet 套件 、Snippet 、Namesapace Imports
+1. 可以使用 C#、VB.NET、F# 進行查詢
+2. 可以使用 NuGet 安裝套件
+3. 可以使用自訂的 NuGet 套件 、Snippet 、Namesapace Imports
 ![](/image/20240526_12-18-15.png)
 
 

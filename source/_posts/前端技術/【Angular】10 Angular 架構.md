@@ -1,5 +1,5 @@
 ---
-title: Angular 架構
+title: 【Angular】Angular 架構
 date: 2024-04-25 15:21:30
 categories: 
   - 前端技術

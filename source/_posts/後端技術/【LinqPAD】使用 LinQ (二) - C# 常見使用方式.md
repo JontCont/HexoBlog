@@ -3,11 +3,11 @@ title: 【LinqPAD】使用 LinQ (二) - C# 常見使用方式
 date: 2022-12-12 14:22:46
 categories: 
   - 後端技術
-  - LinQ
+  - LINQPad
 tags: 
-  - LinQ
+  - LINQPad
 description:
-keyword: 'Net FrameWork, C# , linq '
+
 cover: /img/Linq-Use-Day01/bg.jpg
 # sticky: 2
 ---

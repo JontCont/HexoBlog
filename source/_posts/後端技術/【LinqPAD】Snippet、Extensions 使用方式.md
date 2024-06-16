@@ -1,13 +1,13 @@
 ---
-title: 【LinqPAD】使用方式 Snippet、Extensions 
+title: 【LinqPAD】Snippet、Extensions 使用方式
 date: 2024-05-26 16:22:46
 categories: 
   - 後端技術
-  - LinQ
+  - LINQPad
 tags: 
-  - LinQ
+  - LINQPad
 description:
-keyword: 'Net FrameWork, C# , linq '
+
 cover: /image/20240526_16-31-14.png
 ---
 

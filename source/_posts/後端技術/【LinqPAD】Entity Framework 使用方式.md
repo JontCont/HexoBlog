@@ -1,6 +1,6 @@
 ---
 title: 【LinqPAD】Entity Framework 使用方式
-date: 2024-06-16 16:22:46
+date: 2024-06-16 20:22:46
 categories: 
   - 後端技術
   - LINQPad

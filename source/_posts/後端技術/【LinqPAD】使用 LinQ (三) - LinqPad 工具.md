@@ -3,9 +3,9 @@ title: 【LinqPAD】使用 LinQ (三) - LinqPad 工具
 date: 2022-12-12 14:22:46
 categories: 
   - 後端技術
-  - LinQ
+  - LINQPad
 tags: 
-  - LinQ
+  - LINQPad
 description:
 keyword: 'Net FrameWork, C# , linq '
 cover: /img/linq_use_day02/bg.png

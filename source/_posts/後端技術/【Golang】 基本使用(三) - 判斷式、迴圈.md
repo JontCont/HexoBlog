@@ -3,11 +3,10 @@ title: 【Golang】 基本使用(三) - 判斷式、迴圈
 date: 2022-12-07 21:00:05
 categories:
   - 後端技術
-  - Go
+  - GO
 tags: 
-  - Go
+  - GO
 description:
-keyword: 'Go'
 cover: /image/20221207_21-26-48.png
 ---
 

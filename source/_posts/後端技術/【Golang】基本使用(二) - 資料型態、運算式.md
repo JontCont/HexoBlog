@@ -2,12 +2,11 @@
 title: 【Golang】基本使用(二) - 資料型態、運算式
 date: 2022-12-07 21:00:05
 categories:
-  - 後端技術 
-  - Go
+  - 後端技術
+  - GO
 tags: 
-  - Go
+  - GO
 description:
-keyword: 'Go,Golang'
 cover: /image/20221207_21-26-48.png
 ---
 ## 前言

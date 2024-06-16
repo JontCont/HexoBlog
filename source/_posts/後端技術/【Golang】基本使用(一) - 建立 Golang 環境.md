@@ -1,13 +1,12 @@
 ---
 title: 【Golang】基本使用(一) - 建立 Golang 環境
 date: 2022-12-07 21:00:05
-categories: 
+categories:
   - 後端技術
   - GO
 tags: 
-  - Go
+  - GO
 description:
-keyword: 'Go, Golang'
 cover: /image/20221207_21-26-48.png
 ---
 ## 前言

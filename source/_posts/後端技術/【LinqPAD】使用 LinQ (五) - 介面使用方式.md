@@ -3,9 +3,9 @@ title: 【LinqPAD】使用 LinQ (五) - 介面使用方式
 date: 2024-05-26 14:22:46
 categories: 
   - 後端技術
-  - LinQ
+  - LINQPad
 tags: 
-  - LinQ
+  - LINQPad
 description:
 keyword: 'Net FrameWork, C# , linq '
 cover: /image/20240511_11-16-15.png

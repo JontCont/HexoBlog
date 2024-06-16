@@ -10,7 +10,7 @@ tags:
   - Net FrameWork
   - Winform
 description:
-keyword: 'Net FrameWork, C# , linq '
+
 cover: https://plctech.com.vn/wp-content/uploads/2021/04/winforms-la-gi-3.jpg
 # sticky: 1
 ---

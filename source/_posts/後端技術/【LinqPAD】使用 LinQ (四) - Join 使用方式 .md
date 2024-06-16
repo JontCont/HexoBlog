@@ -7,7 +7,7 @@ categories:
 tags: 
   - LINQPad
 description:
-keyword: 'Net FrameWork, C# , linq '
+
 cover: /img/Linq-Use-Day03/bg.png
 ---
 LinQ 使用join 需要知道Outer及Inner兩個資料型別物件。

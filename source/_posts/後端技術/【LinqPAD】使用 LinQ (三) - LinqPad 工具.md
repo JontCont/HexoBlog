@@ -7,7 +7,7 @@ categories:
 tags: 
   - LINQPad
 description:
-keyword: 'Net FrameWork, C# , linq '
+
 cover: /img/linq_use_day02/bg.png
 ---
 

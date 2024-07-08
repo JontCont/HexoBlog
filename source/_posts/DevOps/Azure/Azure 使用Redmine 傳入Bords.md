@@ -8,9 +8,8 @@ tags:
   - Azure
   - Redmine
 description:
-cover: /image/20240708_09-24-49.png
+cover: /image/20240708_10-47-34.png
 ---
-
 
 ## 前言
 

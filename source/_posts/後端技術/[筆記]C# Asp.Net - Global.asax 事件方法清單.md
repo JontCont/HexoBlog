@@ -1,5 +1,5 @@
 ---
-title: [筆記]C# Asp.Net - Global.asax 事件方法清單
+title: '[筆記]C# Asp.Net - Global.asax 事件方法清單'
 date: 2021-09-01 23:15:10
 categories: 
   - 後端技術

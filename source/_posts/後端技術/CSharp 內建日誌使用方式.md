@@ -1,5 +1,5 @@
 ---
-title: '【C#】內建日誌使用方式'
+title: '【C#】Logger 內建日誌使用方式'
 date: 2024-06-10 18:57:24
 categories: 
   - 後端技術

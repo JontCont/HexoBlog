@@ -1,5 +1,5 @@
 ---
-title: 【Git】- 使用 git remote 將不同git環境同步程式碼
+title: 【Git】使用 git remote、git log 將不同git環境同步程式碼
 date: 2024-04-20 23:12:45
 categories: 
   - DevOps

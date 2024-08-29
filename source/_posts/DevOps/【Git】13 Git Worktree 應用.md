@@ -58,8 +58,10 @@ git worktree unlock <path> ## 解鎖 worktree
 ![](/image/20240828_22-21-55.png)
 
 
-#### 1-5 不小心刪掉解決方式 - 標記 prune
+#### 1-5 不小心刪掉解決方式(標記 prune)
+
 如果不小心刪除了有個解決方式，透過 git worktree list 來查看目前的 worktree，然後使用 prune 來刪除已經不存在的 worktree。
+
 ```bash
 git worktree list
 git worktree prune ## 2. 這會移除所有已標記為可修剪的 worktree

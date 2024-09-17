@@ -77,7 +77,7 @@ console.log(a.IsOdd() ? "Odd" : "Even"); // Even
 以上做法就加入C#語法糖效果。
 
 ### 2. 實作IsNullOrEmpty
-接下來是 C# 效果是 String.IsNullOrEmpty 而不是prototype。透過滑鼠移動到prototype可以看到原型鏈，我們可以看到String的原型鏈是StringConstructor，所以我們可以在StringConstructor加入IsNullOrEmpty函式。
+接下來，我們來補一下 String.IsNullOrEmpty 。 C# 中的 String 與 typescript 不同，這邊不是用 prototype 來抓，而是 StringConstructor。透過滑鼠移動到prototype可以看到原型鏈，我們可以看到String的原型鏈是StringConstructor，所以我們可以在StringConstructor加入IsNullOrEmpty函式。
 ![](/image/20240917_21-45-30.png)
 
 

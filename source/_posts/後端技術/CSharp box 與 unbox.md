@@ -9,9 +9,8 @@ tags:
   - C#
 description:
 keyword: 'C#'
-cover: /image/20230226_20-12-36.png
+cover: /image/20240917_20-00-09.png
 ---
-
 ## Box 與 Unbox
 Boxing 和 Unboxing 是在程式設計中處理實值型別（Value Type）和參考型別（Reference Type）之間轉換的過程。
 

@@ -1,5 +1,5 @@
 ---
-title: 【筆記】Docker Desktop - 解決 "Hardware assisted virtualization and data execution protection must be enabled in the BIOS" 
+title: 【Docker Desktop】解決 "Hardware assisted virtualization and data execution protection must be enabled in the BIOS" 
 date: 2023-10-06 21:40:59
 categories: 
   - DevOps

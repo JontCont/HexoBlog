@@ -35,3 +35,6 @@ node_modules/
 public/
 .deploy*/
 
+# JetBrains
+.idea
+.idea/*

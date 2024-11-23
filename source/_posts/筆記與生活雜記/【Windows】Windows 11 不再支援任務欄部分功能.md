@@ -1,5 +1,5 @@
 ---
-title: 【筆記】Windows 11 不再支援任務欄部分功能
+title: 【Windows】Windows 11 不再支援任務欄部分功能
 date: 2024-01-23 21:00:05
 categories: 
   - 筆記 

@@ -4,7 +4,7 @@ date: 2024-11-24 23:00:05
 categories: 
   - 筆記 
 description:
-cover: /image/20241123_10-24-46.png
+cover: /image/20241125_10-50-07.png
 ---
 
 ## 前言
@@ -12,7 +12,7 @@ cover: /image/20241123_10-24-46.png
 
 
 ## xAI 簡介
-xAI 是由 twitter (X Corp) 提供AI服務給使用者使用，模組目前只有支援 grok-beta、grok-vision-beta。使用模組時候建議先了解一下他的價格表，介於我們只單純翻譯要超過 25美元的額度是不太可能的。
+xAI 是由 twitter (X Corp) 提供AI服務給使用者使用，模組目前只有支援 grok-beta、grok-vision-beta。(目前翻譯模型效果比其他模型好很多)
 ![](/image/20241124_22-47-22.png)
 
 
@@ -21,8 +21,7 @@ xAI 是由 twitter (X Corp) 提供AI服務給使用者使用，模組目前只�
     - 進入 Chrome Web Store 搜尋 `沉浸式翻譯-網頁翻譯擴充` 並安裝
     - 安裝完成後會出現一個小圖示在右上角
 
-- 相關連結 : [https://chromewebstore.google.com/detail/%E6%B2%89%E6%B5%B8%E5%BC%8F%E7%BF%BB%E8%AD%AF-%E7%B6%B2%E9%A0%81%E7%BF%BB%E8%AD%AF%E6%93%B4%E5%85%85-pdf%E7%BF%BB%E8%AD%AF-%E5%85%8D%E8%B2%BB/bpoadfkcbjbfhfodiogcnhhhpibjhbnh](https://chromewebstore.google.com/detail/%E6%B2%89%E6%B5%B8%E5%BC%8F%E7%BF%BB%E8%AD%AF-%E7%B6%B2%E9%A0%81%E7%BF%BB%E8%AD%AF%E6%93%B4%E5%85%85-pdf%E7%BF%BB%E8%AD%AF-%E5%85%8D%E8%B2%BB/bpoadfkcbjbfhfodiogcnhhhpibjhbnh)
-
+- 擴充連結 : [https://chromewebstore.google.com/detail/%E6%B2%89%E6%B5%B8%E5%BC%8F%E7%BF%BB%E8%AD%AF-%E7%B6%B2%E9%A0%81%E7%BF%BB%E8%AD%AF%E6%93%B4%E5%85%85-pdf%E7%BF%BB%E8%AD%AF-%E5%85%8D%E8%B2%BB/bpoadfkcbjbfhfodiogcnhhhpibjhbnh](https://chromewebstore.google.com/detail/%E6%B2%89%E6%B5%B8%E5%BC%8F%E7%BF%BB%E8%AD%AF-%E7%B6%B2%E9%A0%81%E7%BF%BB%E8%AD%AF%E6%93%B4%E5%85%85-pdf%E7%BF%BB%E8%AD%AF-%E5%85%8D%E8%B2%BB/bpoadfkcbjbfhfodiogcnhhhpibjhbnh)
 
 2. 取得 AI API Key
     - 進入 [https://console.x.ai/](https://console.x.ai/) 

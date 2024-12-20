@@ -26,47 +26,31 @@ Microsoft Entra 是一個為企業提供的服務，可以讓企業的使用者�
 
 ##### 1-1 使用者數量限制
 - **最大使用者數量**：
-  - **免費版**：單個租戶中最多可以創建 **50,000 個使用者和資源**[4](4)[8](8)[11](11)。
+  - **免費版**：單個租戶中最多可以創建 **50,000 個使用者和資源**
   - 如果需要更多資源，您可以考慮升級到付費版本（如 Premium P1 或 P2），這些版本提供更高的資源上限及更多的功能。
 
 ##### 1-2 免費版的其他限制
 除了使用者數量的限制外，免費版還有一些其他的限制：
 
 ##### 1-3 功能和服務
-- **單一登入 (SSO)**：支援跨 Azure、Microsoft 365 和許多流行的 SaaS 應用程式的單一登入[3](3)。
-- **條件式存取 (Conditional Access)**：不支援此功能，僅在 Premium P1 和 P2 訂閱中提供[7](7)。
-- **多重身份驗證 (MFA)**：僅支持基本的多重身份驗證，不包括高級 MFA 設定[7](7)。
+- **單一登入 (SSO)**：支援跨 Azure、Microsoft 365 和許多流行的 SaaS 應用程式的單一登入。
+- **條件式存取 (Conditional Access)**：不支援此功能，僅在 Premium P1 和 P2 訂閱中提供。
+- **多重身份驗證 (MFA)**：僅支持基本的多重身份驗證，不包括高級 MFA 設定。
 - **報告和監控**：提供基本的安全報告和監視功能[3](3)。
 
 ##### 1-4 如何避免產生額外費用
 為了確保在免費版使用過程中不會產生額外費用，請遵循以下建議：
 
 1. **定期監控用戶和資源數量**：
-   - 確保您的租戶中創建的總使用者和資源數量不超過 50,000 個的上限[11](11)。
+   - 確保您的租戶中創建的總使用者和資源數量不超過 50,000 個的上限。
 
 2. **避免使用高級功能**：
-   - 僅使用免費版提供的基本功能，避免使用需要付費的高級功能，例如條件式存取和高級 MFA[7](7)。
+   - 僅使用免費版提供的基本功能，避免使用需要付費的高級功能，例如條件式存取和高級 MFA。
 
 3. **管理外部身份驗證用戶**：
-   - 如果使用 Microsoft Entra 外部 ID，請監控和管理每月活躍用戶 (MAU) 數量，確保不超過前 50,000 名 MAU 的免費限額[10](10)。
-
-##### 1-5 參考文件
-[1] https://learn.microsoft.com/zh-tw/entra/identity/users/directory-service-limits-restrictions
-[2] https://learn.microsoft.com/en-us/entra/identity/users/directory-service-limits-restrictions
-[3] https://learn.microsoft.com/zh-cn/azure/azure-resource-manager/management/azure-subscription-service-limits
-[4] https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/azure-subscription-service-limits
-[5] https://support.google.com/cloudidentity/answer/7295541?hl=zh-Hans
-[6] https://learn.microsoft.com/en-us/answers/questions/1646297/i-want-to-add-500k-users-to-my-microsoft-entra-id
-[7] https://www.azure.cn/pricing/details/active-directory/index.html
-[8] https://blog.sonnes.cloud/entra-id-quota-limit-learn-to-manage-your-usage-to-avoid-maxing-it-out-and-extend-it-before-its-too-late/
-[9] https://learn.microsoft.com/zh-cn/entra/identity/domain-services/faqs
-[10] https://learn.microsoft.com/en-us/entra/identity/authentication/concept-mfa-licensing
-[11] https://learn.microsoft.com/en-us/mem/intune/enrollment/device-limit-intune-azure
-[12] https://jumpcloud.com/blog/understanding-aad-pricing-free
-[13] https://learn.microsoft.com/en-us/entra/external-id/external-identities-pricing
+   - 如果使用 Microsoft Entra 外部 ID，請監控和管理每月活躍用戶 (MAU) 數量，確保不超過前 50,000 名 MAU 的免費限額。
 
 - 來源取至於[Felo Search](https://felo.ai/search/28C5Ywx3qhVkjGNPm3wvMq)
-
 
 ---
 

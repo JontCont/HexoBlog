@@ -714,7 +714,6 @@ aside:
   card_announcement:
     enable: true
     content:
-      - Hi~ 大家好! 我是 Conte 目前只要是全端工程師技術發展，歡迎大家互相交流意見。
 
   card_recent_post:
     enable: true

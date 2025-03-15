@@ -38,3 +38,8 @@ public/
 # JetBrains
 .idea
 .idea/*
+
+
+
+.nx/cache
+.nx/workspace-data

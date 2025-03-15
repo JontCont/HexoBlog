@@ -10,17 +10,17 @@
     "publish": "hexo cl && hexo g -d "
   },
   "hexo": {
-    "version": "7.1.1"
+    "version": "7.3.0"
   },
   "dependencies": {
-    "hexo": "^7.2.0",
+    "hexo": "^7.3.0",
     "hexo-admin": "^2.3.0",
     "hexo-butterfly-artitalk": "^1.0.4",
     "hexo-butterfly-douban": "^1.2.4",
     "hexo-deployer-git": "^4.0.0",
     "hexo-generator-archive": "^2.0.0",
     "hexo-generator-category": "^2.0.0",
-    "hexo-generator-index": "^3.0.0",
+    "hexo-generator-index": "^4.0.0",
     "hexo-generator-search": "^2.4.3",
     "hexo-generator-sitemap": "^3.0.1",
     "hexo-generator-tag": "^2.0.0",
@@ -33,6 +33,11 @@
     "hexo-tag-aplayer": "^3.0.4",
     "hexo-theme-butterfly": "^4.13.0",
     "hexo-theme-landscape": "^0.0.3",
+    "hexo-util": "^3.3.0",
     "stylus": "^0.63.0"
-  }
+  },
+  "devDependencies": {
+    "nx": "20.6.0"
+  },
+  "nx": {}
 }

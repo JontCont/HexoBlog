@@ -27,21 +27,38 @@ jobs:
 
       - name: Timezone set Asia/Taipei
         run: sudo timedatectl set-timezone 'Asia/Taipei'
-      - name: Cache node modules
+        
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          
+      - name: Setup pnpm with npm
+        run: |
+          npm install -g pnpm@7.5.0
+          pnpm -v
+
+      - name: Cache pnpm store
         uses: actions/cache@v4
         id: cache
         with:
-          path: node_modules
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          path: ~/.pnpm-store
+          key: ${{ runner.os }}-pnpm-${{ hashFiles('**/pnpm-lock.yaml') }}
           restore-keys: |
-            ${{ runner.os }}-node-
+            ${{ runner.os }}-pnpm-
 
       - name: Install Dependencies
-        run: npm version && npm ci
-
-      - name: Hexo Deploy
-        id: deploy
-        uses: marsen/hexo-action@v1.0.7
+        run: |
+          echo "Installing dependencies with pnpm..."
+          pnpm install --no-frozen-lockfile
+          
+      - name: Hexo Generate
+        run: |
+          pnpm hexo clean
+          pnpm hexo generate
+          
+      - name: Deploy to GitHub Pages
+        uses: marsen/hexo-action@v1.0.11
         with:
           deploy_key: ${{ env.DEPLOY_KEY }}
           user_email: ${{ env.USER_EMAIL }}

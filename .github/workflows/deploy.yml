@@ -50,16 +50,15 @@ jobs:
       - name: Install Dependencies
         run: |
           echo "Installing dependencies with pnpm..."
-          pnpm install --no-frozen-lockfile || pnpm install --no-frozen-lockfile
+          pnpm install --no-frozen-lockfile
           
       - name: Hexo Generate
         run: |
           pnpm hexo clean
           pnpm hexo generate
-
-      - name: Hexo Deploy
-        id: deploy
-        uses: marsen/hexo-action@v1.0.7
+          
+      - name: Deploy to GitHub Pages
+        uses: marsen/hexo-action@v1.0.11
         with:
           deploy_key: ${{ env.DEPLOY_KEY }}
           user_email: ${{ env.USER_EMAIL }}

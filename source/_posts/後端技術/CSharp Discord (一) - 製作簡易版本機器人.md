@@ -65,7 +65,7 @@ Discord Bot 是一個很好玩的東西，可以讓你的 Discord 伺服器更�
         {
             _client = new DiscordSocketClient();
             _client.Log += Log;
-            var token = "OTkwNTgzNTMzNTAyMzQ5Mzky.G1DKyM.EZaO8x8Ny177WCDmpv7YspS2RdMRYKoPug5HGQ";
+            var token = "YOUER CLIENT SOCKET";
 
             await _client.LoginAsync(TokenType.Bot, token);
             await _client.StartAsync();

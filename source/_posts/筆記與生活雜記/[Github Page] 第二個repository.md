@@ -6,7 +6,7 @@ categories:
 tags:
   - Github
 description: 本文說明如何在 Github Pages 建立多個專案網站。除了預設的使用者網站(username.github.io)外，每個 repository 都可以設定專屬的 Github Pages，適合用來展示專案成果或建立靜態網站。
-cover: /image/20250211_11-34-00.png
+cover: /image/20250315_20-53-42.png
 ---
 
 ## 前言

@@ -775,16 +775,6 @@ ad:
     <script>
         (adsbygoogle = window.adsbygoogle || []).push({});
     </script>
-  
-# Insert ads manually
-# Leave it empty if you don't need ads
-ad:
-  # Insert ads in the index (every three posts)
-  index:
-  # Insert ads in aside
-  aside:
-  # Insert ads in the post (before pagination)
-  post:
 
 # --------------------------------------
 # Verification

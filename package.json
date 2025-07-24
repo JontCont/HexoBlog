@@ -3,11 +3,12 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "hexo generate",
-    "clean": "hexo clean",
-    "deploy": "hexo deploy",
-    "start": "hexo server -o",
-    "publish": "hexo cl && hexo g -d "
+  "build": "hexo generate",
+  "clean": "hexo clean",
+  "deploy": "hexo deploy",
+  "start": "hexo server -o",
+  "publish": "hexo cl && hexo g -d ",
+  "nx:init": "nx init"
   },
   "hexo": {
     "version": "7.3.0"
@@ -34,7 +35,7 @@
     "hexo-theme-butterfly": "^4.13.0",
     "hexo-theme-landscape": "^0.0.3",
     "hexo-util": "^3.3.0",
-    "stylus": "^0.63.0"
+    "stylus": "^0.64.0"
   },
   "devDependencies": {
     "nx": "20.6.0"

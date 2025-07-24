@@ -3,11 +3,12 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "hexo generate",
-    "clean": "hexo clean",
-    "deploy": "hexo deploy",
-    "start": "hexo server -o",
-    "publish": "hexo cl && hexo g -d "
+  "build": "hexo generate",
+  "clean": "hexo clean",
+  "deploy": "hexo deploy",
+  "start": "hexo server -o",
+  "publish": "hexo cl && hexo g -d ",
+  "nx:init": "nx init"
   },
   "hexo": {
     "version": "7.3.0"

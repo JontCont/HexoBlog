@@ -3,13 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: John Conte
-subtitle: 技術、分享、生活
-description: John Conte Blog
-keywords: John Conte,JohnConte,JohnConte,JohnConte's ,John Conte Blog,conte,John
+title: John Conte Blog
+subtitle: 技術分享 × 生活札記
+description: John Conte 的技術筆記、開發經驗與生活雜談
+keywords: John Conte, 技術部落格, 軟體開發, 程式教學, 生活札記
 author: John Conte
 language: zh-TW
-timezone: ''
+timezone: Asia/Taipei
 sitemap:
   path: sitemap.xml
   

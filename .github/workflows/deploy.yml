@@ -58,7 +58,7 @@ jobs:
           pnpm hexo generate
           
       - name: Deploy to GitHub Pages
-        uses: marsen/hexo-action@v1.0.11
+        uses: marsen/hexo-action@v1.0.12
         with:
           deploy_key: ${{ env.DEPLOY_KEY }}
           user_email: ${{ env.USER_EMAIL }}

@@ -111,9 +111,9 @@ background:
 
 cover:
   # Disable the cover or not
-  index_enable: false
+  index_enable: true
   aside_enable: true
-  archives_enable: true
+  archives_enable: false
   # When cover is not set, the default cover is displayed
   default_cover:
     # - xxx.jpg

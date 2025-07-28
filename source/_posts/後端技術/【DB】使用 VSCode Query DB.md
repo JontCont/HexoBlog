@@ -1,5 +1,6 @@
 ---
 title: '[DB] 使用 VS Code Query DB'
+date: 2025-06-18 09:30:00
 categories:
   - 後端技術
   - C#

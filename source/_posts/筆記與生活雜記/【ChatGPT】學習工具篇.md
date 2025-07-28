@@ -1,5 +1,6 @@
 ---
 title: 【ChatGPT】使用學習工具篇
+date: 2025-05-12 10:23:00
 categories: 
   - ChatGPT
 tags:

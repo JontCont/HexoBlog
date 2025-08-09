@@ -7,5 +7,10 @@
     "chat.agent.enabled": true,
     "chat.todoListTool.enabled": true,
     "github.copilot.chat.codesearch.enabled": true,
-
+    "github.copilot.chat.reviewSelection.instructions": [
+        {
+            "file": ".copilot-review-instructions.md"
+        }
+    ]
+    
 }

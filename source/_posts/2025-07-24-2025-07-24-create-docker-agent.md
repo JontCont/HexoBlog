@@ -1,4 +1,3 @@
-
 ---
 title: '[DevOps] 創建一個 docker agent'
 date: 2025-07-24
@@ -7,8 +6,8 @@ categories:
 tags:
   - docker
   - agent
+cover: /image/20250810_08-16-08.png
 ---
-
 
 ## 前言：為什麼要自建 Azure DevOps Docker Agent？
 

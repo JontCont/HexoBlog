@@ -74,8 +74,9 @@ avatar:
   img: /img/person.png
   effect: false
 
+# 不要顯示頂部圖
 # Disable all banner images
-disable_top_img: false
+disable_top_img: true
 
 # If the banner of page not setting, it will show the default_top_img
 default_top_img:

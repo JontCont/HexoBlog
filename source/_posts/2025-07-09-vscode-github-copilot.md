@@ -3,6 +3,7 @@ title: "VSCode 使用 GitHub Copilot - Prompt / instrucion"
 date: 2025-08-09 13:30:00
 categories: [工具教學, AI 助手]
 tags: [VSCode, Copilot, AI, 開發工具]
+cover: /image/20250810_08-17-43.png
 ---
 
 在這篇文章中，將完整介紹如何在 VSCode 中安裝、啟用與善用 GitHub Copilot，讓你的程式開發事半功倍！🚀

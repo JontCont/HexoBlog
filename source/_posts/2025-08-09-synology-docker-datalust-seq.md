@@ -3,6 +3,7 @@ title: "[筆記] Synology 創建 Docker datalust/seq 環境"
 date: 2025-08-09 10:00:00
 categories: [Synology, Docker]
 tags: [seq, datalust, logging, 教學]
+cover: /image/20250810_08-15-28.png
 ---
 
 ## 前言

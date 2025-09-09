@@ -32,7 +32,7 @@
     "hexo-renderer-stylus": "^3.0.1",
     "hexo-server": "^2.0.0",
     "hexo-tag-aplayer": "^3.0.4",
-    "hexo-theme-butterfly": "^5.4.3",
+    "hexo-theme-butterfly": "^5.5.0",
     "hexo-theme-landscape": "^1.1.0",
     "hexo-util": "^3.3.0",
     "stylus": "^0.64.0"

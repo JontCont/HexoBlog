@@ -1,10 +1,10 @@
 ---
-layout: post
-title: "Angular 瀏覽器相容性檢查模組詳解"
+title: "【前端】【Angular】 - Line Browser 另開方式 與 網站瀏覽器相容性"
 date: 2025-09-09 10:00:00
 categories: [A前端技術, Angular]
+tags: [Angular, Browser Compatibility, Line Browser, Client Hints, User-Agent]
+cover : /image/20250914_11-31-33.png
 ---
-
 ## 前言
 
 近期專案需要對瀏覽器進行相容性檢查，確保使用者在不支援的瀏覽器上能獲得適當的提示或導向升級，依據不同的 browser 決定相應的處理方式。

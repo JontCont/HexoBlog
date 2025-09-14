@@ -1,5 +1,5 @@
 ---
-title: 【筆記】VSC - 將 OhMyPosh 加入終端機內
+title: 【筆記】Powershell -  VSC 將 OhMyPosh 加入終端機內
 date: 2023-12-31 18:50:10
 categories: 
   - 筆記 

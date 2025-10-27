@@ -34,7 +34,7 @@
     "hexo-tag-aplayer": "^3.0.4",
     "hexo-theme-butterfly": "^5.4.3",
     "hexo-theme-landscape": "^1.1.0",
-    "hexo-util": "^3.3.0",
+    "hexo-util": "^4.0.0",
     "stylus": "^0.64.0"
   },
   "devDependencies": {
